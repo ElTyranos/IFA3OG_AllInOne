@@ -6,8 +6,6 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.00;
 		requiredAddons[] = {};
-		author[] = {"El Tyranos"};
-		authorUrl = "";
 	};
 };
 #include "CfgFunctions.hpp"
