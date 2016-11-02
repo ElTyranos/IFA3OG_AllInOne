@@ -2,63 +2,63 @@ class cfgFactionClasses
 {
 	class BG21_US
 	{
-		displayName = "US Army";
+		displayName = "[BG21] US Army";
 		icon = "";
 		priority = 1;
-		side = 1;
+		side = 2;
 	};
 	class BG21_US_Winter
 	{
-		displayName = "US Army Winter";
+		displayName = "[BG21] US Army Winter";
 		icon = "";
 		priority = 1;
-		side = 1;
-	};	
-	class BG21_SOV_SPRING
-	{
-		displayName = "SOV Spring";
-		icon = "";
-		priority = 1;
-		side = 1;
+		side = 2;
 	};
-	class BG21_SOV_SUMMER
+	class BG21_SOV_RA
 	{
-		displayName = "SOV Summer";
+		displayName = "[BG21] SOV Spring";
 		icon = "";
 		priority = 1;
-		side = 1;
+		side = 0;
+	};
+	class BG21_SOV_RA_SUMMER
+	{
+		displayName = "[BG21] SOV Summer";
+		icon = "";
+		priority = 1;
+		side = 0;
 	};	
-	class BG21_SOV_WINTER
+	class BG21_SOV_RA_WINTER
 	{
-		displayName = "SOV Winter";
+		displayName = "[BG21] SOV Winter";
 		icon = "";
 		priority = 1;
-		side = 1;
+		side = 0;
 	};
 	class BG21_GER_WH
 	{
-		displayName = "Wh";
+		displayName = "[BG21] Wh";
 		icon = "";
 		priority = 1;
 		side = 1;
 	};
 	class BG21_GER_WH_Winter
 	{
-		displayName = "Wh Winter";
+		displayName = "[BG21] Wh Winter";
 		icon = "";
 		priority = 1;
 		side = 1;
 	};	
 	class BG21_GER_SS
 	{
-		displayName = "SS";
+		displayName = "[BG21] SS";
 		icon = "";
 		priority = 1;
 		side = 1;
 	};	
 	class BG21_GER_SS_Winter
 	{
-		displayName = "SS Winter";
+		displayName = "[BG21] SS Winter";
 		icon = "";
 		priority = 1;
 		side = 1;
