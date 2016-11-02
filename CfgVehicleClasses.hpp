@@ -1,38 +1,38 @@
 class CfgVehicleClasses
 {
-	class H_Men
+	class BG21_Men
 	{
 		displayName = "Infantry";
 		priority = 1;
 	};
-	class H_SuppMen
+	class BG21_SuppMen
 	{
 		displayName = "Infantry (Support)";
 		priority = 2;
 	};
-	class H_HQMen
+	class BG21_HQMen
 	{
 		displayName = "HeadQuarters";
 		priority = 3;
 	};
-	class H_Air
+	class BG21_Air
 	{
 		displayName = "Air";
 		priority = 5;
 	};
-	class H_Motorized
+	class BG21_Wheeled
 	{
-		displayName = "Motorized";
+		displayName = "Wheeled";
 		priority = 4;
 	};
-	class H_Mecanized
+	class BG21_APC
 	{
-		displayName = "Mecanized";
+		displayName = "APC";
 		priority = 6;
 	};
-	class H_Armored
+	class BG21_Tanks
 	{
-		displayName = "Armored";
+		displayName = "Tanks";
 		priority = 7;
 	};
 };
