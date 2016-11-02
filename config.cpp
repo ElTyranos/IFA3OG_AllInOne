@@ -10,6 +10,7 @@ class CfgPatches
 		authorUrl = "";
 	};
 };
+#include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
 #include "CfgMacros.hpp"
