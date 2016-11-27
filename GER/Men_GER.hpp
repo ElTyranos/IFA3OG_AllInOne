@@ -1,5 +1,5 @@
-class BG21_GER_WH_PL: BG21_GER_WH_Soldier_base
-{
+// WH
+class BG21_GER_WH_PL: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Kapitan";
 	uniformClass = "U_LIB_GER_Oberst";
@@ -12,14 +12,12 @@ class BG21_GER_WH_PL: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_CO";
 };
-class BG21_GER_WH_PL2: BG21_GER_WH_PL
-{
+class BG21_GER_WH_PL2: BG21_GER_WH_PL {
 	scope = 2;
 	displayname = "Leutnant";
 	uniformClass = "U_LIB_GER_Leutnant";
 };
-class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Unterfeldwebel";
 	weapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
@@ -30,9 +28,7 @@ class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_CO";
 };
-
-class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Unteroffizier (G43)";
 	weapons[] = {"LIB_G43","Throw","Put"};
@@ -43,8 +39,7 @@ class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Unteroffizier (K98)";
 	weapons[] = {"LIB_K98","Throw","Put"};
@@ -55,9 +50,7 @@ class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-
-class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","Throw","Put"};
@@ -68,8 +61,7 @@ class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (G43)";
 	weapons[] = {"LIB_G43","Throw","Put"};
@@ -80,8 +72,7 @@ class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (STG44)";
 	weapons[] = {"LIB_G43","Throw","Put"};
@@ -92,8 +83,7 @@ class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestSTG",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-class BG21_GER_WH_Sniper: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Sniper: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Scharfschutze";
 	uniformClass = "U_LIB_GER_Scharfschutze";
@@ -106,9 +96,7 @@ class BG21_GER_WH_Sniper: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_HelmetCamo",LINKED_ITEMS_BASE};
 	backpack = "";
 };
-
-class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (Panzerschreck)";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","LIB_RPzB","Throw","Put"};
@@ -119,8 +107,7 @@ class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_AT";
 };
-class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Panzerschreck Assistant";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","Throw","Put"};
@@ -131,8 +118,7 @@ class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_AT_AS";
 };
-class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (Panzerfaust)";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","LIB_PzFaust_30m","Throw","Put"};
@@ -143,9 +129,7 @@ class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
-
-class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "MG Schutze (MG-34)";
 	weapons[] = {"LIB_MG342","Throw","Put"};
@@ -156,14 +140,12 @@ class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestMG",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MG";
 };
-class BG21_GER_WH_MG_42: BG21_GER_WH_MG_34
-{
+class BG21_GER_WH_MG_42: BG21_GER_WH_MG_34 {
 	displayname = "MG Schutze (MG-42)";
 	weapons[] = {"LIB_MG42","Throw","Put"};
 	respawnWeapons[] = {"LIB_MG42","Throw","Put"};
 };
-class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "MG Assistant";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","Throw","Put"};
@@ -174,9 +156,7 @@ class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MG_AS";
 };
-
-class BG21_GER_WH_Pioneer_Mines: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Pioneer_Mines: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Pioneer (Mines)";
 	weapons[] = {"LIB_K98","LIB_ACC_K98_Bayo","Throw","Put"};
@@ -187,15 +167,12 @@ class BG21_GER_WH_Pioneer_Mines: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_PioneerVest",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MINES";
 };
-class BG21_GER_WH_Pioneer_Explos: BG21_GER_WH_Pioneer_Mines
-{
+class BG21_GER_WH_Pioneer_Explos: BG21_GER_WH_Pioneer_Mines {
 	scope = 2;
 	displayname = "Pioneer (Explosives)";
 	backpack = "BG21_GER_B_EXPLOS";
 };
-
-class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Mediziner";
 	uniformClass = "U_LIB_GER_Medic";
@@ -208,9 +185,7 @@ class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_WHCRx2x4x",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MEDIC";
 };
-
-class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Panzerkommandant";
 	uniformClass = "U_LIB_GER_Tank_crew_leutnant";
@@ -223,8 +198,7 @@ class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "";
 };
-class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Panzerbesatzung";
 	uniformClass = "U_LIB_GER_Tank_crew_private";
@@ -237,9 +211,7 @@ class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",LINKED_ITEMS_BASE};
 	backpack = "";
 };
-
-class BG21_GER_WH_Pilot: BG21_GER_WH_Soldier_base
-{
+class BG21_GER_WH_Pilot: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Pilot";
 	uniformClass = "U_LIB_GER_LW_pilot";
