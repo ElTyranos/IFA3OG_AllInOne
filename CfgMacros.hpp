@@ -153,7 +153,12 @@
 			count = 1; \
 		}; \
 	}; \
-	class TransportBackpacks {};
+	class TransportBackpacks { \
+		class _xx_tf_rt1523g { \
+			count = 1; \
+			backpack = "B_LIB_GER_SapperBackpack_empty"; \
+		}; \
+	};
 	
 // side vehicles
 #define SOV_VHL_TRANSPORT_WEAPONS \
