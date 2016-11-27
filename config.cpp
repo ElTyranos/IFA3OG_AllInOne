@@ -35,7 +35,7 @@ class CfgGroups
 	{
 		#include "SOV\CfgGroups.hpp"
 	};
-	class Guer
+	class Indep
 	{
 		#include "US\CfgGroups.hpp"
 	};	
