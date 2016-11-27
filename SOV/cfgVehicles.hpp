@@ -85,21 +85,17 @@ class BG21_SOV_B_MG_AS: B_LIB_SOV_RA_MGAmmoBag_Empty {
 };
 class BG21_SOV_B_EXPLOS: B_LIB_SOV_RA_Rucksack2 {
 	class TransportItems {
-		class _xx_DemoCharge_Remote_Mag {
-			count = 2;
+		class _xx_LIB_US_TNT_4pound_ammo {
+			count = 3;
 			name = "DemoCharge_Remote_Mag";
 		};
-		class _xx_SatchelCharge_Remote_Mag {
+		class _xx_ACE_LIB_LadungPM {
 			count = 1;
-			name = "SatchelCharge_Remote_Mag";
+			name = "ACE_LIB_LadungPM";
 		};
-		class _xx_ACE_M26_Clacker {
+		class _xx_ACE_LIB_FireCord {
 			count = 1;
-			name = "ACE_M26_Clacker";
-		};
-		class _xx_ACE_DefusalKit {
-			count = 1;
-			name = "ACE_DefusalKit";
+			name = "ACE_LIB_FireCord";
 		};
 	};
 };
