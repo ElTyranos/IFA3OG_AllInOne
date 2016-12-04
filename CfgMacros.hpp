@@ -10,6 +10,9 @@
 // Magazines[]
 
 // Grenades
+#define GER_GRENADES "LIB_shg24","LIB_shg24"
+#define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
+
 #define IJA_GRENADES "LIB_f1","LIB_f1"
 #define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
@@ -19,8 +22,6 @@
 #define US_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
 #define US_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
-#define GER_GRENADES "LIB_shg24","LIB_shg24"
-#define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
 #define UK_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
 #define UK_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 

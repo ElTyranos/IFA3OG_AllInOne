@@ -32,14 +32,55 @@ switch (_this select 1) do {
 		{_unit addItemToUniform _x} foreach _items;
 	};
 	case "WH_W" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
+		_headgears = ["H_LIB_GER_HelmetCamo_w","H_LIB_GER_Helmet_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"];
+		_uniforms = ["U_LIB_GER_Schutze_w"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_blacklist_uniform = [""];
+		if (_uniform in _blacklist_uniform) then {_headgear = ""};
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	case "FJS" : {
 		
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 	
 		_headgears = [
-			"H_LIB_GER_HelmetCamo_w","H_LIB_GER_Helmet_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"
+			"fow_h_ger_m40_fall_01_camo","fow_h_ger_m40_fall_01","fow_h_ger_m38_feldmutze","fow_h_ger_feldmutze"
 		];
 		_uniforms = [
-			"U_LIB_GER_Schutze_w"
+			"fow_u_ger_fall_02_private","fow_u_ger_fall_01_private"
+		];
+		
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		
+		_blacklist_uniform = [""];
+		
+		if (_uniform in _blacklist_uniform) then {_headgear = ""};
+		_items = uniformItems _unit;
+		
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		
+		_unit addHeadGear _headgear;
+		
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	case "DAK" : {
+		
+		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
+	
+		_headgears = [
+			"H_LIB_DAK_Helmet","H_LIB_DAK_Helmet_2","H_LIB_DAK_Helmet_net","H_LIB_DAK_Helmet_net_2","H_LIB_DAK_Helmet_ns","H_LIB_DAK_Helmet_ns_2","H_LIB_DAK_Cap"
+		];
+		_uniforms = [
+			"U_LIB_DAK_Soldier","U_LIB_DAK_Soldier_2","U_LIB_DAK_Soldier_3"
 		];
 		
 		_uniform = _uniforms call BIS_fnc_selectRandom;

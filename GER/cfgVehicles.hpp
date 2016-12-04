@@ -1,4 +1,5 @@
 class B_LIB_GER_A_frame;
+class B_LIB_GER_A_frame_kit;
 class B_LIB_GER_A_frame_zeltbahn;
 class B_LIB_GER_Radio;
 class B_LIB_GER_Backpack;
@@ -73,6 +74,12 @@ class BG21_GER_B_MG: B_LIB_GER_A_frame {
 			count = 1;
 		};
 	};
+};
+class BG21_GER_FJS_B_MG: BG21_GER_B_MG {
+	model = "\WW2\Assets_m\Characters\Germans_m\GER_Wehrmacht\WW2_A_frame_kit.p3d";
+};
+class BG21_GER_DAK_B_MG: BG21_GER_B_MG {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\Germans_t\GER_DAK\dak_equipment_0_co.paa"};
 };
 class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
 	class TransportMagazines {

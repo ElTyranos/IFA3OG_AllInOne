@@ -76,6 +76,20 @@ class cfgFactionClasses
 		icon = "";
 		priority = 1;
 		side = 1;
+	};	
+	class BG21_GER_PZW
+	{
+		displayName = "[BG21] Panzewaffe";
+		icon = "";
+		priority = 1;
+		side = 1;
+	};	
+	class BG21_GER_LW
+	{
+		displayName = "[BG21] Luftwaffe";
+		icon = "";
+		priority = 1;
+		side = 1;
 	};
 	class BG21_GER_WH_Winter
 	{
@@ -83,7 +97,21 @@ class cfgFactionClasses
 		icon = "";
 		priority = 1;
 		side = 1;
+	};
+	class BG21_GER_FJS
+	{
+		displayName = "[BG21] FJS";
+		icon = "";
+		priority = 1;
+		side = 1;
 	};	
+	class BG21_GER_DAK
+	{
+		displayName = "[BG21] DAK";
+		icon = "";
+		priority = 1;
+		side = 1;
+	};
 	class BG21_GER_SS
 	{
 		displayName = "[BG21] SS";
