@@ -18,6 +18,8 @@
 
 #define GER_GRENADES "LIB_shg24","LIB_shg24"
 #define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
+#define UK_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
+#define UK_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
 // GER
 #define GER_20x_lib_5Rnd_792x57 "lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57"
@@ -67,6 +69,13 @@
 #define US_7x_LIB_30Rnd_45ACP "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 
 #define US_10x_LIB_5Rnd_762x63 "LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63"
+
+// UK
+#define UK_10x_fow_10Rnd_303 "fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303"
+
+#define UK_7x_fow_32Rnd_9x19_sten "fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"
+
+#define UK_5x_fow_30Rnd_303_bren "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 
 
 // Vehicles common
@@ -218,6 +227,37 @@
 	class TransportWeapons {}; \
 	class TransportBackpacks {};
 
+#define UK_VHL_TRANSPORT_WEAPONS \
+	class TransportMagazines { \
+		class _xx_fow_30Rnd_303_bren \
+		{ \
+			magazine = "fow_30Rnd_303_bren"; \
+			count = 10; \
+		}; \
+		class _xx_LIB_rpg6 \
+		{ \
+			magazine = "LIB_rpg6"; \
+			count = 3; \
+		}; \
+		class _xx_LIB_US_Mk_2 \
+		{ \
+			magazine = "LIB_US_Mk_2"; \
+			count = 3; \
+		}; \
+		class _xx_LIB_US_M18 \
+		{ \
+			magazine = "LIB_US_M18"; \
+			count = 2; \
+		}; \
+		class _xx_LIB_US_M18_Red \
+		{ \
+			magazine = "LIB_US_M18_Red"; \
+			count = 2; \
+		}; \
+	}; \
+	class TransportWeapons {}; \
+	class TransportBackpacks {};
+	
 #define GER_VHL_TRANSPORT_WEAPONS \
 	class TransportMagazines { \
 		class _xx_LIB_50Rnd_792x57 \

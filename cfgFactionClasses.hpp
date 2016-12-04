@@ -35,6 +35,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class BG21_UK
+	{
+		displayName = "[BG21] British Army";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
 	class BG21_SOV_RA
 	{
 		displayName = "[BG21] SOV Spring";

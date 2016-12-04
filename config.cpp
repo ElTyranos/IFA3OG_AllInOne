@@ -18,12 +18,14 @@ class cfgWeapons
 	#include "SOV\cfgWeapons.hpp"
 	#include "GER\cfgWeapons.hpp"
 	#include "US\cfgWeapons.hpp"
+	#include "UK\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
 	#include "SOV\cfgVehicles.hpp"
 	#include "GER\cfgVehicles.hpp"
 	#include "US\cfgVehicles.hpp"
+	#include "UK\cfgVehicles.hpp"
 };
 class CfgGroups
 {
@@ -38,5 +40,6 @@ class CfgGroups
 	class Indep
 	{
 		#include "US\CfgGroups.hpp"
+		#include "UK\CfgGroups.hpp"
 	};	
 };
