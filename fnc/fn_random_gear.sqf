@@ -112,5 +112,55 @@ switch (_this select 1) do {
 		
 		{_unit addItemToUniform _x} foreach _items;
 	};	
+
+	case "USARMY" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_Helmet","H_LIB_US_Helmet_ns","H_LIB_US_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
+		_uniforms = ["U_LIB_US_Private"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	case "USRANGERS" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_Rangers_Helmet","H_LIB_US_Rangers_Helmet_ns","H_LIB_US_Rangers_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
+		_uniforms = ["U_LIB_US_Rangers_Uniform"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	case "USNAC" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_Helmet","H_LIB_US_Helmet_ns","H_LIB_US_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
+		_uniforms = ["U_LIB_US_NAC_Uniform"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	case "USMC" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["fow_h_usmc_m1"];
+		_uniforms = ["fow_u_usmc_p41_01_private"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	
 	case default {};
 };

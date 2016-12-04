@@ -6,6 +6,27 @@ class cfgFactionClasses
 		icon = "";
 		priority = 1;
 		side = 2;
+	};	
+	class BG21_US_DDAY
+	{
+		displayName = "[BG21] US Army DDay";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
+	class BG21_USAB
+	{
+		displayName = "[BG21] US Airborne";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};	
+	class BG21_USMC
+	{
+		displayName = "[BG21] US Marines Corps";
+		icon = "";
+		priority = 1;
+		side = 2;
 	};
 	class BG21_US_Winter
 	{
