@@ -10,6 +10,7 @@ class B_LIB_GER_LW_Paradrop;
 class B_LIB_GER_Panzer_Empty;
 
 class BG21_GER_B_CO: B_LIB_GER_Backpack {
+	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -32,6 +33,7 @@ class BG21_GER_B_CO: B_LIB_GER_Backpack {
 	};
 };
 class BG21_GER_B_MEDIC: B_LIB_GER_MedicBackpack_Empty {
+	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_ACE_fieldDressing {
 			count = 30;
@@ -52,6 +54,7 @@ class BG21_GER_B_MEDIC: B_LIB_GER_MedicBackpack_Empty {
 	};
 };
 class BG21_GER_B_AT: B_LIB_GER_Panzer_Empty {
+	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
 			magazine = "LIB_1Rnd_RPzB";
@@ -60,6 +63,7 @@ class BG21_GER_B_AT: B_LIB_GER_Panzer_Empty {
 	};
 };
 class BG21_GER_B_AT_AS: B_LIB_GER_Panzer_Empty {
+	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
 			magazine = "LIB_1Rnd_RPzB";
@@ -68,6 +72,7 @@ class BG21_GER_B_AT_AS: B_LIB_GER_Panzer_Empty {
 	};
 };
 class BG21_GER_B_MG: B_LIB_GER_A_frame {
+	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
 			magazine = "LIB_50Rnd_792x57";
@@ -82,6 +87,7 @@ class BG21_GER_DAK_B_MG: BG21_GER_B_MG {
 	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\Germans_t\GER_DAK\dak_equipment_0_co.paa"};
 };
 class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
+	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
 			magazine = "LIB_50Rnd_792x57";
@@ -90,6 +96,7 @@ class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
 	};
 };
 class BG21_GER_B_EXPLOS: B_LIB_GER_SapperBackpack_empty {
+	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_LIB_Ladung_Small_MINE_mag {
 			count = 2;
@@ -116,6 +123,7 @@ class BG21_GER_B_EXPLOS: B_LIB_GER_SapperBackpack_empty {
 	};
 };
 class BG21_GER_B_MINES: B_LIB_GER_SapperBackpack_empty {
+	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_LIB_TMI_42_MINE_mag {
 			count = 3;
