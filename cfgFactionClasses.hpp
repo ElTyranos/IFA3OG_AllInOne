@@ -42,6 +42,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class BG21_IJA
+	{
+		displayName = "[BG21] Imperial Jap Army";
+		icon = "";
+		priority = 1;
+		side = 1;
+	};
 	class BG21_SOV_RA
 	{
 		displayName = "[BG21] SOV Spring";

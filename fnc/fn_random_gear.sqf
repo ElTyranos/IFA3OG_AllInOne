@@ -58,6 +58,31 @@ switch (_this select 1) do {
 		
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	case "IJA" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["fow_h_ija_fieldcap","fow_h_ija_fieldcap_neck","fow_h_ija_hakimachi","fow_h_ija_type90","fow_h_ija_type90_net","fow_h_ija_type90_net_neck"];
+		_uniforms = ["fow_u_ija_type98","fow_u_ija_type98_short","fow_u_ija_type98_khakibrown"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	case "IJA_SNLF" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["fow_h_ija_fieldcap_marine_neck","fow_h_ija_type90_snlf","fow_h_ija_fieldcap_marine","fow_h_ija_type90"];
+		_uniforms = ["fow_u_ija_type98_snlf"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	
 	case "RA" : {
 		
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];

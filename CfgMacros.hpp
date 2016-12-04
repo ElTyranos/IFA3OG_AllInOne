@@ -10,6 +10,9 @@
 // Magazines[]
 
 // Grenades
+#define IJA_GRENADES "LIB_f1","LIB_f1"
+#define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
+
 #define SOV_GRENADES "LIB_f1","LIB_f1"
 #define SOV_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
@@ -37,6 +40,13 @@
 #define GER_3x_LIB_50Rnd_792x57 "LIB_50Rnd_792x57","LIB_50Rnd_792x57","LIB_50Rnd_792x57"
 
 #define GER_2x_LIB_8Rnd_9x19 "LIB_8Rnd_9x19","LIB_8Rnd_9x19"
+
+// IJA
+#define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
+
+#define IJA_7x_fow_32Rnd_8x22 "fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22"
+
+#define IJA_5x_fow_30Rnd_77x58 "fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58"
 
 
 // SOV

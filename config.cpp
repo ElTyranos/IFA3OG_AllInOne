@@ -19,6 +19,7 @@ class cfgWeapons
 	#include "GER\cfgWeapons.hpp"
 	#include "US\cfgWeapons.hpp"
 	#include "UK\cfgWeapons.hpp"
+	#include "IJA\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
@@ -26,12 +27,14 @@ class CfgVehicles
 	#include "GER\cfgVehicles.hpp"
 	#include "US\cfgVehicles.hpp"
 	#include "UK\cfgVehicles.hpp"
+	#include "IJA\cfgVehicles.hpp"
 };
 class CfgGroups
 {
 	class West
 	{
 		#include "GER\CfgGroups.hpp"
+		#include "IJA\CfgGroups.hpp"
 	};
 	class East
 	{
