@@ -49,6 +49,10 @@ class BG21_IJA_Rifleman: BG21_IJA_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_ija_rifle",LINKED_ITEMS_BASE};
 	backpack = "BG21_IJA_B";
 };
+class BG21_IJA_Radio: BG21_IJA_Rifleman {
+	displayname = "Radio";
+	backpack = "B_LIB_GER_Radio";
+};
 class BG21_IJA_Sniper: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";

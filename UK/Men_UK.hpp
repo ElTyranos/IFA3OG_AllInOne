@@ -49,6 +49,10 @@ class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
+class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
+	displayname = "Radio";
+	backpack = "B_LIB_US_Radio";
+};
 class BG21_UK_ARMY_Sniper: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";
