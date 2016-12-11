@@ -1,5 +1,4 @@
-class BG21_SOV_RA_PL: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_PL: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Kapitan";
 	uniformClass = "U_LIB_SOV_Kapitan";
@@ -12,14 +11,12 @@ class BG21_SOV_RA_PL: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_CO";
 };
-class BG21_SOV_RA_PL2: BG21_SOV_RA_PL
-{
+class BG21_SOV_RA_PL2: BG21_SOV_RA_PL {
 	scope = 2;
 	displayname = "Leitenant ";
 	uniformClass = "U_LIB_SOV_Leutenant";
 };
-class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Serjant";
 	weapons[] = {"LIB_PPSh41_d","LIB_Binocular_SU","Throw","Put"};
@@ -30,9 +27,7 @@ class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_PPShBelt",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_CO";
 };
-
-class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Yefreitor (SVT-40)";
 	weapons[] = {"LIB_SVT_40","Throw","Put"};
@@ -43,8 +38,7 @@ class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_SVTBelt",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
-class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Yefreitor (Mosin Nagant)";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -55,9 +49,7 @@ class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
-
-class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -68,8 +60,7 @@ class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
-class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok (SVT-40)";
 	weapons[] = {"LIB_SVT_40","Throw","Put"};
@@ -80,8 +71,7 @@ class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_SVTBelt",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
-class BG21_SOV_RA_Sniper: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Sniper: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";
 	uniformClass = "U_LIB_SOV_Sniper";
@@ -94,9 +84,7 @@ class BG21_SOV_RA_Sniper: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
-
-class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok (PTRD-41)";
 	weapons[] = {"LIB_PTRD","LIB_M1895","Throw","Put"};
@@ -107,8 +95,7 @@ class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_AT";
 };
-class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "PTRD-41 Assistant";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -119,9 +106,7 @@ class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_AT_AS";
 };
-
-class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Kanonir";
 	weapons[] = {"LIB_DP28","Throw","Put"};
@@ -132,8 +117,7 @@ class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MGBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_MG";
 };
-class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Kanonir Assistant";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -144,9 +128,7 @@ class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_MG_AS";
 };
-
-class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Pioneer (Mines)";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -157,15 +139,12 @@ class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_MINES";
 };
-class BG21_SOV_RA_Pioneer_Explos: BG21_SOV_RA_Pioneer_Mines
-{
+class BG21_SOV_RA_Pioneer_Explos: BG21_SOV_RA_Pioneer_Mines {
 	scope = 2;
 	displayname = "Pioneer (Explosives)";
 	backpack = "BG21_SOV_B_EXPLOS";
 };
-
-class BG21_SOV_RA_Medic: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Medic: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Doctor";
 	weapons[] = {"LIB_M9130","Throw","Put"};
@@ -176,9 +155,7 @@ class BG21_SOV_RA_Medic: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_MEDIC";
 };
-
-class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Komandir tanka";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
@@ -191,8 +168,7 @@ class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "";
 };
-class BG21_SOV_RA_Tank_Crew: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Tank_Crew: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Tanker";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
@@ -205,9 +181,7 @@ class BG21_SOV_RA_Tank_Crew: BG21_SOV_RA_Soldier_base
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_PPShBelt","H_LIB_SOV_TankHelmet",LINKED_ITEMS_BASE};
 	backpack = "";
 };
-
-class BG21_SOV_RA_Pilot: BG21_SOV_RA_Soldier_base
-{
+class BG21_SOV_RA_Pilot: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Pilot";
 	uniformClass = "U_LIB_SOV_Pilot";
