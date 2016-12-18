@@ -236,9 +236,12 @@ class BG21_SOV_RA_W_Rifleman_Mosin: BG21_SOV_RA_Rifleman_Mosin {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'RA_W'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
-class BG21_SOV_RA_W_Radio: BG21_SOV_RA_W_Rifleman_Mosin {
-	displayname = "Radio";
-	backpack = "B_LIB_SOV_RA_Radio";
+class BG21_SOV_RA_W_Radio: BG21_SOV_RA_Radio {
+	faction = "BG21_SOV_RA_WINTER";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'RA_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_SOV_RA_W_Rifleman_SVT40: BG21_SOV_RA_Rifleman_SVT40 {
 	faction = "BG21_SOV_RA_WINTER";
