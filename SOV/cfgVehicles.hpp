@@ -10,6 +10,7 @@ class B_LIB_SOV_RA_MGAmmoBag_Empty;
 class B_LIB_SOV_RA_Paradrop;
 
 class BG21_SOV_B_CO: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -32,6 +33,7 @@ class BG21_SOV_B_CO: B_LIB_SOV_RA_Rucksack2 {
 	};
 };
 class BG21_SOV_B_MEDIC: B_LIB_SOV_RA_MedicalBag_Empty {
+	scope = 1;
 	class TransportItems {
 		class _xx_ACE_fieldDressing {
 			count = 30;
@@ -52,6 +54,7 @@ class BG21_SOV_B_MEDIC: B_LIB_SOV_RA_MedicalBag_Empty {
 	};
 };
 class BG21_SOV_B_AT: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
 	class TransportMagazines {
 		class _xx_Lib_B32	{
 			magazine = "Lib_B32";
@@ -60,6 +63,7 @@ class BG21_SOV_B_AT: B_LIB_SOV_RA_Rucksack2 {
 	};
 };
 class BG21_SOV_B_AT_AS: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
 	class TransportMagazines {
 		class _xx_Lib_B32	{
 			magazine = "Lib_B32";
@@ -68,6 +72,7 @@ class BG21_SOV_B_AT_AS: B_LIB_SOV_RA_Rucksack2 {
 	};
 };
 class BG21_SOV_B_MG: B_LIB_SOV_RA_MGAmmoBag_Empty {
+	scope = 1;
 	class TransportMagazines {
 		class _xx_LIB_47Rnd_762x54 {
 			magazine = "LIB_47Rnd_762x54";
@@ -76,6 +81,7 @@ class BG21_SOV_B_MG: B_LIB_SOV_RA_MGAmmoBag_Empty {
 	};
 };
 class BG21_SOV_B_MG_AS: B_LIB_SOV_RA_MGAmmoBag_Empty {
+	scope = 1;
 	class TransportMagazines {
 		class _xx_LIB_LIB_47Rnd_762x54 {
 			magazine = "LIB_47Rnd_762x54";
@@ -84,6 +90,7 @@ class BG21_SOV_B_MG_AS: B_LIB_SOV_RA_MGAmmoBag_Empty {
 	};
 };
 class BG21_SOV_B_EXPLOS: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
 	class TransportItems {
 		class _xx_LIB_US_TNT_4pound_mag {
 			count = 3;
@@ -100,6 +107,7 @@ class BG21_SOV_B_EXPLOS: B_LIB_SOV_RA_Rucksack2 {
 	};
 };
 class BG21_SOV_B_MINES: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
 	class TransportItems {
 		class _xx_LIB_US_M1A1_ATMINE_mag {
 			count = 3;
