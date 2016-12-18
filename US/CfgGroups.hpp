@@ -46,7 +46,35 @@ class BG21_US_ARMY
 				position[] = {-1,-1,0};
 			};
 		};
-		
+		class BG21_US_ARMY_RECON: BG21_US_ARMY_HQ
+		{
+			name = "Recon Squad";
+			class Unit0: Unit0
+			{
+				vehicle = "BG21_US_ARMY_SL";
+				rank = "SERGEANT";
+			};
+			class Unit1: Unit1
+			{
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit2: Unit2
+			{
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit3: Unit3
+			{
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit4: Unit4
+			{
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
+			};
+		};			
 		class BG21_US_ARMY_ENGINEER1: BG21_US_ARMY_HQ
 		{
 			name = "Engineer Squad (Mines)";

@@ -51,6 +51,11 @@ class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_US_Backpack";
 };
+class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
+	displayname = "Recon";
+	weapons[] = {"LIB_M1_Garand","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_SU","Throw","Put"};
+};
 class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
 	backpack = "B_LIB_US_Radio";
@@ -179,9 +184,20 @@ class BG21_US_DDAY_Rifleman: BG21_US_ARMY_Rifleman {
 	};
 	backpack = "B_LIB_US_Backpack_DDAY";
 };
-class BG21_US_DDAY_Radio: BG21_US_DDAY_Rifleman {
-	displayname = "Radio";
-	backpack = "B_LIB_US_Radio";
+class BG21_US_DDAY_Recon: BG21_US_ARMY_Recon {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "B_LIB_US_Backpack_DDAY";
+};
+class BG21_US_DDAY_Radio: BG21_US_ARMY_Radio {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_US_DDAY_Sniper: BG21_US_ARMY_Sniper {
 	faction = "BG21_US_DDAY";
@@ -285,9 +301,20 @@ class BG21_USMC_Rifleman: BG21_US_ARMY_Rifleman {
 	};
 	backpack = "BG21_USMC_Backpack";
 };
-class BG21_USMC_Radio: BG21_USMC_Rifleman {
-	displayname = "Radio";
-	backpack = "B_LIB_US_Radio";
+class BG21_USMC_Recon: BG21_US_ARMY_Recon {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_USMC_Backpack";
+};
+class BG21_USMC_Radio: BG21_US_ARMY_Radio {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_USMC_Sniper: BG21_US_ARMY_Sniper {
 	faction = "BG21_USMC";
