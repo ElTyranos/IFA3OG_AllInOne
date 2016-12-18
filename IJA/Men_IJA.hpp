@@ -19,8 +19,8 @@ class BG21_IJA_PL2: BG21_IJA_PL {
 class BG21_IJA_SL: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "Squad Leader";
-	weapons[] = {"fow_w_type100","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"fow_w_type100","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
 	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
 	linkedItems[] = {"fow_v_ija_nco",LINKED_ITEMS_COMMANDER};
@@ -113,8 +113,8 @@ class BG21_IJA_AT_AS: BG21_IJA_Soldier_base {
 class BG21_IJA_MG: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "LMG Rifleman";
-	weapons[] = {"fow_u_ija_type98","Throw","Put"};
-	respawnWeapons[] = {"fow_u_ija_type98","Throw","Put"};
+	weapons[] = {"fow_w_type99_lmg","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type99_lmg","Throw","Put"};
 	magazines[] = {IJA_5x_fow_30Rnd_77x58,IJA_GRENADES};
 	respawnmagazines[] = {IJA_5x_fow_30Rnd_77x58,IJA_GRENADES};
 	linkedItems[] = {"fow_v_ija_mg",LINKED_ITEMS_BASE};
