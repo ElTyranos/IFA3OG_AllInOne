@@ -88,9 +88,9 @@ class BG21_US_B_MG_AS: B_LIB_US_Backpack {
 class BG21_US_B_EXPLOS: B_LIB_US_Backpack {
 	scopeArsenal = 1;
 	class TransportItems {
-		class _xx_LIB_US_TNT_4pound_ammo {
+		class _xx_LIB_US_TNT_4pound_mag {
 			count = 3;
-			name = "DemoCharge_Remote_Mag";
+			name = "LIB_US_TNT_4pound_mag";
 		};
 		class _xx_ACE_LIB_LadungPM {
 			count = 1;
