@@ -30,7 +30,29 @@ class BG21_IJA_B_CO: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_MEDIC: fow_b_ija_backpack {
+class BG21_IJA_B_CO_RECON: BG21_IJA_B_FOLIAGE {
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_flare_red {
+			magazine = "LIB_1Rnd_flare_red";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_green {
+			magazine = "LIB_1Rnd_flare_green";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_yellow {
+			magazine = "LIB_1Rnd_flare_yellow";
+			count = 2;
+		};
+	};
+	class TransportWeapons {
+			class _xx_LIB_LIB_FLARE_PISTOL {
+			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+	};
+};
+class BG21_IJA_B_MEDIC: BG21_IJA_B {
 	class TransportItems {
 		class _xx_ACE_fieldDressing {
 			count = 30;

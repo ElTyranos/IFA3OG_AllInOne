@@ -49,6 +49,11 @@ class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
+class BG21_UK_ARMY_Recon: BG21_UK_ARMY_Rifleman {
+	displayname = "Recon";
+	weapons[] = {"fow_w_leeenfield_no4mk1","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"fow_w_leeenfield_no4mk1","LIB_Binocular_SU","Throw","Put"};
+};
 class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 	displayname = "Radio";
 	backpack = "B_LIB_US_Radio";

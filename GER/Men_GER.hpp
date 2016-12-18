@@ -61,6 +61,11 @@ class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
+class BG21_GER_WH_Recon: BG21_GER_WH_Rifleman_K98 {
+	displayname = "Recon";
+	weapons[] = {"LIB_K98","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98","LIB_Binocular_GER","Throw","Put"};
+};
 class BG21_GER_WH_Radio: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Radio";
 	backpack = "B_LIB_GER_Radio";
@@ -273,9 +278,19 @@ class BG21_GER_WH_W_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
-class BG21_GER_WH_W_Radio: BG21_GER_WH_W_Rifleman_k98 {
-	displayname = "Radio";
-	backpack = "B_LIB_GER_Radio";
+class BG21_GER_WH_W_Recon: BG21_GER_WH_Recon {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_WH_W_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_GER_WH_W_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_WH_Winter";
@@ -414,9 +429,24 @@ class BG21_GER_FJS_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
-class BG21_GER_FJS_Radio: BG21_GER_FJS_Rifleman_k98 {
-	displayname = "Radio";
-	backpack = "B_LIB_GER_Radio";
+class BG21_GER_FJS_Recon: BG21_GER_WH_Recon {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_GER_A_frame_kit";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_FJS_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_GER_FJS_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_FJS";
@@ -580,9 +610,25 @@ class BG21_GER_DAK_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
-class BG21_GER_DAK_Radio: BG21_GER_DAK_Rifleman_k98 {
-	displayname = "Radio";
-	backpack = "B_LIB_GER_Radio";
+class BG21_GER_DAK_Recon: BG21_GER_WH_Recon {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_DAK_A_frame";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_DAK_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_DAK_A_frame";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_GER_DAK_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_DAK";

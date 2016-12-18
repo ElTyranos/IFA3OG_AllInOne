@@ -46,7 +46,35 @@ class BG21_GER_WH
 				position[] = {-1,-1,0};
 			};
 		};
-		
+		class BG21_GER_WH_RECON: BG21_GER_WH_HQ
+		{
+			name = "Recon Gruppe";
+			class Unit0: Unit0
+			{
+				vehicle = "BG21_GER_WH_SL";
+				rank = "SERGEANT";
+			};
+			class Unit1: Unit1
+			{
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit2: Unit2
+			{
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit3: Unit3
+			{
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit4: Unit4
+			{
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
+			};
+		};
 		class BG21_GER_WH_PIONIER1: BG21_GER_WH_HQ
 		{
 			name = "Pionier Gruppe (Mines)";
@@ -344,7 +372,35 @@ class BG21_GER_WH_W
 				position[] = {-1,-1,0};
 			};
 		};
-		
+		class BG21_GER_WH_W_RECON: BG21_GER_WH_W_HQ
+		{
+			name = "Recon Gruppe";
+			class Unit0: Unit0
+			{
+				vehicle = "BG21_GER_WH_W_SL";
+				rank = "SERGEANT";
+			};
+			class Unit1: Unit1
+			{
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit2: Unit2
+			{
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit3: Unit3
+			{
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit4: Unit4
+			{
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
+			};
+		};		
 		class BG21_GER_WH_W_PIONIER1: BG21_GER_WH_W_HQ
 		{
 			name = "Pionier Gruppe (Mines)";
@@ -585,7 +641,35 @@ class BG21_GER_FJS
 				position[] = {-1,-1,0};
 			};
 		};
-		
+		class BG21_GER_FJS_RECON: BG21_GER_FJS_HQ
+		{
+			name = "Recon Gruppe";
+			class Unit0: Unit0
+			{
+				vehicle = "BG21_GER_FJS_SL";
+				rank = "SERGEANT";
+			};
+			class Unit1: Unit1
+			{
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit2: Unit2
+			{
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit3: Unit3
+			{
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit4: Unit4
+			{
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
+			};
+		};
 		class BG21_GER_FJS_PIONIER1: BG21_GER_FJS_HQ
 		{
 			name = "Pionier Gruppe (Mines)";
@@ -826,7 +910,35 @@ class BG21_GER_DAK
 				position[] = {-1,-1,0};
 			};
 		};
-		
+		class BG21_GER_DAK_RECON: BG21_GER_DAK_HQ
+		{
+			name = "Recon Gruppe";
+			class Unit0: Unit0
+			{
+				vehicle = "BG21_GER_DAK_SL";
+				rank = "SERGEANT";
+			};
+			class Unit1: Unit1
+			{
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit2: Unit2
+			{
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit3: Unit3
+			{
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
+			};
+			class Unit4: Unit4
+			{
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
+			};
+		};
 		class BG21_GER_DAK_PIONIER1: BG21_GER_DAK_HQ
 		{
 			name = "Pionier Gruppe (Mines)";

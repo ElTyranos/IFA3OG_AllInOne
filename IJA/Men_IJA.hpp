@@ -58,13 +58,35 @@ class BG21_IJA_Sniper: BG21_IJA_Soldier_base {
 	displayname = "Sniper";
 	uniformClass = "fow_u_ija_type98_foliage";
 	class EventHandlers {};
-	weapons[] = {"fow_w_type99","Throw","Put"};
-	respawnWeapons[] = {"fow_w_type99","Throw","Put"};
-	magazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
-	respawnmagazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	weapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
+	magazines[] = {US_10x_LIB_5Rnd_762x63,IJA_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_5Rnd_762x63,IJA_GRENADES};
+	// weapons[] = {"fow_w_type99","Throw","Put"};
+	// respawnWeapons[] = {"fow_w_type99","Throw","Put"};
+	// magazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	// respawnmagazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
 	linkedItems[] = {"fow_v_ija_rifle","fow_h_ija_type90_foliage",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_ija_rifle","fow_h_ija_type90_foliage",LINKED_ITEMS_BASE};
 	backpack = "";
+};
+class BG21_IJA_Recon: BG21_IJA_Sniper {
+	displayname = "Recon";
+	weapons[] = {"fow_w_type99","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type99","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	respawnmagazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	backpack = "BG21_IJA_B_FOLIAGE";
+};
+class BG21_IJA_SL_Recon: BG21_IJA_Recon {
+	displayname = "Recon Squad Leader";
+	weapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
+	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
+	linkedItems[] = {"fow_v_ija_nco","fow_h_ija_type90_foliage",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_ija_nco","fow_h_ija_type90_foliage",LINKED_ITEMS_COMMANDER};	
+	backpack = "BG21_IJA_B_CO_RECON";
 };
 class BG21_IJA_AT: BG21_IJA_Soldier_base {
 	scope = 2;
