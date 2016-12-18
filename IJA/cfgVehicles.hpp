@@ -90,17 +90,17 @@ class BG21_IJA_B_AT_AS: BG21_IJA_B {
 };
 class BG21_IJA_B_MG: BG21_IJA_B {
 	class TransportMagazines {
-		class _xx_LIB_50Rnd_792x57 {
-			magazine = "LIB_50Rnd_792x57";
-			count = 1;
+		class _xx_fow_30Rnd_77x58 {
+			magazine = "fow_30Rnd_77x58";
+			count = 2;
 		};
 	};
 };
 class BG21_IJA_B_MG_AS: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
-			magazine = "LIB_50Rnd_792x57";
-			count = 4;
+			magazine = "fow_30Rnd_77x58";
+			count = 6;
 		};
 	};
 };
