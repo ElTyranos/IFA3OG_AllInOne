@@ -85,9 +85,9 @@ class BG21_SOV_B_MG_AS: B_LIB_SOV_RA_MGAmmoBag_Empty {
 };
 class BG21_SOV_B_EXPLOS: B_LIB_SOV_RA_Rucksack2 {
 	class TransportItems {
-		class _xx_LIB_US_TNT_4pound_ammo {
+		class _xx_LIB_US_TNT_4pound_mag {
 			count = 3;
-			name = "DemoCharge_Remote_Mag";
+			name = "LIB_US_TNT_4pound_mag";
 		};
 		class _xx_ACE_LIB_LadungPM {
 			count = 1;
