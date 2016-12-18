@@ -116,7 +116,7 @@ class BG21_UK_Soldier_base: BG21_UK_base
 	scope = 0;
 	author = "El Tyranos";
 	identityTypes[] = {"Language_EN_EP1","Head_EURO","LIB_Glasses"};
-	faction = "BG21_UK";
+	faction = "BG21_UK_ARMY";
 	vehicleClass = "BG21_Men";
 	uniformClass = "fow_u_uk_bd40_01_private";
 	attendant = 0;
