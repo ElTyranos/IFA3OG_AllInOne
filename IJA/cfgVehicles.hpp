@@ -8,7 +8,7 @@ class BG21_IJA_B_FOLIAGE: fow_b_ija_backpack_foliage {
 	scopeArsenal = 1;
 	maximumLoad = 100;
 };
-class BG21_IJA_B_CO: fow_b_ija_backpack {
+class BG21_IJA_B_CO: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -72,7 +72,7 @@ class BG21_IJA_B_MEDIC: BG21_IJA_B {
 		};
 	};
 };
-class BG21_IJA_B_AT: fow_b_ija_backpack {
+class BG21_IJA_B_AT: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
 			magazine = "LIB_1Rnd_RPzB";
@@ -80,7 +80,7 @@ class BG21_IJA_B_AT: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_AT_AS: fow_b_ija_backpack {
+class BG21_IJA_B_AT_AS: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
 			magazine = "LIB_1Rnd_RPzB";
@@ -88,7 +88,7 @@ class BG21_IJA_B_AT_AS: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_MG: fow_b_ija_backpack {
+class BG21_IJA_B_MG: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
 			magazine = "LIB_50Rnd_792x57";
@@ -96,7 +96,7 @@ class BG21_IJA_B_MG: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_MG_AS: fow_b_ija_backpack {
+class BG21_IJA_B_MG_AS: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
 			magazine = "LIB_50Rnd_792x57";
@@ -104,7 +104,7 @@ class BG21_IJA_B_MG_AS: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_EXPLOS: fow_b_ija_backpack {
+class BG21_IJA_B_EXPLOS: BG21_IJA_B {
 	class TransportItems {
 		class _xx_LIB_Ladung_Small_MINE_mag {
 			count = 2;
@@ -130,7 +130,7 @@ class BG21_IJA_B_EXPLOS: fow_b_ija_backpack {
 		};
 	};
 };
-class BG21_IJA_B_MINES: fow_b_ija_backpack {
+class BG21_IJA_B_MINES: BG21_IJA_B {
 	class TransportItems {
 		class _xx_LIB_TMI_42_MINE_mag {
 			count = 3;
