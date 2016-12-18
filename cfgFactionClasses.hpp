@@ -35,7 +35,7 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
-	class BG21_UK
+	class BG21_UK_ARMY
 	{
 		displayName = "[BG21] British Army";
 		icon = "";
