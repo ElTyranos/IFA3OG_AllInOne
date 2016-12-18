@@ -63,25 +63,25 @@ class BG21_UK_B_AT_AS: BG21_UK_B {
 };
 class BG21_UK_B_MG: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_LIB_20Rnd_762x63 {
-			magazine = "LIB_20Rnd_762x63";
-			count = 3;
+		class _xx_fow_30Rnd_303_bren {
+			magazine = "fow_30Rnd_303_bren";
+			count = 2;
 		};
 	};
 };
 class BG21_UK_B_MG_AS: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_LIB_20Rnd_762x63 {
-			magazine = "LIB_20Rnd_762x63";
-			count = 9;
+		class _xx_fow_30Rnd_303_bren {
+			magazine = "fow_30Rnd_303_bren";
+			count = 6;
 		};
 	};
 };
 class BG21_UK_B_EXPLOS: BG21_UK_B {
 	class TransportItems {
-		class _xx_LIB_US_TNT_4pound_ammo {
+		class _xx_LIB_US_TNT_4pound_mag {
 			count = 3;
-			name = "DemoCharge_Remote_Mag";
+			name = "LIB_US_TNT_4pound_mag";
 		};
 		class _xx_ACE_LIB_LadungPM {
 			count = 1;
