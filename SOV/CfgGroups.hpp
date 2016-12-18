@@ -308,7 +308,6 @@ class BG21_SOV_RA_W
 				position[] = {-1,-1,0};
 			};
 		};
-		
 		class BG21_SOV_RA_W_PIONIER1: BG21_SOV_RA_W_HQ
 		{
 			name = "Pionier Gruppa (Mines)";
@@ -410,7 +409,6 @@ class BG21_SOV_RA_W
 				vehicle = "BG21_SOV_RA_W_AT_AS";
 			};
 		};
-		
 		class BG21_SOV_RA_W_INF1
 		{
 			name = "Inf. Gruppa";
@@ -465,59 +463,6 @@ class BG21_SOV_RA_W
 				vehicle = "BG21_SOV_RA_W_MG_AS";
 				rank = "PRIVATE";
 				position[] = {-2,-2,0};
-			};
-		};
-	};
-	class Armored 
-	{
-		name = "2. Tanks";
-		class BG21_SOV_RA_W_TankCrew1
-		{
-			name = "Motorizovannyy Gruppa (3)";
-			faction = "BG21_SOV_RA_WINTER";
-			side = 0;
-			aliveCategory = "Armored";
-			class Unit0
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Tank_Commander";
-				rank = "LIEUTENANT";
-				position[] = {0,0,0};
-			};
-			class Unit1
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Tank_Crew";
-				rank = "SERGEANT";
-				position[] = {1,-1,0};
-			};
-			class Unit2
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Tank_Crew";
-				rank = "PRIVATE";
-				position[] = {2,-2,0};
-			};
-		};
-		class BG21_SOV_RA_W_TankCrew2
-		{
-			name = "Motorizovannyy Gruppa (2)";
-			faction = "BG21_SOV_RA_WINTER";
-			side = 0;
-			aliveCategory = "Armored";
-			class Unit0
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Tank_Commander";
-				rank = "SERGEANT";
-				position[] = {0,0,0};
-			};
-			class Unit1
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Tank_Crew";
-				rank = "PRIVATE";
-				position[] = {1,-1,0};
 			};
 		};
 	};
