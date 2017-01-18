@@ -624,7 +624,6 @@ class BG21_GER_DAK_Radio: BG21_GER_WH_Radio {
 	faction = "BG21_GER_DAK";
 	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
