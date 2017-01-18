@@ -61,10 +61,10 @@ class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 class BG21_UK_ARMY_Sniper: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";
-	weapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
-	magazines[] = {US_10x_LIB_5Rnd_762x63,UK_GRENADES};
-	respawnmagazines[] = {US_10x_LIB_5Rnd_762x63,UK_GRENADES};
+	weapons[] = {"LEN_SMLE_No4Mk1T","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1T","Throw","Put"};
+	magazines[] = {UK_5x_LEN_10Rnd_303,UK_GRENADES};
+	respawnmagazines[] = {UK_5x_LEN_10Rnd_303,UK_GRENADES};
 	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	backpack = "";
