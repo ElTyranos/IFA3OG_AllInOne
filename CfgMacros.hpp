@@ -86,7 +86,9 @@
 // UK
 #define UK_10x_fow_10Rnd_303 "fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303"
 
-#define UK_7x_fow_32Rnd_9x19_sten "fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten","fow_32Rnd_9x19_sten"
+#define UK_5x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
+
+#define UK_7x_LEN_32Rnd_9x19 "LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19"
 
 #define UK_5x_fow_30Rnd_303_bren "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 
