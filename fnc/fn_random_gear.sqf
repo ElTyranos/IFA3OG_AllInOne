@@ -50,7 +50,7 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 	
 		_headgears = [
-			"fow_h_ger_m40_fall_01_camo","fow_h_ger_m40_fall_01","fow_h_ger_m38_feldmutze","fow_h_ger_feldmutze"
+			"fow_h_ger_m40_fall_01_camo","fow_h_ger_m40_fall_01"
 		];
 		_uniforms = [
 			"fow_u_ger_fall_02_private","fow_u_ger_fall_01_private"
