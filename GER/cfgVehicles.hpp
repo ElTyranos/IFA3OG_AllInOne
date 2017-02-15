@@ -9,7 +9,29 @@ class B_LIB_GER_Tonister34_cowhide;
 class B_LIB_GER_LW_Paradrop;	
 class B_LIB_GER_Panzer_Empty;
 
-class BG21_GER_B_CO: B_LIB_GER_Backpack {
+class BG21_GER_B_CO: B_LIB_GER_Radio {
+	scopeArsenal = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_flare_red {
+			magazine = "LIB_1Rnd_flare_red";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_green {
+			magazine = "LIB_1Rnd_flare_green";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_yellow {
+			magazine = "LIB_1Rnd_flare_yellow";
+			count = 2;
+		};
+	};
+	class TransportWeapons {
+			class _xx_LIB_LIB_FLARE_PISTOL {
+			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+	};
+};
 class BG21_GER_B_SL: B_LIB_GER_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {

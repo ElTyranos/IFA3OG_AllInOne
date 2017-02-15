@@ -9,7 +9,29 @@ class B_LIB_SOV_RA_MedicalBag_Empty;
 class B_LIB_SOV_RA_MGAmmoBag_Empty;
 class B_LIB_SOV_RA_Paradrop;
 
-class BG21_SOV_B_CO: B_LIB_SOV_RA_Rucksack2 {
+class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio {
+	scope = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_flare_red {
+			magazine = "LIB_1Rnd_flare_red";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_green {
+			magazine = "LIB_1Rnd_flare_green";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_yellow {
+			magazine = "LIB_1Rnd_flare_yellow";
+			count = 2;
+		};
+	};
+	class TransportWeapons {
+			class _xx_LIB_LIB_FLARE_PISTOL {
+			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+	};
+};
 class BG21_SOV_B_SL: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;
 	class TransportMagazines {
