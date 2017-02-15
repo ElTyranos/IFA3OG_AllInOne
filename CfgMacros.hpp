@@ -1,7 +1,7 @@
 // linkedItems[]
 #define LINKED_ITEMS_BASE "ItemMap","ItemCompass","ItemWatch"
-#define LINKED_ITEMS_COMMANDER "ItemRadio","ItemMap","ItemCompass","ItemWatch"
-
+#define LINKED_ITEMS_COMMANDER "ItemMap","ItemCompass","ItemWatch"
+// "ItemRadio",
 
 // Items[]
 #define ITEMS_BASE "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_MapTools","ACE_Flashlight_MX991","ACE_earplugs"
