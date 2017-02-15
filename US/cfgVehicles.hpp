@@ -6,6 +6,7 @@ class B_LIB_US_Bandoleer;
 class B_LIB_US_MGbag;
 	
 class BG21_US_B_CO: B_LIB_US_Backpack {
+class BG21_US_B_SL: B_LIB_US_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
@@ -118,6 +119,7 @@ class BG21_US_B_MINES: B_LIB_US_Backpack {
 
 //D-Day Backpacks
 class BG21_US_B_CO_DDAY: BG21_US_B_CO {
+class BG21_US_B_SL_DDAY: BG21_US_B_SL {
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
 	hiddenSelections[] = {"camo","camo2"};
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
@@ -166,6 +168,7 @@ class BG21_USMC_Backpack: B_LIB_US_Backpack {
 	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_CO: BG21_US_B_CO {
+class BG21_USMC_B_SL: BG21_US_B_SL {
 	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
 	displayName = "[USMC] Haversack M-1928";
 	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";

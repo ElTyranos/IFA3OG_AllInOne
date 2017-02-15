@@ -9,6 +9,7 @@ class BG21_IJA_B_FOLIAGE: fow_b_ija_backpack_foliage {
 	maximumLoad = 100;
 };
 class BG21_IJA_B_CO: BG21_IJA_B {
+class BG21_IJA_B_SL: BG21_IJA_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";

@@ -25,7 +25,7 @@ class BG21_UK_ARMY_SL: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_7x_LEN_32Rnd_9x19,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_UK_B_CO";
+	backpack = "BG21_UK_B_SL";
 };
 class BG21_UK_ARMY_TL: BG21_UK_Soldier_base {
 	scope = 2;

@@ -4,6 +4,7 @@ class BG21_UK_B: fow_b_uk_p37 {
 	maximumLoad = 100;
 };
 class BG21_UK_B_CO: BG21_UK_B {
+class BG21_UK_B_SL: BG21_UK_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";

@@ -26,7 +26,7 @@ class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_GER_B_CO";
+	backpack = "BG21_GER_B_SL";
 };
 class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base {
 	scope = 2;

@@ -10,6 +10,7 @@ class B_LIB_GER_LW_Paradrop;
 class B_LIB_GER_Panzer_Empty;
 
 class BG21_GER_B_CO: B_LIB_GER_Backpack {
+class BG21_GER_B_SL: B_LIB_GER_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {

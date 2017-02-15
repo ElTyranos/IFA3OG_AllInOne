@@ -27,7 +27,7 @@ class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_US_B_CO";
+	backpack = "BG21_US_B_SL";
 };
 class BG21_US_ARMY_TL: BG21_US_Soldier_base {
 	scope = 2;
@@ -168,7 +168,7 @@ class BG21_US_DDAY_SL: BG21_US_ARMY_SL {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	backpack = "BG21_US_B_CO_DDAY";
+	backpack = "BG21_US_B_SL";
 };
 class BG21_US_DDAY_TL: BG21_US_ARMY_TL {
 	faction = "BG21_US_DDAY";
@@ -285,7 +285,7 @@ class BG21_USMC_SL: BG21_US_ARMY_SL {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	backpack = "BG21_USMC_B_CO";
+	backpack = "BG21_US_B_SL";
 };
 class BG21_USMC_TL: BG21_US_ARMY_TL {
 	faction = "BG21_USMC";

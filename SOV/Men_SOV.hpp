@@ -25,7 +25,7 @@ class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_3x_LIB_71Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_SOV_RA_PPShBelt",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_PPShBelt",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_SOV_B_CO";
+	backpack = "BG21_SOV_B_SL";
 };
 class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base {
 	scope = 2;

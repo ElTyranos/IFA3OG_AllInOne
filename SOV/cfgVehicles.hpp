@@ -10,6 +10,7 @@ class B_LIB_SOV_RA_MGAmmoBag_Empty;
 class B_LIB_SOV_RA_Paradrop;
 
 class BG21_SOV_B_CO: B_LIB_SOV_RA_Rucksack2 {
+class BG21_SOV_B_SL: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {

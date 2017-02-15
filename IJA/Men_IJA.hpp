@@ -25,7 +25,7 @@ class BG21_IJA_SL: BG21_IJA_Soldier_base {
 	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
 	linkedItems[] = {"fow_v_ija_nco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"fow_v_ija_nco",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_IJA_B_CO";
+	backpack = "BG21_IJA_B_SL";
 };
 class BG21_IJA_TL: BG21_IJA_Soldier_base {
 	scope = 2;
