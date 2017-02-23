@@ -20,30 +20,16 @@ class BG21_IJA
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_IJA_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_IJA_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_IJA_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_IJA_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_IJA_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_IJA_Rifleman";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_IJA_RECON: BG21_IJA_HQ
@@ -61,17 +47,7 @@ class BG21_IJA
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_IJA_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_IJA_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_IJA_Recon";
+				vehicle = "BG21_IJA_Radio";
 				rank = "PRIVATE";
 			};
 		};		
@@ -80,8 +56,8 @@ class BG21_IJA
 			name = "Engineer Squad (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_IJA_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_IJA_Engineer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -89,16 +65,6 @@ class BG21_IJA
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_IJA_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_IJA_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_IJA_Engineer_Mines";
 				rank = "PRIVATE";
@@ -109,21 +75,13 @@ class BG21_IJA
 			name = "Engineer Squad (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_IJA_SL";
+				vehicle = "BG21_IJA_Engineer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_IJA_Engineer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_IJA_Engineer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_IJA_Engineer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_IJA_Engineer_Explos";
 			};
@@ -133,23 +91,15 @@ class BG21_IJA
 			name = "Engineer Squad (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_IJA_SL";
+				vehicle = "BG21_IJA_Engineer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_IJA_Engineer_Explos";
+				vehicle = "BG21_IJA_Engineer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_IJA_Engineer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_IJA_Engineer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_IJA_Engineer_Mines";
 			};
 		};
 		class BG21_IJA_AT: BG21_IJA_ENGINEER1
@@ -164,14 +114,6 @@ class BG21_IJA
 				vehicle = "BG21_IJA_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_IJA_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_IJA_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_IJA_AT_AS";
 			};
@@ -213,7 +155,7 @@ class BG21_IJA
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_IJA_TL";
+				vehicle = "BG21_IJA_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};

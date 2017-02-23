@@ -20,30 +20,16 @@ class BG21_SOV_RA
 			class Unit1
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_PL2";
+				vehicle = "BG21_SOV_RA_Rifleman_MOSIN";
 				rank = "LIEUTENANT";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_Medic";
+				vehicle = "BG21_SOV_RA_Rifleman_MOSIN";
 				rank = "CORPORAL";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_Rifleman_MOSIN";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		
@@ -52,8 +38,8 @@ class BG21_SOV_RA
 			name = "Pionier Gruppa (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_SOV_RA_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -61,16 +47,6 @@ class BG21_SOV_RA
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -81,21 +57,13 @@ class BG21_SOV_RA
 			name = "Pionier Gruppa (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_SL";
+				vehicle = "BG21_SOV_RA_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_SOV_RA_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_Pioneer_Explos";
 			};
@@ -105,23 +73,15 @@ class BG21_SOV_RA
 			name = "Pionier Gruppa (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_SL";
+				vehicle = "BG21_SOV_RA_Pioneer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_SOV_RA_Pioneer_Explos";
+				vehicle = "BG21_SOV_RA_Pioneer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_SOV_RA_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_SOV_RA_Pioneer_Mines";
 			};
 		};
 		class BG21_SOV_RA_AT: BG21_SOV_RA_PIONIER1
@@ -136,14 +96,6 @@ class BG21_SOV_RA
 				vehicle = "BG21_SOV_RA_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_AT_AS";
 			};
@@ -186,7 +138,7 @@ class BG21_SOV_RA
 			class Unit4
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_TL_MOSIN";
+				vehicle = "BG21_SOV_RA_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
@@ -282,30 +234,16 @@ class BG21_SOV_RA_W
 			class Unit1
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_W_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_SOV_RA_W_Rifleman_MOSIN";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_W_Medic";
-				rank = "CORPORAL";
-				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 0;
-				vehicle = "BG21_SOV_RA_W_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 0;
 				vehicle = "BG21_SOV_RA_W_Rifleman_MOSIN";
 				rank = "PRIVATE";
-				position[] = {-1,-1,0};
+				position[] = {2,-2,0};
 			};
 		};
 		class BG21_SOV_RA_W_PIONIER1: BG21_SOV_RA_W_HQ
@@ -313,8 +251,8 @@ class BG21_SOV_RA_W
 			name = "Pionier Gruppa (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_W_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -322,16 +260,6 @@ class BG21_SOV_RA_W
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -339,24 +267,16 @@ class BG21_SOV_RA_W
 		};
 		class BG21_SOV_RA_W_PIONIER2: BG21_SOV_RA_W_PIONIER1
 		{
-			name = "Pionier Gruppa (Mines)";
+			name = "Pionier Gruppa (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_W_SL";
+				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
 			};
@@ -366,23 +286,15 @@ class BG21_SOV_RA_W
 			name = "Pionier Gruppa (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_SOV_RA_W_SL";
+				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
+				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_SOV_RA_W_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_SOV_RA_W_Pioneer_Mines";
 			};
 		};
 		class BG21_SOV_RA_W_AT: BG21_SOV_RA_W_PIONIER1
@@ -397,14 +309,6 @@ class BG21_SOV_RA_W
 				vehicle = "BG21_SOV_RA_W_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_SOV_RA_W_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_SOV_RA_W_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_SOV_RA_W_AT_AS";
 			};
@@ -446,7 +350,7 @@ class BG21_SOV_RA_W
 			class Unit4
 			{
 				side = 0;
-				vehicle = "BG21_SOV_RA_W_TL_MOSIN";
+				vehicle = "BG21_SOV_RA_W_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};

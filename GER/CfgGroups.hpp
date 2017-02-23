@@ -20,30 +20,16 @@ class BG21_GER_WH
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_GER_WH_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_GER_WH_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_GER_WH_Rifleman_k98";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_GER_WH_RECON: BG21_GER_WH_HQ
@@ -61,17 +47,7 @@ class BG21_GER_WH
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_GER_WH_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_Recon";
+				vehicle = "BG21_GER_WH_Radio";
 				rank = "PRIVATE";
 			};
 		};
@@ -80,8 +56,8 @@ class BG21_GER_WH
 			name = "Pionier Gruppe (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_WH_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_GER_WH_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -89,16 +65,6 @@ class BG21_GER_WH
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -109,21 +75,13 @@ class BG21_GER_WH
 			name = "Pionier Gruppe (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_WH_SL";
+				vehicle = "BG21_GER_WH_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_GER_WH_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_Pioneer_Explos";
 			};
@@ -143,14 +101,6 @@ class BG21_GER_WH
 			{
 				vehicle = "BG21_GER_WH_Pioneer_Explos";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_Pioneer_Mines";
-			};
 		};
 		class BG21_GER_WH_AT: BG21_GER_WH_PIONIER1
 		{
@@ -164,14 +114,6 @@ class BG21_GER_WH
 				vehicle = "BG21_GER_WH_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_AT_AS";
 			};
@@ -214,7 +156,7 @@ class BG21_GER_WH
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_TL_K98";
+				vehicle = "BG21_GER_WH_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
@@ -236,34 +178,16 @@ class BG21_GER_WH
 		class BG21_GER_WH_INF2: BG21_GER_WH_INF1
 		{
 			name = "Inf. Gruppe (MG-42)";
-			class Unit0: Unit0
-			{
-				vehicle = "BG21_GER_WH_SL";
-			};
-			class Unit1: Unit1
-			{
-				vehicle = "BG21_GER_WH_TL_G43";
-			};
-			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_AT_pzft";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_Rifleman_k98";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_TL_K98";
-			};
+			class Unit0: Unit0 {};
+			class Unit1: Unit1 {};
+			class Unit2: Unit2 {};
+			class Unit3: Unit3 {};
+			class Unit4: Unit4 {};
 			class Unit5: Unit5
 			{
-				vehicle = "BG21_GER_WH_MG_34";
+				vehicle = "BG21_GER_WH_MG_42";
 			};
-			class Unit6: Unit6
-			{
-				vehicle = "BG21_GER_WH_MG_AS";
-			};
+			class Unit6: Unit6 {};
 		};
 	};
 };
@@ -346,30 +270,16 @@ class BG21_GER_WH_W
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_W_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_W_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_GER_WH_W_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_GER_WH_W_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_GER_WH_W_Rifleman_k98";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_GER_WH_W_RECON: BG21_GER_WH_W_HQ
@@ -387,17 +297,7 @@ class BG21_GER_WH_W
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_GER_WH_W_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_W_Recon";
+				vehicle = "BG21_GER_WH_W_Radio";
 				rank = "PRIVATE";
 			};
 		};		
@@ -406,8 +306,8 @@ class BG21_GER_WH_W
 			name = "Pionier Gruppe (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_WH_W_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -415,16 +315,6 @@ class BG21_GER_WH_W
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -432,24 +322,16 @@ class BG21_GER_WH_W
 		};
 		class BG21_GER_WH_W_PIONIER2: BG21_GER_WH_W_PIONIER1
 		{
-			name = "Pionier Gruppe (Mines)";
+			name = "Pionier Gruppe (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_WH_W_SL";
+				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
 			};
@@ -459,23 +341,15 @@ class BG21_GER_WH_W
 			name = "Pionier Gruppe (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_WH_W_SL";
+				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
+				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_GER_WH_W_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_W_Pioneer_Mines";
 			};
 		};
 		class BG21_GER_WH_W_AT: BG21_GER_WH_W_PIONIER1
@@ -490,14 +364,6 @@ class BG21_GER_WH_W
 				vehicle = "BG21_GER_WH_W_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_W_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_WH_W_AT_AS";
 			};
@@ -540,7 +406,7 @@ class BG21_GER_WH_W
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_GER_WH_W_TL_K98";
+				vehicle = "BG21_GER_WH_W_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
@@ -562,34 +428,16 @@ class BG21_GER_WH_W
 		class BG21_GER_WH_W_INF2: BG21_GER_WH_W_INF1
 		{
 			name = "Inf. Gruppe (MG-42)";
-			class Unit0: Unit0
-			{
-				vehicle = "BG21_GER_WH_W_SL";
-			};
-			class Unit1: Unit1
-			{
-				vehicle = "BG21_GER_WH_W_TL_G43";
-			};
-			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_WH_W_AT_pzft";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_WH_W_Rifleman_k98";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_WH_W_TL_K98";
-			};
+			class Unit0: Unit0 {};
+			class Unit1: Unit1 {};
+			class Unit2: Unit2 {};
+			class Unit3: Unit3 {};
+			class Unit4: Unit4 {};
 			class Unit5: Unit5
 			{
-				vehicle = "BG21_GER_WH_W_MG_34";
+				vehicle = "BG21_GER_WH_W_MG_42";
 			};
-			class Unit6: Unit6
-			{
-				vehicle = "BG21_GER_WH_W_MG_AS";
-			};
+			class Unit6: Unit6 {};
 		};
 	};
 };
@@ -615,30 +463,16 @@ class BG21_GER_FJS
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_GER_FJS_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_GER_FJS_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_GER_FJS_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_GER_FJS_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_GER_FJS_Rifleman_k98";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_GER_FJS_RECON: BG21_GER_FJS_HQ
@@ -656,17 +490,7 @@ class BG21_GER_FJS
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_GER_FJS_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_FJS_Recon";
+				vehicle = "BG21_GER_FJS_Radio";
 				rank = "PRIVATE";
 			};
 		};
@@ -675,8 +499,8 @@ class BG21_GER_FJS
 			name = "Pionier Gruppe (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_FJS_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_GER_FJS_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -684,16 +508,6 @@ class BG21_GER_FJS
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_FJS_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -704,21 +518,13 @@ class BG21_GER_FJS
 			name = "Pionier Gruppe (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_FJS_SL";
+				vehicle = "BG21_GER_FJS_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_GER_FJS_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_FJS_Pioneer_Explos";
 			};
@@ -728,23 +534,15 @@ class BG21_GER_FJS
 			name = "Pionier Gruppe (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_FJS_SL";
+				vehicle = "BG21_GER_FJS_Pioneer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_GER_FJS_Pioneer_Explos";
+				vehicle = "BG21_GER_FJS_Pioneer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_GER_FJS_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_FJS_Pioneer_Mines";
 			};
 		};
 		class BG21_GER_FJS_AT: BG21_GER_FJS_PIONIER1
@@ -759,14 +557,6 @@ class BG21_GER_FJS
 				vehicle = "BG21_GER_FJS_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_FJS_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_FJS_AT_AS";
 			};
@@ -809,7 +599,7 @@ class BG21_GER_FJS
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_GER_FJS_TL_K98";
+				vehicle = "BG21_GER_FJS_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
@@ -831,34 +621,16 @@ class BG21_GER_FJS
 		class BG21_GER_FJS_INF2: BG21_GER_FJS_INF1
 		{
 			name = "Inf. Gruppe (MG-42)";
-			class Unit0: Unit0
-			{
-				vehicle = "BG21_GER_FJS_SL";
-			};
-			class Unit1: Unit1
-			{
-				vehicle = "BG21_GER_FJS_TL_G43";
-			};
-			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_FJS_AT_pzft";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_FJS_Rifleman_k98";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_FJS_TL_K98";
-			};
+			class Unit0: Unit0 {};
+			class Unit1: Unit1 {};
+			class Unit2: Unit2 {};
+			class Unit3: Unit3 {};
+			class Unit4: Unit4 {};
 			class Unit5: Unit5
 			{
-				vehicle = "BG21_GER_FJS_MG_34";
+				vehicle = "BG21_GER_FJS_MG_42";
 			};
-			class Unit6: Unit6
-			{
-				vehicle = "BG21_GER_FJS_MG_AS";
-			};
+			class Unit6: Unit6 {};
 		};
 	};
 };
@@ -884,30 +656,16 @@ class BG21_GER_DAK
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_GER_DAK_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_GER_DAK_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_GER_DAK_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_GER_DAK_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_GER_DAK_Rifleman_k98";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_GER_DAK_RECON: BG21_GER_DAK_HQ
@@ -925,17 +683,7 @@ class BG21_GER_DAK
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_GER_DAK_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_DAK_Recon";
+				vehicle = "BG21_GER_DAK_Radio";
 				rank = "PRIVATE";
 			};
 		};
@@ -944,8 +692,8 @@ class BG21_GER_DAK
 			name = "Pionier Gruppe (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_DAK_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_GER_DAK_Pioneer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -953,16 +701,6 @@ class BG21_GER_DAK
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_DAK_Pioneer_Mines";
 				rank = "PRIVATE";
@@ -973,21 +711,13 @@ class BG21_GER_DAK
 			name = "Pionier Gruppe (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_DAK_SL";
+				vehicle = "BG21_GER_DAK_Pioneer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_GER_DAK_Pioneer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_DAK_Pioneer_Explos";
 			};
@@ -997,23 +727,15 @@ class BG21_GER_DAK
 			name = "Pionier Gruppe (Mixed)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_GER_DAK_SL";
+				vehicle = "BG21_GER_DAK_Pioneer_Mines";
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_GER_DAK_Pioneer_Explos";
+				vehicle = "BG21_GER_DAK_Pioneer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_GER_DAK_Pioneer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_DAK_Pioneer_Mines";
 			};
 		};
 		class BG21_GER_DAK_AT: BG21_GER_DAK_PIONIER1
@@ -1028,14 +750,6 @@ class BG21_GER_DAK
 				vehicle = "BG21_GER_DAK_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_DAK_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_GER_DAK_AT_AS";
 			};
@@ -1057,7 +771,7 @@ class BG21_GER_DAK
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_GER_DAK_TL_G43";
+				vehicle = "BG21_GER_DAK_TL_K98";
 				rank = "CORPORAL";
 				position[] = {1,-1,0};
 			};
@@ -1078,7 +792,7 @@ class BG21_GER_DAK
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_GER_DAK_TL_K98";
+				vehicle = "BG21_GER_DAK_Radio";
 				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
@@ -1097,37 +811,6 @@ class BG21_GER_DAK
 				position[] = {-2,-2,0};
 			};
 		};
-		class BG21_GER_DAK_INF2: BG21_GER_DAK_INF1
-		{
-			name = "Inf. Gruppe (MG-42)";
-			class Unit0: Unit0
-			{
-				vehicle = "BG21_GER_DAK_SL";
-			};
-			class Unit1: Unit1
-			{
-				vehicle = "BG21_GER_DAK_TL_G43";
-			};
-			class Unit2: Unit2
-			{
-				vehicle = "BG21_GER_DAK_AT_pzft";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_GER_DAK_Rifleman_k98";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_GER_DAK_TL_K98";
-			};
-			class Unit5: Unit5
-			{
-				vehicle = "BG21_GER_DAK_MG_34";
-			};
-			class Unit6: Unit6
-			{
-				vehicle = "BG21_GER_DAK_MG_AS";
-			};
-		};
+
 	};
 };

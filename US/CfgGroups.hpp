@@ -20,31 +20,31 @@ class BG21_US_ARMY
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_US_ARMY_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_US_ARMY_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_US_ARMY_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
 			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_US_ARMY_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_US_ARMY_Rifleman";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
-			};
+			// class Unit3
+			// {
+				// side = 1;
+				// vehicle = "BG21_US_ARMY_Sniper";
+				// rank = "PRIVATE";
+				// position[] = {3,-3,0};
+			// };
+			// class Unit4
+			// {
+				// side = 1;
+				// vehicle = "BG21_US_ARMY_Rifleman";
+				// rank = "PRIVATE";
+				// position[] = {-1,-1,0};
+			// };
 		};
 		class BG21_US_ARMY_RECON: BG21_US_ARMY_HQ
 		{
@@ -61,27 +61,27 @@ class BG21_US_ARMY
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_US_ARMY_Recon";
+				vehicle = "BG21_US_ARMY_Radio";
 				rank = "PRIVATE";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_ARMY_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_ARMY_Recon";
-				rank = "PRIVATE";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_US_ARMY_Recon";
+				// rank = "PRIVATE";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_US_ARMY_Recon";
+				// rank = "PRIVATE";
+			// };
 		};			
 		class BG21_US_ARMY_ENGINEER1: BG21_US_ARMY_HQ
 		{
 			name = "Engineer Squad (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_US_ARMY_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_US_ARMY_Engineer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -93,23 +93,23 @@ class BG21_US_ARMY
 				vehicle = "BG21_US_ARMY_Engineer_Mines";
 				rank = "PRIVATE";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Mines";
-				rank = "PRIVATE";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Mines";
+				// rank = "PRIVATE";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Mines";
+				// rank = "PRIVATE";
+			// };
 		};
 		class BG21_US_ARMY_ENGINEER2: BG21_US_ARMY_ENGINEER1
 		{
 			name = "Engineer Squad (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_US_ARMY_SL";
+				vehicle = "BG21_US_ARMY_Engineer_Explos";
 			};
 			class Unit1: Unit1
 			{
@@ -119,14 +119,14 @@ class BG21_US_ARMY
 			{
 				vehicle = "BG21_US_ARMY_Engineer_Explos";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Explos";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Explos";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Explos";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Explos";
+			// };
 		};
 		class BG21_US_ARMY_ENGINEER3: BG21_US_ARMY_ENGINEER1
 		{
@@ -137,20 +137,20 @@ class BG21_US_ARMY
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_US_ARMY_Engineer_Explos";
+				vehicle = "BG21_US_ARMY_Engineer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_US_ARMY_Engineer_Explos";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_ARMY_Engineer_Mines";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Mines";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_US_ARMY_Engineer_Mines";
+			// };
 		};
 		class BG21_US_ARMY_AT: BG21_US_ARMY_ENGINEER1
 		{
@@ -164,14 +164,6 @@ class BG21_US_ARMY
 				vehicle = "BG21_US_ARMY_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_US_ARMY_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_ARMY_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_US_ARMY_AT_AS";
 			};
@@ -214,8 +206,8 @@ class BG21_US_ARMY
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_US_ARMY_TL";
-				rank = "CORPORAL";
+				vehicle = "BG21_US_ARMY_Radio";
+				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
 			class Unit5
@@ -257,30 +249,16 @@ class BG21_US_DDAY
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_US_DDAY_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_US_DDAY_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_US_DDAY_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_US_DDAY_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_US_DDAY_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_US_DDAY_Rifleman";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_US_DDAY_RECON: BG21_US_DDAY_HQ
@@ -298,17 +276,7 @@ class BG21_US_DDAY
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_US_DDAY_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_DDAY_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_DDAY_Recon";
+				vehicle = "BG21_US_DDAY_Radio";
 				rank = "PRIVATE";
 			};
 		};			
@@ -317,8 +285,8 @@ class BG21_US_DDAY
 			name = "Engineer Squad (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_US_DDAY_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_US_DDAY_Engineer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -326,16 +294,6 @@ class BG21_US_DDAY
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_US_DDAY_Engineer_Mines";
 				rank = "PRIVATE";
@@ -346,21 +304,13 @@ class BG21_US_DDAY
 			name = "Engineer Squad (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_US_DDAY_SL";
+				vehicle = "BG21_US_DDAY_Engineer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_US_DDAY_Engineer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_US_DDAY_Engineer_Explos";
 			};
@@ -374,20 +324,20 @@ class BG21_US_DDAY
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_US_DDAY_Engineer_Explos";
+				vehicle = "BG21_US_DDAY_Engineer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_US_DDAY_Engineer_Explos";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_US_DDAY_Engineer_Mines";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_US_DDAY_Engineer_Mines";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_US_DDAY_Engineer_Mines";
+			// };
 		};
 		class BG21_US_DDAY_AT: BG21_US_DDAY_ENGINEER1
 		{
@@ -401,14 +351,6 @@ class BG21_US_DDAY
 				vehicle = "BG21_US_DDAY_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_US_DDAY_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_US_DDAY_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_US_DDAY_AT_AS";
 			};
@@ -451,8 +393,8 @@ class BG21_US_DDAY
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_US_DDAY_TL";
-				rank = "CORPORAL";
+				vehicle = "BG21_US_DDAY_Radio";
+				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
 			class Unit5
@@ -494,30 +436,16 @@ class BG21_USMC
 			class Unit1
 			{
 				side = 1;
-				vehicle = "BG21_USMC_PL2";
-				rank = "LIEUTENANT";
+				vehicle = "BG21_USMC_Recon";
+				rank = "PRIVATE";
 				position[] = {1,-1,0};
 			};
 			class Unit2
 			{
 				side = 1;
-				vehicle = "BG21_USMC_Medic";
-				rank = "CORPORAL";
+				vehicle = "BG21_USMC_Recon";
+				rank = "PRIVATE";
 				position[] = {2,-2,0};
-			};
-			class Unit3
-			{
-				side = 1;
-				vehicle = "BG21_USMC_Sniper";
-				rank = "PRIVATE";
-				position[] = {3,-3,0};
-			};
-			class Unit4
-			{
-				side = 1;
-				vehicle = "BG21_USMC_Rifleman";
-				rank = "PRIVATE";
-				position[] = {-1,-1,0};
 			};
 		};
 		class BG21_USMC_RECON: BG21_USMC_HQ
@@ -535,17 +463,7 @@ class BG21_USMC
 			};
 			class Unit2: Unit2
 			{
-				vehicle = "BG21_USMC_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_USMC_Recon";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_USMC_Recon";
+				vehicle = "BG21_USMC_Radio";
 				rank = "PRIVATE";
 			};
 		};			
@@ -554,8 +472,8 @@ class BG21_USMC
 			name = "Engineer Squad (Mines)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_USMC_SL";
-				rank = "SERGEANT";
+				vehicle = "BG21_USMC_Engineer_Mines";
+				rank = "PRIVATE";
 			};
 			class Unit1: Unit1
 			{
@@ -563,16 +481,6 @@ class BG21_USMC
 				rank = "PRIVATE";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_USMC_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_USMC_Engineer_Mines";
-				rank = "PRIVATE";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_USMC_Engineer_Mines";
 				rank = "PRIVATE";
@@ -583,21 +491,13 @@ class BG21_USMC
 			name = "Engineer Squad (Explos)";
 			class Unit0: Unit0
 			{
-				vehicle = "BG21_USMC_SL";
+				vehicle = "BG21_USMC_Engineer_Explos";
 			};
 			class Unit1: Unit1
 			{
 				vehicle = "BG21_USMC_Engineer_Explos";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_USMC_Engineer_Explos";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_USMC_Engineer_Explos";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_USMC_Engineer_Explos";
 			};
@@ -611,20 +511,20 @@ class BG21_USMC
 			};
 			class Unit1: Unit1
 			{
-				vehicle = "BG21_USMC_Engineer_Explos";
+				vehicle = "BG21_USMC_Engineer_Mines";
 			};
 			class Unit2: Unit2
 			{
 				vehicle = "BG21_USMC_Engineer_Explos";
 			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_USMC_Engineer_Mines";
-			};
-			class Unit4: Unit4
-			{
-				vehicle = "BG21_USMC_Engineer_Mines";
-			};
+			// class Unit3: Unit3
+			// {
+				// vehicle = "BG21_USMC_Engineer_Mines";
+			// };
+			// class Unit4: Unit4
+			// {
+				// vehicle = "BG21_USMC_Engineer_Mines";
+			// };
 		};
 		class BG21_USMC_AT: BG21_USMC_ENGINEER1
 		{
@@ -638,14 +538,6 @@ class BG21_USMC
 				vehicle = "BG21_USMC_AT";
 			};
 			class Unit2: Unit2
-			{
-				vehicle = "BG21_USMC_AT_AS";
-			};
-			class Unit3: Unit3
-			{
-				vehicle = "BG21_USMC_AT";
-			};
-			class Unit4: Unit4
 			{
 				vehicle = "BG21_USMC_AT_AS";
 			};
@@ -688,8 +580,8 @@ class BG21_USMC
 			class Unit4
 			{
 				side = 1;
-				vehicle = "BG21_USMC_TL";
-				rank = "CORPORAL";
+				vehicle = "BG21_USMC_Radio";
+				rank = "PRIVATE";
 				position[] = {4,-4,0};
 			};
 			class Unit5
