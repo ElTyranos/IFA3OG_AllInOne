@@ -11,6 +11,7 @@ class CfgPatches
 #include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
+#include "CfgMarkers.hpp"
 #include "CfgMacros.hpp"
 
 class cfgWeapons
