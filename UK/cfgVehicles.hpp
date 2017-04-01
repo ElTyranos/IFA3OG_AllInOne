@@ -136,6 +136,15 @@ class BG21_UK_B_MORTAR: BG21_UK_B {
 	};
 };
 
+class fow_b_uk_p37_radio: fow_b_uk_p37
+{
+	tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+	tf_hasLRradio = 1;
+	tf_range = 5000;
+	tf_encryptionCode = "tf_guer_radio_code";
+	tf_dialog = "anprc155_radio_dialog";
+	tf_subtype = "digital_lr";
+};
 
 class fow_s_uk_base;
 class BG21_UK_base: fow_s_uk_base
