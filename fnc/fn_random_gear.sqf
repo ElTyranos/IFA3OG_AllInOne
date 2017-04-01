@@ -229,8 +229,32 @@ switch (_this select 1) do {
 	};
 	case "UK" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
-		_headgears = ["fow_h_uk_mk2","fow_h_uk_mk3","fow_h_uk_mk3_net"];
+		_headgears = ["fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk3","fow_h_uk_mk3_net"];
 		_uniforms = ["fow_u_uk_bd40_01_private"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	case "UKAB" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["fow_h_uk_mk2_para_foliage","fow_h_uk_mk2_para"];
+		_uniforms = ["fow_u_uk_parasmock"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	case "KIEFFER" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["fow_h_uk_beret_commando_kieffer","fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk3","fow_h_uk_mk3_net"];
+		_uniforms = ["fow_u_uk_bd40_kieffer_01","fow_u_uk_bd40_kieffer_02"];
 		_uniform = _uniforms call BIS_fnc_selectRandom;
 		_headgear = _headgears call BIS_fnc_selectRandom;
 		_items = uniformItems _unit;
