@@ -146,6 +146,11 @@ class BG21_US_ARMY_Medic: BG21_US_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_ns",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MEDIC";
 };
+class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
+	scope = 2;
+	displayname = "Mortar crew";
+	backpack = "BG21_US_B_MORTAR";
+};
 
 // DDAY
 class BG21_US_DDAY_PL: BG21_US_ARMY_PL {
@@ -260,6 +265,11 @@ class BG21_US_DDAY_Medic: BG21_US_ARMY_Medic {
 	faction = "BG21_US_DDAY";
 	uniformClass = "U_LIB_US_Rangers_Med";
 	backpack = "BG21_US_B_MEDIC_DDAY";
+};
+class BG21_US_DDAY_Mortar: BG21_US_DDAY_Rifleman {
+	scope = 2;
+	displayname = "Mortar crew";
+	backpack = "BG21_US_B_MORTAR_DDAY";
 };
 
 // USMC
@@ -411,4 +421,8 @@ class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	};
 	backpack = "BG21_USMC_B_MEDIC";
 };
-
+class BG21_USMC_Mortar: BG21_USMC_B_MORTAR {
+	scope = 2;
+	displayname = "Mortar crew";
+	backpack = "BG21_US_B_MORTAR_DDAY";
+};

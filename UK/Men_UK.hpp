@@ -58,6 +58,10 @@ class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 	displayname = "Radio";
 	backpack = "B_LIB_US_Radio";
 };
+class BG21_UK_ARMY_Mortar: BG21_UK_ARMY_Rifleman {
+	displayname = "Mortar Operator";
+	backpack = "BG21_UK_B_MORTAR";
+};
 class BG21_UK_ARMY_Sniper: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";

@@ -53,6 +53,10 @@ class BG21_IJA_Radio: BG21_IJA_Rifleman {
 	displayname = "Radio";
 	backpack = "B_LIB_GER_Radio";
 };
+class BG21_IJA_Mortar: BG21_IJA_Rifleman {
+	displayname = "Mortar Operator";
+	backpack = "BG21_IJA_B_MORTAR";
+};
 class BG21_IJA_Sniper: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";

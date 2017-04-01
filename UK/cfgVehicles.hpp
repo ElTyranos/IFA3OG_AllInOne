@@ -127,6 +127,15 @@ class BG21_UK_B_MINES: BG21_UK_B {
 		};
 	};
 };
+class BG21_UK_B_MORTAR: BG21_UK_B {
+	class TransportItems {
+		class _xx_ACE_RangeTable_82mm {
+			count = 1;
+			name = "ACE_RangeTable_82mm";
+		};
+	};
+};
+
 
 class fow_s_uk_base;
 class BG21_UK_base: fow_s_uk_base

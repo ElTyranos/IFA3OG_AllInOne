@@ -70,6 +70,10 @@ class BG21_GER_WH_Radio: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Radio";
 	backpack = "B_LIB_GER_Radio";
 };
+class BG21_GER_WH_Mortar: BG21_GER_WH_Rifleman_K98 {
+	displayname = "Radio";
+	backpack = "BG21_GER_B_MORTAR";
+};
 class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (G43)";
@@ -292,6 +296,13 @@ class BG21_GER_WH_W_Radio: BG21_GER_WH_Radio {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
+class BG21_GER_WH_W_Mortar: BG21_GER_WH_Mortar {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
 class BG21_GER_WH_W_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_WH_Winter";
 	class EventHandlers: Eventhandlers
@@ -440,6 +451,15 @@ class BG21_GER_FJS_Recon: BG21_GER_WH_Recon {
 	};
 };
 class BG21_GER_FJS_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_FJS_Mortar: BG21_GER_WH_Mortar {
 	faction = "BG21_GER_FJS";
 	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
@@ -621,6 +641,15 @@ class BG21_GER_DAK_Recon: BG21_GER_WH_Recon {
 	};
 };
 class BG21_GER_DAK_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_DAK_Mortar: BG21_GER_WH_Mortar {
 	faction = "BG21_GER_DAK";
 	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};

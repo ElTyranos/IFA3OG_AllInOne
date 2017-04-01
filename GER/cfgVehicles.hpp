@@ -164,6 +164,15 @@ class BG21_GER_B_MINES: B_LIB_GER_SapperBackpack_empty {
 		};
 	};
 };
+class BG21_GER_B_MORTAR: B_LIB_GER_Backpack {
+	scopeArsenal = 1;
+	class TransportItems {
+		class _xx_ACE_RangeTable_82mm {
+			count = 1;
+			name = "ACE_RangeTable_82mm";
+		};
+	};
+};
 
 class LIB_GER_Soldier_base;
 class BG21_GER_Soldier_base: LIB_GER_Soldier_base

@@ -142,6 +142,15 @@ class BG21_SOV_B_MINES: B_LIB_SOV_RA_Rucksack2 {
 		};
 	};
 };
+class BG21_SOV_B_MORTAR: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
+	class TransportItems {
+		class _xx_ACE_RangeTable_82mm {
+			count = 1;
+			name = "ACE_RangeTable_82mm";
+		};
+	};
+};
 
 class LIB_sov_Soldier_base;
 class BG21_SOV_Soldier_base: LIB_sov_Soldier_base

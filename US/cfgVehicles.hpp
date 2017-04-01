@@ -4,7 +4,7 @@ class B_LIB_US_RocketBag;
 class B_LIB_US_Radio;
 class B_LIB_US_Bandoleer;
 class B_LIB_US_MGbag;
-	
+
 class BG21_US_B_CO: B_LIB_US_Radio {
 	scopeArsenal = 1;
 	class TransportMagazines {
@@ -138,6 +138,15 @@ class BG21_US_B_MINES: B_LIB_US_Backpack {
 		};
 	};
 };
+class BG21_US_B_MORTAR: B_LIB_US_Backpack {
+	scopeArsenal = 1;
+	class TransportItems {
+		class _xx_ACE_RangeTable_82mm {
+			count = 1;
+			name = "ACE_RangeTable_82mm";
+		};
+	};
+};
 
 //D-Day Backpacks
 class BG21_US_B_CO_DDAY: BG21_US_B_CO {
@@ -181,6 +190,11 @@ class BG21_US_B_EXPLOS_DDAY: BG21_US_B_EXPLOS {
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
 };
 class BG21_US_B_MINES_DDAY: BG21_US_B_MINES {
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
+	hiddenSelections[] = {"camo","camo2"};
+	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
+};
+class BG21_US_B_MORTAR_DDAY: BG21_US_B_MORTAR {
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
 	hiddenSelections[] = {"camo","camo2"};
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
@@ -246,6 +260,11 @@ class BG21_USMC_B_MINES: BG21_US_B_MINES {
 	displayName = "[USMC] Haversack M-1928";
 	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
 	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+};
+class BG21_USMC_B_MORTAR: BG21_US_B_MORTAR {
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
+	hiddenSelections[] = {"camo","camo2"};
+	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
 };
 
 class LIB_US_Soldier_base;

@@ -170,6 +170,14 @@ class BG21_IJA_B_MINES: BG21_IJA_B {
 		};
 	};
 };
+class BG21_IJA_B_MORTAR: BG21_IJA_B {
+	class TransportItems {
+		class _xx_ACE_RangeTable_82mm {
+			count = 1;
+			name = "ACE_RangeTable_82mm";
+		};
+	};
+};
 
 class fow_s_ija_base;
 class BG21_IJA_base: fow_s_ija_base
