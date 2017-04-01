@@ -6,7 +6,6 @@
 // Items[]
 #define ITEMS_BASE "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_MapTools","ACE_Flashlight_MX991","ACE_earplugs"
 
-
 // Magazines[]
 
 // Grenades
@@ -298,3 +297,209 @@
 	}; \
 	class TransportWeapons {}; \
 	class TransportBackpacks {};
+
+	//groups
+#define GROUP2(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+		};
+#define GROUP3(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+		};
+#define GROUP4(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+		};
+#define GROUP5(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3,UNIT4,RANK4) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+			class Unit4 { \
+				side = SIDE; \
+				vehicle = UNIT4; \
+				rank = RANK4; \
+				position[] = {4,-4,0}; \
+			}; \
+		};
+#define GROUP6(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3,UNIT4,RANK4,UNIT5,RANK5) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+			class Unit4 { \
+				side = SIDE; \
+				vehicle = UNIT4; \
+				rank = RANK4; \
+				position[] = {4,-4,0}; \
+			}; \
+			class Unit5 { \
+				side = SIDE; \
+				vehicle = UNIT5; \
+				rank = RANK5; \
+				position[] = {-1,-1,0}; \
+			}; \
+		};
+#define GROUP7(CLASSNAME,DISPLAYNAME,FACTION,SIDE,ALIVECATEGORY,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3,UNIT4,RANK4,UNIT5,RANK5,UNIT6,RANK6) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			aliveCategory = ALIVECATEGORY; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+			class Unit4 { \
+				side = SIDE; \
+				vehicle = UNIT4; \
+				rank = RANK4; \
+				position[] = {4,-4,0}; \
+			}; \
+			class Unit5 { \
+				side = SIDE; \
+				vehicle = UNIT5; \
+				rank = RANK5; \
+				position[] = {-1,-1,0}; \
+			}; \
+			class Unit6 { \
+				side = SIDE; \
+				vehicle = UNIT6; \
+				rank = RANK6; \
+				position[] = {-2,-2,0}; \
+			}; \
+		};
