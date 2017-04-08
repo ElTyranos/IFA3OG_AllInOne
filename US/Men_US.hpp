@@ -148,7 +148,7 @@ class BG21_US_ARMY_Medic: BG21_US_Soldier_base {
 };
 class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 	scope = 2;
-	displayname = "Mortar crew";
+	displayname = "Mortar Operator";
 	backpack = "BG21_US_B_MORTAR";
 };
 

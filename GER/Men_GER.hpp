@@ -71,7 +71,7 @@ class BG21_GER_WH_Radio: BG21_GER_WH_Rifleman_K98 {
 	backpack = "B_LIB_GER_Radio";
 };
 class BG21_GER_WH_Mortar: BG21_GER_WH_Rifleman_K98 {
-	displayname = "Radio";
+	displayname = "Mortar Operator";
 	backpack = "BG21_GER_B_MORTAR";
 };
 class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {

@@ -65,7 +65,7 @@ class BG21_SOV_RA_Radio: BG21_SOV_RA_Rifleman_Mosin {
 	backpack = "B_LIB_SOV_RA_Radio";
 };
 class BG21_SOV_RA_Mortar: BG21_SOV_RA_Rifleman_Mosin {
-	displayname = "Radio";
+	displayname = "Mortar Operator";
 	backpack = "BG21_SOV_B_MORTAR";
 };
 class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base {
