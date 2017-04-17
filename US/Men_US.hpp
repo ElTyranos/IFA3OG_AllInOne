@@ -421,7 +421,7 @@ class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	};
 	backpack = "BG21_USMC_B_MEDIC";
 };
-class BG21_USMC_Mortar: BG21_USMC_B_MORTAR {
+class BG21_USMC_Mortar: BG21_USMC_Rifleman {
 	scope = 2;
 	displayname = "Mortar crew";
 	backpack = "BG21_US_B_MORTAR_DDAY";
