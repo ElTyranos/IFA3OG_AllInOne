@@ -145,6 +145,138 @@ class BG21_UK_B_CO: fow_b_uk_p37_radio {
 	};
 };
 
+// Commandos
+class BG21_UK_CDO_B: BG21_UK_B {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_SL: BG21_UK_B_SL {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};
+};
+class BG21_UK_CDO_B_MEDIC: BG21_UK_B_MEDIC {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_AT: BG21_UK_B_AT {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_AT_AS: BG21_UK_B_AT_AS {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_MG: BG21_UK_B_MG {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_MG_AS: BG21_UK_B_MG_AS {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_CDO_B_EXPLOS: BG21_UK_B_EXPLOS {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};		
+};
+class BG21_UK_CDO_B_MINES: BG21_UK_B_MINES {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};		
+};
+class BG21_UK_CDO_B_MORTAR: BG21_UK_B_MORTAR {
+	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
+	displayName = "[UK] Bergen pack";
+	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
+	hiddenSelections[]={"camo"};
+	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_fow_h_uk_beret_commando_kieffer {
+			name = "fow_h_uk_beret_commando_kieffer";
+			count = 1;
+		};
+	};		
+};
+
 
 class fow_s_uk_base;
 class BG21_UK_base: fow_s_uk_base
