@@ -239,7 +239,7 @@ switch (_this select 1) do {
 		_unit addHeadGear _headgear;
 		{_unit addItemToUniform _x} foreach _items;
 	};	
-	case "UKAB" : {
+	case "UK_AB" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_uk_mk2_para_foliage","fow_h_uk_mk2_para"];
 		_uniforms = ["fow_u_uk_parasmock"];
@@ -251,7 +251,7 @@ switch (_this select 1) do {
 		_unit addHeadGear _headgear;
 		{_unit addItemToUniform _x} foreach _items;
 	};	
-	case "KIEFFER" : {
+	case "UK_CDO" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_uk_beret_commando_kieffer","fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk3","fow_h_uk_mk3_net"];
 		_uniforms = ["fow_u_uk_bd40_kieffer_01","fow_u_uk_bd40_kieffer_02"];
