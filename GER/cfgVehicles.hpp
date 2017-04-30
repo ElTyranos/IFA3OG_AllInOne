@@ -96,6 +96,8 @@ class BG21_GER_B_AT_AS: B_LIB_GER_Panzer_Empty {
 };
 class BG21_GER_B_MG: B_LIB_GER_A_frame {
 	scopeArsenal = 1;
+	model = "\fow\fow_characters\ger\lodu_heer_ammo_belt";
+	picture = "\fow\fow_characters\ger\data\ui\fow_b_heer_ammo_belt_ca.paa";	
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
 			magazine = "LIB_50Rnd_792x57";
@@ -103,13 +105,9 @@ class BG21_GER_B_MG: B_LIB_GER_A_frame {
 		};
 	};
 };
-class BG21_GER_FJS_B_MG: BG21_GER_B_MG {
-	model = "\WW2\Assets_m\Characters\Germans_m\GER_Wehrmacht\WW2_A_frame_kit.p3d";
-};
-class BG21_GER_DAK_B_MG: BG21_GER_B_MG {
-	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\Germans_t\GER_DAK\dak_equipment_0_co.paa"};
-};
 class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
+	model = "\fow\fow_characters\ger\lodu_heer_ammo_belt";
+	picture = "\fow\fow_characters\ger\data\ui\fow_b_heer_ammo_belt_ca.paa";
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
