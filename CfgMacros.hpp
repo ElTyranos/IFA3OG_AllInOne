@@ -85,7 +85,7 @@
 #define US_20x_LIB_5Rnd_762x63  "LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63"
 
 // UK
-#define UK_10x_fow_10Rnd_303 "fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303"
+#define UK_10x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
 
 #define UK_5x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
 
