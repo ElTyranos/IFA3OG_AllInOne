@@ -168,8 +168,8 @@ class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base {
 	displayname = "Komandir tanka";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
 	class EventHandlers {};
-	weapons[] = {"LIB_PPSh41_m","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_PPSh41_m","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"LEN_PPS43","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LEN_PPS43","LIB_Binocular_SU","Throw","Put"};
 	magazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	respawnmagazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
@@ -181,8 +181,8 @@ class BG21_SOV_RA_Tank_Crew: BG21_SOV_RA_Soldier_base {
 	displayname = "Tanker";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
 	class EventHandlers {};
-	weapons[] = {"LIB_PPSh41_m","Throw","Put"};
-	respawnWeapons[] = {"LIB_PPSh41_m","Throw","Put"};
+	weapons[] = {"LEN_PPS43","Throw","Put"};
+	respawnWeapons[] = {"LEN_PPS43","Throw","Put"};
 	magazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES};
 	respawnmagazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_PPShBelt","H_LIB_SOV_TankHelmet",LINKED_ITEMS_BASE};
