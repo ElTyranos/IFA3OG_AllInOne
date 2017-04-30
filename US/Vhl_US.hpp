@@ -1,5 +1,35 @@
 class LIB_M4A3_75;
+class LIB_M3A3_Stuart;
+class LIB_M5A1_Stuart;
+class LIB_M4A3_76;
+class LIB_M4A3_76_HVSS;
+class LIB_M4A4_FIREFLY;
 class BG21_M4A3_75: LIB_M4A3_75 {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
+class BG21_M3A3_Stuart: LIB_M3A3_Stuart {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
+class BG21_M5A1_Stuart: LIB_M5A1_Stuart {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
+class BG21_M4A3_76: LIB_M4A3_76 {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
+class BG21_M4A3_76_HVSS: LIB_M4A3_76_HVSS {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
+class BG21_M4A4_FIREFLY: LIB_M4A4_FIREFLY {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Tanks";
 	ARMORED_VHL_TRANSPORT_ITEMS
@@ -82,6 +112,14 @@ class BG21_GMC_Repair: LIB_US_GMC_Parm {
 	class TransportBackpacks {};
 };
 class BG21_GMC_Ammo: LIB_US_GMC_Ammo {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_ITEMS
+	US_VHL_TRANSPORT_WEAPONS
+};
+
+class LIB_M8_Greyhound;
+class BG21_M8_Greyhound: LIB_M8_Greyhound {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Wheeled";
 	COMMON_VHL_TRANSPORT_ITEMS
