@@ -152,6 +152,34 @@ class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 	backpack = "BG21_US_B_MORTAR";
 };
 
+// TANK CREW
+class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
+	scope = 2;
+	displayname = "Tank Commander";
+	uniformClass = "U_LIB_US_Tank_Crew";
+	class EventHandlers {};
+	weapons[] = {"LEN_M3a1","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LEN_M3a1","LIB_Binocular_SU","Throw","Put"};
+	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
+	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
+	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
+	backpack = "";
+};
+class BG21_US_ARMY_Tank_Crew: BG21_US_Soldier_base {
+	scope = 2;
+	displayname = "Tank Crew";
+	uniformClass = "U_LIB_US_Tank_Crew";
+	class EventHandlers {};
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_BASE};
+	backpack = "";
+};
+
 // DDAY
 class BG21_US_DDAY_PL: BG21_US_ARMY_PL {
 	faction = "BG21_US_DDAY";
