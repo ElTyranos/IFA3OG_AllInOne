@@ -62,6 +62,17 @@ class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
 	backpack = "B_LIB_US_Radio";
 };
+class BG21_US_ARMY_BAR: BG21_US_Soldier_base {
+	scope = 2;
+	displayname = "BAR Rifleman";
+	weapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
+	magazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
+	backpack = "BG21_US_B_BAR";
+};
 class BG21_US_ARMY_Sniper: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";
@@ -97,18 +108,18 @@ class BG21_US_ARMY_AT_AS: BG21_US_Soldier_base {
 };
 class BG21_US_ARMY_MG: BG21_US_Soldier_base {
 	scope = 2;
-	displayname = "LMG Rifleman";
-	weapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
-	magazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
+	displayname = "M1919A4 Gunner";
+	weapons[] = {"LIB_M1919A4","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1919A4","Throw","Put"};
+	magazines[] = {US_3x_LIB_50Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_3x_LIB_50Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG";
 };
 class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
 	scope = 2;
-	displayname = "LMG Assistant";
+	displayname = "M1919A4 Assistant";
 	weapons[] = {"LIB_M1_Garand","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1_Garand","Throw","Put"};
 	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
@@ -233,6 +244,14 @@ class BG21_US_DDAY_Radio: BG21_US_ARMY_Radio {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
 	};
+};
+class BG21_US_DDAY_BAR: BG21_US_ARMY_BAR {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_BAR_DDAY";
 };
 class BG21_US_DDAY_Sniper: BG21_US_ARMY_Sniper {
 	faction = "BG21_US_DDAY";
@@ -359,6 +378,14 @@ class BG21_USMC_Radio: BG21_US_ARMY_Radio {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
 	};
+};
+class BG21_USMC_BAR: BG21_US_ARMY_BAR {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_USMC_B_BAR";
 };
 class BG21_USMC_Sniper: BG21_US_ARMY_Sniper {
 	faction = "BG21_USMC";

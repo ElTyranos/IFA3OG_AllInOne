@@ -90,7 +90,7 @@ class BG21_US_B_AT_AS: B_LIB_US_Backpack {
 		};
 	};
 };
-class BG21_US_B_MG: B_LIB_US_Backpack {
+class BG21_US_B_BAR: B_LIB_US_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_20Rnd_762x63 {
@@ -99,12 +99,21 @@ class BG21_US_B_MG: B_LIB_US_Backpack {
 		};
 	};
 };
+class BG21_US_B_MG: B_LIB_US_Backpack {
+	scopeArsenal = 1;
+	class TransportMagazines {
+		class _xx_LIB_50Rnd_762x63 {
+			magazine = "LIB_50Rnd_762x63";
+			count = 1;
+		};
+	};
+};
 class BG21_US_B_MG_AS: B_LIB_US_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {
-		class _xx_LIB_20Rnd_762x63 {
-			magazine = "LIB_20Rnd_762x63";
-			count = 9;
+		class _xx_LIB_50Rnd_762x63 {
+			magazine = "LIB_50Rnd_762x63";
+			count = 4;
 		};
 	};
 };
@@ -174,6 +183,11 @@ class BG21_US_B_AT_AS_DDAY: BG21_US_B_AT_AS {
 	hiddenSelections[] = {"camo","camo2"};
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
 };
+class BG21_US_B_BAR_DDAY: BG21_US_B_BAR {
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
+	hiddenSelections[] = {"camo","camo2"};
+	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
+};
 class BG21_US_B_MG_DDAY: BG21_US_B_MG {
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
 	hiddenSelections[] = {"camo","camo2"};
@@ -232,6 +246,12 @@ class BG21_USMC_B_AT: BG21_US_B_AT {
 	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_AT_AS: BG21_US_B_AT_AS {
+	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	displayName = "[USMC] Haversack M-1928";
+	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+};
+class BG21_USMC_B_BAR: BG21_US_B_BAR {
 	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
 	displayName = "[USMC] Haversack M-1928";
 	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
