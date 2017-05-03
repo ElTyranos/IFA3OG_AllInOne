@@ -145,8 +145,8 @@ class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
 class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "MG Schutze (MG-34)";
-	weapons[] = {"LIB_MG342","Throw","Put"};
-	respawnWeapons[] = {"LIB_MG342","Throw","Put"};
+	weapons[] = {"LIB_MG34","Throw","Put"};
+	respawnWeapons[] = {"LIB_MG34","Throw","Put"};
 	magazines[] = {GER_3x_LIB_50Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_3x_LIB_50Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestMG",LINKED_ITEMS_BASE};
