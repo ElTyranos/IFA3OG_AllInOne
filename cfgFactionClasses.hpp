@@ -42,6 +42,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class BG21_UK_AB
+	{
+		displayName = "[BG21] British Airborne";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
 	class BG21_IJA
 	{
 		displayName = "[BG21] Imperial Jap Army";
