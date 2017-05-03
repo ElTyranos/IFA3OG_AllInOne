@@ -492,7 +492,7 @@ class BG21_UK_CDO_Engineer_Mines: BG21_UK_ARMY_Engineer_Mines {
 class BG21_UK_CDO_Engineer_Explos: BG21_UK_CDO_Engineer_Mines {
 	displayname = "Engineer (Explosives)";
 	faction = "BG21_UK_CDO";
-	backpack = "BG21_UK_B_CDO_EXPLOS";
+	backpack = "BG21_UK_CDO_B_EXPLOS";
 };
 class BG21_UK_CDO_Medic: BG21_UK_ARMY_Medic {
 	faction = "BG21_UK_CDO";
