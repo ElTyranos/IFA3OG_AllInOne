@@ -10,6 +10,7 @@ class B_LIB_GER_LW_Paradrop;
 class B_LIB_GER_Panzer_Empty;
 
 class BG21_GER_B_CO: B_LIB_GER_Radio {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
@@ -33,6 +34,7 @@ class BG21_GER_B_CO: B_LIB_GER_Radio {
 	};
 };
 class BG21_GER_B_SL: B_LIB_GER_Backpack {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
@@ -56,6 +58,7 @@ class BG21_GER_B_SL: B_LIB_GER_Backpack {
 	};
 };
 class BG21_GER_B_MEDIC: B_LIB_GER_MedicBackpack_Empty {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_ACE_fieldDressing {
@@ -77,6 +80,7 @@ class BG21_GER_B_MEDIC: B_LIB_GER_MedicBackpack_Empty {
 	};
 };
 class BG21_GER_B_AT: B_LIB_GER_Panzer_Empty {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
@@ -86,6 +90,7 @@ class BG21_GER_B_AT: B_LIB_GER_Panzer_Empty {
 	};
 };
 class BG21_GER_B_AT_AS: B_LIB_GER_Panzer_Empty {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_RPzB	{
@@ -95,6 +100,7 @@ class BG21_GER_B_AT_AS: B_LIB_GER_Panzer_Empty {
 	};
 };
 class BG21_GER_B_MG: B_LIB_GER_A_frame {
+	scope = 1;
 	scopeArsenal = 1;
 	model = "\fow\fow_characters\ger\lodu_heer_ammo_belt";
 	picture = "\fow\fow_characters\ger\data\ui\fow_b_heer_ammo_belt_ca.paa";	
@@ -108,6 +114,7 @@ class BG21_GER_B_MG: B_LIB_GER_A_frame {
 class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
 	model = "\fow\fow_characters\ger\lodu_heer_ammo_belt";
 	picture = "\fow\fow_characters\ger\data\ui\fow_b_heer_ammo_belt_ca.paa";
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportMagazines {
 		class _xx_LIB_50Rnd_792x57 {
@@ -117,6 +124,7 @@ class BG21_GER_B_MG_AS: B_LIB_GER_Backpack {
 	};
 };
 class BG21_GER_B_EXPLOS: B_LIB_GER_SapperBackpack_empty {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_LIB_Ladung_Small_MINE_mag {
@@ -144,6 +152,7 @@ class BG21_GER_B_EXPLOS: B_LIB_GER_SapperBackpack_empty {
 	};
 };
 class BG21_GER_B_MINES: B_LIB_GER_SapperBackpack_empty {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_LIB_TMI_42_MINE_mag {
@@ -163,6 +172,7 @@ class BG21_GER_B_MINES: B_LIB_GER_SapperBackpack_empty {
 	};
 };
 class BG21_GER_B_MORTAR: B_LIB_GER_Backpack {
+	scope = 1;
 	scopeArsenal = 1;
 	class TransportItems {
 		class _xx_ACE_RangeTable_82mm {
