@@ -49,6 +49,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class BG21_UK_CDO
+	{
+		displayName = "[BG21] No4 Commando";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
 	class BG21_IJA
 	{
 		displayName = "[BG21] Imperial Jap Army";
