@@ -326,6 +326,8 @@ class BG21_GER_WH_W_Sniper: BG21_GER_WH_Sniper {
 };
 class BG21_GER_WH_W_AT: BG21_GER_WH_AT {
 	faction = "BG21_GER_WH_Winter";
+	weapons[] = {"LIB_K98","LIB_RPzB_w","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98","LIB_RPzB_w","Throw","Put"};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
