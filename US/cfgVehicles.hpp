@@ -282,9 +282,10 @@ class BG21_USMC_B_MINES: BG21_US_B_MINES {
 	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MORTAR: BG21_US_B_MORTAR {
-	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
-	hiddenSelections[] = {"camo","camo2"};
-	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
+	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	displayName = "[USMC] Haversack M-1928";
+	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 
 class LIB_US_Soldier_base;
