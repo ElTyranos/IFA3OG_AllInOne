@@ -16,6 +16,7 @@ class CfgPatches
 
 class cfgWeapons
 {
+	#include "COMPAT\cfgWeapons.hpp"
 	#include "SOV\cfgWeapons.hpp"
 	#include "GER\cfgWeapons.hpp"
 	#include "US\cfgWeapons.hpp"
