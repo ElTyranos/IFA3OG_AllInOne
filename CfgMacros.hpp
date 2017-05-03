@@ -91,6 +91,8 @@
 
 #define UK_7x_LEN_32Rnd_9x19 "LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19"
 
+#define UK_7x_LIB_30Rnd_45ACP "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
+
 #define UK_5x_fow_30Rnd_303_bren "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 
 
