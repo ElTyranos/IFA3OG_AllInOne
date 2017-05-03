@@ -66,7 +66,7 @@
 
 #define SOV_2x_LIB_7Rnd_762x38 "LIB_7Rnd_762x38","LIB_7Rnd_762x38"
 
-#define SOV_3x_Lib_B32 "Lib_B32","Lib_B32","Lib_B32"
+#define SOV_LIB_5x_1Rnd_145x114 "LIB_1Rnd_145x114","LIB_1Rnd_145x114","LIB_1Rnd_145x114","LIB_1Rnd_145x114","LIB_1Rnd_145x114"
 
 
 // US

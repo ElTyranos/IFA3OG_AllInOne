@@ -97,8 +97,8 @@ class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base {
 	displayname = "Strelok (PTRD-41)";
 	weapons[] = {"LIB_PTRD","LIB_M1895","Throw","Put"};
 	respawnWeapons[] = {"LIB_PTRD","LIB_M1895","Throw","Put"};
-	magazines[] = {SOV_3x_Lib_B32,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
-	respawnmagazines[] = {SOV_3x_Lib_B32,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
+	magazines[] = {SOV_LIB_5x_1Rnd_145x114,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
+	respawnmagazines[] = {SOV_LIB_5x_1Rnd_145x114,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	backpack = "BG21_SOV_B_AT";

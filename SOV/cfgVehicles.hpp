@@ -79,17 +79,17 @@ class BG21_SOV_B_MEDIC: B_LIB_SOV_RA_MedicalBag_Empty {
 class BG21_SOV_B_AT: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;
 	class TransportMagazines {
-		class _xx_Lib_B32	{
-			magazine = "Lib_B32";
-			count = 2;
+		class _xx_LIB_1Rnd_145x114	{
+			magazine = "LIB_1Rnd_145x114";
+			count = 5;
 		};
 	};
 };
 class BG21_SOV_B_AT_AS: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;
 	class TransportMagazines {
-		class _xx_Lib_B32	{
-			magazine = "Lib_B32";
+		class _xx_LIB_1Rnd_145x114	{
+			magazine = "LIB_1Rnd_145x114";
 			count = 5;
 		};
 	};
