@@ -717,7 +717,6 @@ class BG21_GER_DAK_MG_34: BG21_GER_WH_MG_34 {
 	faction = "BG21_GER_DAK";
 	linkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
-	backpack = "BG21_GER_DAK_B_MG";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
