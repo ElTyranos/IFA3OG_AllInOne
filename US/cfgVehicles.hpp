@@ -156,6 +156,26 @@ class BG21_US_B_MORTAR: B_LIB_US_Backpack {
 		};
 	};
 };
+class BG21_US_B_GRENADIER: B_LIB_US_Backpack {
+	scope = 1;
+	scopeArsenal = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_G_Mk2 {
+			magazine = "LIB_1Rnd_G_Mk2";
+			count = 3;
+		};
+		class _xx_LIB_1Rnd_G_M9A1 {
+			magazine = "LIB_1Rnd_G_M9A1";
+			count = 1;
+		};
+	};
+	class TransportWeapons {
+		class _xx_LIB_ACC_GL_M7 {
+			weapon = "LIB_ACC_GL_M7";
+			count = 1;
+		};
+	};
+};
 
 //D-Day Backpacks
 class BG21_US_B_CO_DDAY: BG21_US_B_CO {
@@ -209,6 +229,11 @@ class BG21_US_B_MINES_DDAY: BG21_US_B_MINES {
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
 };
 class BG21_US_B_MORTAR_DDAY: BG21_US_B_MORTAR {
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
+	hiddenSelections[] = {"camo","camo2"};
+	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
+};
+class BG21_US_B_GRENADIER_DDAY: BG21_US_B_GRENADIER {
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
 	hiddenSelections[] = {"camo","camo2"};
 	hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
@@ -282,6 +307,12 @@ class BG21_USMC_B_MINES: BG21_US_B_MINES {
 	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MORTAR: BG21_US_B_MORTAR {
+	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	displayName = "[USMC] Haversack M-1928";
+	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+};
+class BG21_USMC_B_GRENADIER: BG21_US_B_GRENADIER {
 	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
 	displayName = "[USMC] Haversack M-1928";
 	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";

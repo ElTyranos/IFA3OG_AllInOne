@@ -181,6 +181,26 @@ class BG21_GER_B_MORTAR: B_LIB_GER_Backpack {
 		};
 	};
 };
+class B_LIB_GER_GRENADIER: B_LIB_GER_Backpack {
+	scope = 1;
+	scopeArsenal = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_G_SPRGR_30 {
+			magazine = "LIB_1Rnd_G_SPRGR_30";
+			count = 3;
+		};
+		class _xx_LIB_1Rnd_G_PZGR_40 {
+			magazine = "LIB_1Rnd_G_PZGR_40";
+			count = 1;
+		};
+	};
+	class TransportWeapons {
+		class _xx_LIB_ACC_GW_SB_Empty {
+			weapon = "LIB_ACC_GW_SB_Empty";
+			count = 1;
+		};
+	};
+};
 
 class LIB_GER_Soldier_base;
 class BG21_GER_Soldier_base: LIB_GER_Soldier_base

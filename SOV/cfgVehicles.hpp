@@ -151,6 +151,21 @@ class BG21_SOV_B_MORTAR: B_LIB_SOV_RA_Rucksack2 {
 		};
 	};
 };
+class B_LIB_SOV_RA_GRENADIER: B_LIB_SOV_RA_Rucksack2 {
+	scope = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_G_DYAKONOV {
+			magazine = "LIB_1Rnd_G_DYAKONOV";
+			count = 4;
+		};
+	};
+	class TransportWeapons {
+		class _xx_LIB_ACC_GL_DYAKONOV_Empty {
+			weapon = "LIB_ACC_GL_DYAKONOV_Empty";
+			count = 1;
+		};
+	};
+};
 
 class LIB_sov_Soldier_base;
 class BG21_SOV_Soldier_base: LIB_sov_Soldier_base
