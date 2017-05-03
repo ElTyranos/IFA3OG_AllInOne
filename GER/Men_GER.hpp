@@ -52,7 +52,7 @@ class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
 };
 class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 	scope = 2;
-	displayname = "Schutze";
+	displayname = "Schutze (K98)";
 	weapons[] = {"LIB_K98","Throw","Put"};
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
