@@ -242,7 +242,7 @@ class BG21_GER_WH_Pilot: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_2x_LIB_8Rnd_9x19};
 	linkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",LINKED_ITEMS_COMMANDER};
-	backpack = "B_LIB_GER_LW_Paradrop";
+	backpack = "ACE_NonSteerableParachute";
 };
 
 // WINTER
