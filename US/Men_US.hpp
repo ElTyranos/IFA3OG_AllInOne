@@ -4,8 +4,8 @@ class BG21_US_ARMY_PL: BG21_US_Soldier_base {
 	displayname = "Captain";
 	uniformClass = "U_LIB_US_Private";
 	class EventHandlers {};
-	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
 	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
 	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
@@ -21,8 +21,8 @@ class BG21_US_ARMY_PL2: BG21_US_ARMY_PL {
 class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Squad Leader";
-	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
 	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
 	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
@@ -53,8 +53,8 @@ class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 };
 class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 	displayname = "Recon";
-	weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
 	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 };
@@ -158,8 +158,8 @@ class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
 	displayname = "Tank Commander";
 	uniformClass = "U_LIB_US_Tank_Crew";
 	class EventHandlers {};
-	weapons[] = {"LEN_M3a1","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LEN_M3a1","LIB_Binocular_SU","Throw","Put"};
+	weapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
 	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
 	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
