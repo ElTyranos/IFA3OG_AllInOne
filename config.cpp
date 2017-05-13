@@ -8,6 +8,7 @@ class CfgPatches
 		requiredAddons[] = {};
 	};
 };
+#include "CfgRagdolls.hpp"
 #include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
