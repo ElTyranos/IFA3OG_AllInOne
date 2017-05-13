@@ -1,8 +1,14 @@
+class LIB_FlakPanzerIV_Wirbelwind;
 class LIB_PzKpfwIV_H;
 class LIB_PzKpfwV;
 class LIB_PzKpfwVI_B;
 class LIB_PzKpfwVI_E;
 class LIB_StuG_III_G;
+class BG21_FlakPanzerIV_Wirbelwind: LIB_FlakPanzerIV_Wirbelwind {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
 class BG21_PzKpfwIV_H: LIB_PzKpfwIV_H {
 	faction = "BG21_GER_WH";
 	vehicleClass = "BG21_Tanks";
@@ -119,8 +125,17 @@ class BG21_OB_Ammo: LIB_opelblitz_ammo {
 };
 
 class LIB_Kfz1;
+class LIB_Kfz1_Hood;
 class LIB_Kfz1_MG42;
 class BG21_Kfz1: LIB_Kfz1 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_Kfz1_Hood: LIB_Kfz1_Hood {
 	faction = "BG21_GER_WH";
 	vehicleClass = "BG21_Wheeled";
 	COMMON_VHL_TRANSPORT_TOOLKIT
