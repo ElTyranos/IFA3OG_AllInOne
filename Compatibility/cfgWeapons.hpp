@@ -6,7 +6,7 @@ class Vest_Camo_Base: ItemCore {
 class fow_v_base: Vest_Camo_Base {
 	class ItemInfo: ItemInfo
 	{
-		containerClass = "Supply20";
+		containerClass = "Supply70";
 	};
 };
 
