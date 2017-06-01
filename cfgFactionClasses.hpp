@@ -14,9 +14,16 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
-	class BG21_USAB
+	class BG21_USAB101
 	{
-		displayName = "[BG21] US Airborne";
+		displayName = "[BG21] 101st Airborne";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
+	class BG21_USAB82
+	{
+		displayName = "[BG21] 82nd Airborne";
 		icon = "";
 		priority = 1;
 		side = 2;
