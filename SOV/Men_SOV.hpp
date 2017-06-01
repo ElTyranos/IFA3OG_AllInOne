@@ -68,6 +68,11 @@ class BG21_SOV_RA_Radio: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Radio";
 	backpack = "B_LIB_SOV_RA_Radio";
 };
+class BG21_SOV_RA_Recon: BG21_SOV_RA_Rifleman_Mosin {
+	displayname = "Recon";
+	weapons[] = {"LIB_M9130","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_Binocular_SU","Throw","Put"};
+};
 class BG21_SOV_RA_Mortar: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Operator";
 	weapons[] = {"LIB_M9130","LIB_BM37_Barrel","Throw","Put"};
@@ -264,6 +269,13 @@ class BG21_SOV_RA_W_Grenadier: BG21_SOV_RA_Grenadier {
 	};
 };
 class BG21_SOV_RA_W_Radio: BG21_SOV_RA_Radio {
+	faction = "BG21_SOV_RA_WINTER";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'RA_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_SOV_RA_W_Recon: BG21_SOV_RA_Recon {
 	faction = "BG21_SOV_RA_WINTER";
 	class EventHandlers: Eventhandlers
 	{
