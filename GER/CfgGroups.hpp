@@ -21,8 +21,8 @@ class BG21_GER_PZW
 	class Armored 
 	{
 		name = "Panzer gruppen";
-		GROUP3(BG21_GER_WH_TankCrew1,Panzer Gruppe (3),BG21_GER_PZW,1,Armored,BG21_GER_WH_Tank_Commander,LIEUTENANT,BG21_GER_WH_Tank_Crew,SERGEANT,BG21_GER_WH_Tank_Crew,PRIVATE)
-		GROUP2(BG21_GER_WH_TankCrew2,Panzer Gruppe (2),BG21_GER_PZW,1,Armored,BG21_GER_WH_Tank_Commander,SERGEANT,BG21_GER_WH_Tank_Crew,PRIVATE)
+		GROUP3(BG21_GER_WH_TankCrew1,Panzer Gruppe (3),BG21_GER_PZW,1,BG21_GER_WH_Tank_Commander,LIEUTENANT,BG21_GER_WH_Tank_Crew,SERGEANT,BG21_GER_WH_Tank_Crew,PRIVATE)
+		GROUP2(BG21_GER_WH_TankCrew2,Panzer Gruppe (2),BG21_GER_PZW,1,BG21_GER_WH_Tank_Commander,SERGEANT,BG21_GER_WH_Tank_Crew,PRIVATE)
 	};
 };
 class BG21_GER_WH_W
