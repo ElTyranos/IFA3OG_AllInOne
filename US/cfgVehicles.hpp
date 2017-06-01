@@ -155,6 +155,12 @@ class BG21_US_B_MORTAR: B_LIB_US_Backpack {
 			name = "ACE_RangeTable_82mm";
 		};
 	};
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_60mm_Mo_HE {
+			magazine = "LIB_1Rnd_60mm_Mo_HE";
+			count = 3;
+		};
+	};
 };
 class BG21_US_B_GRENADIER: B_LIB_US_Backpack {
 	scope = 1;

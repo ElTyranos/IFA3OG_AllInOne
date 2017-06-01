@@ -76,6 +76,18 @@ class BG21_GER_WH_Radio: BG21_GER_WH_Rifleman_K98 {
 };
 class BG21_GER_WH_Mortar: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Mortar Operator";
+	weapons[] = {"LIB_K98","LIB_GrWr34_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98","LIB_GrWr34_Barrel","Throw","Put"};	
+	backpack = "BG21_GER_B_MORTAR";
+};
+class BG21_GER_WH_Mortar_TL: BG21_GER_WH_Rifleman_K98 {
+	displayname = "Mortar Team Leader";
+	backpack = "BG21_GER_B_MORTAR";
+};
+class BG21_GER_WH_Mortar_AS: BG21_GER_WH_Rifleman_K98 {
+	displayname = "Mortar Assistant";
+	weapons[] = {"LIB_K98","LIB_GrWr34_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98","LIB_GrWr34_Tripod","Throw","Put"};	
 	backpack = "BG21_GER_B_MORTAR";
 };
 class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {
@@ -314,6 +326,20 @@ class BG21_GER_WH_W_Mortar: BG21_GER_WH_Mortar {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
+class BG21_GER_WH_W_Mortar_TL: BG21_GER_WH_Mortar_TL {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_WH_W_Mortar_AS: BG21_GER_WH_Mortar_AS {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
 class BG21_GER_WH_W_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_WH_Winter";
 	class EventHandlers: Eventhandlers
@@ -482,6 +508,24 @@ class BG21_GER_FJS_Radio: BG21_GER_WH_Radio {
 	};
 };
 class BG21_GER_FJS_Mortar: BG21_GER_WH_Mortar {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_FJS_Mortar_TL: BG21_GER_WH_Mortar_TL {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_FJS_Mortar_AS: BG21_GER_WH_Mortar_AS {
 	faction = "BG21_GER_FJS";
 	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
@@ -681,6 +725,24 @@ class BG21_GER_DAK_Mortar: BG21_GER_WH_Mortar {
 	faction = "BG21_GER_DAK";
 	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_DAK_Mortar_TL: BG21_GER_WH_Mortar_TL {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_DAK_Mortar_AS: BG21_GER_WH_Mortar_AS {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";

@@ -177,6 +177,12 @@ class BG21_IJA_B_MORTAR: BG21_IJA_B {
 			name = "ACE_RangeTable_82mm";
 		};
 	};
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_81mm_Mo_HE {
+			magazine = "LIB_1Rnd_81mm_Mo_HE";
+			count = 2;
+		};
+	};		
 };
 
 class fow_s_ija_base;

@@ -150,6 +150,12 @@ class BG21_SOV_B_MORTAR: B_LIB_SOV_RA_Rucksack2 {
 			name = "ACE_RangeTable_82mm";
 		};
 	};
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_82mm_Mo_HE {
+			magazine = "LIB_1Rnd_82mm_Mo_HE";
+			count = 2;
+		};
+	};		
 };
 class B_LIB_SOV_RA_GRENADIER: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;

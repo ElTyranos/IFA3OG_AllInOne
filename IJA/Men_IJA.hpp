@@ -55,6 +55,18 @@ class BG21_IJA_Radio: BG21_IJA_Rifleman {
 };
 class BG21_IJA_Mortar: BG21_IJA_Rifleman {
 	displayname = "Mortar Operator";
+	weapons[] = {"fow_w_type99","LIB_GrWr34_Barrel","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type99","LIB_GrWr34_Barrel","Throw","Put"};	
+	backpack = "BG21_IJA_B_MORTAR";
+};
+class BG21_IJA_Mortar_TL: BG21_IJA_Rifleman {
+	displayname = "Mortar Team Leader";
+	backpack = "BG21_IJA_B_MORTAR";
+};
+class BG21_IJA_Mortar_AS: BG21_IJA_Rifleman {
+	displayname = "Mortar Assistant";
+	weapons[] = {"fow_w_type99","LIB_GrWr34_Tripod","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type99","LIB_GrWr34_Tripod","Throw","Put"};	
 	backpack = "BG21_IJA_B_MORTAR";
 };
 class BG21_IJA_Sniper: BG21_IJA_Soldier_base {

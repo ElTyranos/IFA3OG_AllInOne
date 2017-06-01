@@ -61,6 +61,18 @@ class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 class BG21_UK_ARMY_Mortar: BG21_UK_ARMY_Rifleman {
 	displayname = "Mortar Operator";
 	backpack = "BG21_UK_B_MORTAR";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};	
+};
+class BG21_UK_ARMY_Mortar_TL: BG21_UK_ARMY_Rifleman {
+	displayname = "Mortar Team leader";
+	backpack = "BG21_UK_B_MORTAR";
+};
+class BG21_UK_ARMY_Mortar_AS: BG21_UK_ARMY_Rifleman {
+	displayname = "Mortar Assistant";
+	backpack = "BG21_UK_B_MORTAR";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Tripod","Throw","Put"};
 };
 class BG21_UK_ARMY_Sniper: BG21_UK_Soldier_base {
 	scope = 2;
@@ -221,6 +233,22 @@ class BG21_UK_AB_Radio: BG21_UK_AB_Rifleman {
 class BG21_UK_AB_Mortar: BG21_UK_AB_Rifleman {
 	displayname = "Mortar Operator";
 	faction = "BG21_UK_AB";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	backpack = "BG21_UK_B_MORTAR";
+};
+class BG21_UK_AB_Mortar_TL: BG21_UK_AB_Rifleman {
+	displayname = "Mortar Team leader";
+	faction = "BG21_UK_AB";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	backpack = "BG21_UK_B_MORTAR";
+};
+class BG21_UK_AB_Mortar_AS: BG21_UK_AB_Rifleman {
+	displayname = "Mortar Assistant";
+	faction = "BG21_UK_AB";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
 	backpack = "BG21_UK_B_MORTAR";
 };
 class BG21_UK_AB_Sniper: BG21_UK_ARMY_Sniper {
@@ -403,6 +431,22 @@ class BG21_UK_CDO_Radio: BG21_UK_CDO_Rifleman {
 class BG21_UK_CDO_Mortar: BG21_UK_CDO_Rifleman {
 	displayname = "Mortar Operator";
 	faction = "BG21_UK_CDO";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};		
+	backpack = "BG21_UK_CDO_B_MORTAR";
+};
+class BG21_UK_CDO_Mortar_TL: BG21_UK_CDO_Rifleman {
+	displayname = "Mortar Team leader";
+	faction = "BG21_UK_CDO";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};		
+	backpack = "BG21_UK_CDO_B_MORTAR";
+};
+class BG21_UK_CDO_Mortar_AS: BG21_UK_CDO_Rifleman {
+	displayname = "Mortar Assistant";
+	faction = "BG21_UK_CDO";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel","Throw","Put"};		
 	backpack = "BG21_UK_CDO_B_MORTAR";
 };
 class BG21_UK_CDO_Sniper: BG21_UK_ARMY_Sniper {

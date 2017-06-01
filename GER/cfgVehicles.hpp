@@ -180,6 +180,12 @@ class BG21_GER_B_MORTAR: B_LIB_GER_Backpack {
 			name = "ACE_RangeTable_82mm";
 		};
 	};
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_81mm_Mo_HE {
+			magazine = "LIB_1Rnd_81mm_Mo_HE";
+			count = 2;
+		};
+	};	
 };
 class B_LIB_GER_GRENADIER: B_LIB_GER_Backpack {
 	scope = 1;

@@ -112,6 +112,12 @@ class BG21_UK_B_MORTAR: BG21_UK_B {
 			name = "ACE_RangeTable_82mm";
 		};
 	};
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_60mm_Mo_HE {
+			magazine = "LIB_1Rnd_60mm_Mo_HE";
+			count = 3;
+		};
+	};	
 };
 
 class fow_b_uk_p37_radio: fow_b_uk_p37 {
@@ -274,7 +280,7 @@ class BG21_UK_CDO_B_MORTAR: BG21_UK_B_MORTAR {
 			name = "fow_h_uk_beret_commando_kieffer";
 			count = 1;
 		};
-	};		
+	};
 };
 
 

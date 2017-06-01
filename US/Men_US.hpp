@@ -161,9 +161,37 @@ class BG21_US_ARMY_Medic: BG21_US_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_ns",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MEDIC";
 };
+class BG21_US_ARMY_Mortar_TL: BG21_US_ARMY_Rifleman {
+	scope = 2;
+	displayname = "Mortar Team Leader";
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
+	backpack = "BG21_US_B_MORTAR";	
+};
 class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 	scope = 2;
 	displayname = "Mortar Operator";
+	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
+	backpack = "BG21_US_B_MORTAR";
+};
+class BG21_US_ARMY_Mortar_AS: BG21_US_ARMY_Rifleman {
+	scope = 2;
+	displayname = "Mortar Assistant";
+	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
 	backpack = "BG21_US_B_MORTAR";
 };
 
@@ -325,9 +353,28 @@ class BG21_US_DDAY_Medic: BG21_US_ARMY_Medic {
 	uniformClass = "U_LIB_US_Rangers_Med";
 	backpack = "BG21_US_B_MEDIC_DDAY";
 };
-class BG21_US_DDAY_Mortar: BG21_US_DDAY_Rifleman {
-	scope = 2;
-	displayname = "Mortar crew";
+class BG21_US_DDAY_Mortar_TL: BG21_US_ARMY_Mortar_TL {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};	
+	backpack = "BG21_US_B_MORTAR_DDAY";
+};
+class BG21_US_DDAY_Mortar: BG21_US_ARMY_Mortar {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MORTAR_DDAY";
+};
+class BG21_US_DDAY_Mortar_AS: BG21_US_ARMY_Mortar_AS {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
 	backpack = "BG21_US_B_MORTAR_DDAY";
 };
 
@@ -496,8 +543,28 @@ class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	};
 	backpack = "BG21_USMC_B_MEDIC";
 };
-class BG21_USMC_Mortar: BG21_USMC_Rifleman {
-	scope = 2;
-	displayname = "Mortar crew";
-	backpack = "BG21_US_B_MORTAR_DDAY";
+class BG21_US_USMC_Mortar_TL: BG21_US_ARMY_Mortar_TL {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};	
+	backpack = "BG21_US_B_MORTAR_USMC";
 };
+class BG21_US_USMC_Mortar: BG21_US_ARMY_Mortar {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MORTAR_USMC";
+};
+class BG21_US_USMC_Mortar_AS: BG21_US_ARMY_Mortar_AS {
+	faction = "BG21_USMC";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MORTAR_USMC";
+};
+

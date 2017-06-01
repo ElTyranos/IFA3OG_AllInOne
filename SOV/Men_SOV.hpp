@@ -70,6 +70,18 @@ class BG21_SOV_RA_Radio: BG21_SOV_RA_Rifleman_Mosin {
 };
 class BG21_SOV_RA_Mortar: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Operator";
+	weapons[] = {"LIB_M9130","LIB_BM37_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Barrel","Throw","Put"};	
+	backpack = "BG21_SOV_B_MORTAR";
+};
+class BG21_SOV_RA_Mortar_TL: BG21_SOV_RA_Rifleman_Mosin {
+	displayname = "Mortar Team Leader";
+	backpack = "BG21_SOV_B_MORTAR";
+};
+class BG21_SOV_RA_Mortar_AS: BG21_SOV_RA_Rifleman_Mosin {
+	displayname = "Mortar Assistant";
+	weapons[] = {"LIB_M9130","LIB_BM37_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Tripod","Throw","Put"};	
 	backpack = "BG21_SOV_B_MORTAR";
 };
 class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base {
@@ -259,6 +271,20 @@ class BG21_SOV_RA_W_Radio: BG21_SOV_RA_Radio {
 	};
 };
 class BG21_SOV_RA_W_Mortar: BG21_SOV_RA_Mortar {
+	faction = "BG21_SOV_RA_WINTER";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'RA_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_SOV_RA_W_Mortar_TL: BG21_SOV_RA_Mortar_TL {
+	faction = "BG21_SOV_RA_WINTER";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'RA_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_SOV_RA_W_Mortar_AS: BG21_SOV_RA_Mortar_AS {
 	faction = "BG21_SOV_RA_WINTER";
 	class EventHandlers: Eventhandlers
 	{
