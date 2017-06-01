@@ -5,8 +5,9 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.00;
-		requiredAddons[] = {};
+		requiredAddons[] = {"WW2_Core_c_WW2_Core_c"};
 	};
+	#include "Compatibility\cfgPatches.hpp"
 };
 #include "CfgRagdolls.hpp"
 #include "CfgFunctions.hpp"
@@ -17,7 +18,7 @@ class CfgPatches
 
 class cfgWeapons
 {
-	#include "COMPAT\cfgWeapons.hpp"
+	#include "Compatibility\cfgWeapons.hpp"
 	#include "SOV\cfgWeapons.hpp"
 	#include "GER\cfgWeapons.hpp"
 	#include "US\cfgWeapons.hpp"
