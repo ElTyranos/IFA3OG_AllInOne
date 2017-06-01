@@ -36,6 +36,10 @@ class BG21_M4A4_FIREFLY: LIB_M4A4_FIREFLY {
 };
 
 class LIB_P47;
+class LIB_US_P39;
+class LIB_CG4_WACO;
+class LIB_HORSA;
+class LIB_C47_Skytrain;
 class BG21_P47: LIB_P47 {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Air";
@@ -44,8 +48,31 @@ class BG21_P47: LIB_P47 {
 	class TransportWeapons {};
 	class TransportBackpacks {};
 };
-class LIB_US_P39;
 class BG21_US_P39: LIB_US_P39 {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Air";
+	class TransportItems {};
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_CG4_WACO: LIB_CG4_WACO {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Air";
+	class TransportItems {};
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_HORSA: LIB_HORSA {
+	faction = "BG21_US";
+	vehicleClass = "BG21_Air";
+	class TransportItems {};
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_C47_Skytrain: LIB_C47_Skytrain {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Air";
 	class TransportItems {};
