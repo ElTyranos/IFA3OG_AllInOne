@@ -16,8 +16,8 @@ class BG21_SOV_RA
 	class Armored 
 	{
 		name = "2. Tanks";
-		GROUP3(BG21_SOV_RA_TankCrew1,Motorizovannyy Gruppa (3),BG21_SOV_RA,0,Armored,BG21_SOV_RA_Tank_Commander,LIEUTENANT,BG21_SOV_RA_Tank_Crew,SERGEANT,BG21_SOV_RA_Tank_Crew,PRIVATE)
-		GROUP2(BG21_SOV_RA_TankCrew2,Motorizovannyy Gruppa (2),BG21_SOV_RA,0,Armored,BG21_SOV_RA_Tank_Commander,SERGEANT,BG21_SOV_RA_Tank_Crew,PRIVATE)		
+		GROUP3(BG21_SOV_RA_TankCrew1,Motorizovannyy Gruppa (3),BG21_SOV_RA,0,BG21_SOV_RA_Tank_Commander,LIEUTENANT,BG21_SOV_RA_Tank_Crew,SERGEANT,BG21_SOV_RA_Tank_Crew,PRIVATE)
+		GROUP2(BG21_SOV_RA_TankCrew2,Motorizovannyy Gruppa (2),BG21_SOV_RA,0,BG21_SOV_RA_Tank_Commander,SERGEANT,BG21_SOV_RA_Tank_Crew,PRIVATE)		
 	};
 };
 class BG21_SOV_RA_W
