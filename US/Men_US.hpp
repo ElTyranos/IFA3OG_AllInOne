@@ -234,6 +234,225 @@ class BG21_US_ARMY_Tank_Crew: BG21_US_Soldier_base {
 	backpack = "";
 };
 
+// 101st AIRBORNE
+class BG21_USAB101_PL: BG21_US_ARMY_PL {
+	faction = "BG21_USAB101";
+	uniformClass = "U_LIB_US_AB_Uniform_M42";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson_nco","H_LIB_US_AB_Helmet_CO_1",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson_nco","H_LIB_US_AB_Helmet_CO_1",LINKED_ITEMS_COMMANDER};
+	backpack = "BG21_US_B_CO_M36";
+};
+class BG21_USAB101_PL2: BG21_USAB101_PL {
+	faction = "BG21_USAB101";
+	uniformClass = "U_LIB_US_AB_Uniform_M42";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson_nco","H_LIB_US_AB_Helmet_CO_1",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson_nco","H_LIB_US_AB_Helmet_CO_1",LINKED_ITEMS_COMMANDER};
+	backpack = "BG21_US_B_CO_M36";
+};
+class BG21_USAB101_SL: BG21_US_ARMY_SL {
+	faction = "BG21_USAB101";
+	uniformClass = "U_LIB_US_AB_Uniform_M42_NCO";
+	class EventHandlers {};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson","V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson","V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
+	backpack = "BG21_US_B_SL";
+};
+class BG21_USAB101_TL: BG21_US_ARMY_TL {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "B_LIB_US_Backpack_M36";
+};
+class BG21_USAB101_Rifleman: BG21_US_ARMY_Rifleman {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "B_LIB_US_Backpack_M36";
+};
+class BG21_USAB101_Grenadier: BG21_US_ARMY_Grenadier {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_GRENADIER_M36";
+};
+class BG21_USAB101_Recon: BG21_US_ARMY_Recon {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "B_LIB_US_Backpack_M36";
+};
+class BG21_USAB101_Radio: BG21_US_ARMY_Radio {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_USAB101_BAR: BG21_US_ARMY_BAR {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_BAR_M36";
+};
+class BG21_USAB101_Sniper: BG21_US_ARMY_Sniper {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_USAB101_AT: BG21_US_ARMY_AT {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_AT_M36";
+};
+class BG21_USAB101_AT_AS: BG21_US_ARMY_AT_AS {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_AT_AS_M36";
+};
+class BG21_USAB101_MG: BG21_US_ARMY_MG {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MG_M36";
+};
+class BG21_USAB101_MG_AS: BG21_US_ARMY_MG_AS {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MG_AS_M36";
+};
+class BG21_USAB101_MG_TL: BG21_US_ARMY_MG_TL {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MG_AS_M36";
+};
+class BG21_USAB101_Engineer_Mines: BG21_US_ARMY_Engineer_Mines {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MINES_M36";
+};
+class BG21_USAB101_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};		
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_EXPLOS_M36";
+};
+class BG21_USAB101_Medic: BG21_US_ARMY_Medic {
+	faction = "BG21_USAB101";
+	uniformClass = "U_LIB_US_AB_Uniform_M42_Medic";
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_AB_Helmet_Medic_1",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_AB_Helmet_Medic_1",LINKED_ITEMS_BASE};	
+	backpack = "BG21_US_B_MEDIC_M36";
+};
+class BG21_USAB101_Mortar_TL: BG21_US_ARMY_Mortar_TL {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};	
+	backpack = "BG21_US_B_MORTAR_M36";
+};
+class BG21_USAB101_Mortar: BG21_US_ARMY_Mortar {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MORTAR_M36";
+};
+class BG21_USAB101_Mortar_AS: BG21_US_ARMY_Mortar_AS {
+	faction = "BG21_USAB101";
+	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MORTAR_M36";
+};
+
 // DDAY
 class BG21_US_DDAY_PL: BG21_US_ARMY_PL {
 	faction = "BG21_US_DDAY";

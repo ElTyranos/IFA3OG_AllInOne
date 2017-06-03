@@ -227,6 +227,31 @@ switch (_this select 1) do {
 		_unit addHeadGear _headgear;
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	case "USAB_101" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_AB_Helmet","H_LIB_US_AB_Helmet_2","H_LIB_US_AB_Helmet_3","H_LIB_US_AB_Helmet_4","H_LIB_US_AB_Helmet_5","H_LIB_US_AB_Helmet_Plain_1","H_LIB_US_AB_Helmet_Plain_2","H_LIB_US_AB_Helmet_Plain_3"];
+		_uniforms = ["U_LIB_US_AB_Uniform_M42"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	case "USAB_82" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_AB_Helmet_Clear_1","H_LIB_US_AB_Helmet_Clear_2","H_LIB_US_AB_Helmet_Clear_3"];
+		_uniforms = ["U_LIB_US_AB_Uniform_M43","U_LIB_US_AB_Uniform_M43_Flag"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};	
+	
 	case "UK" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk3","fow_h_uk_mk3_net"];

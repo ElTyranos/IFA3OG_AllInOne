@@ -183,6 +183,97 @@ class BG21_US_B_GRENADIER: B_LIB_US_Backpack {
 	};
 };
 
+//Airborne backpacks
+class B_LIB_US_Backpack_M36: B_LIB_US_Backpack {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+class BG21_US_B_CO_M36: BG21_US_B_CO {
+	// model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
+	// hiddenSelections[] = {"camo","camo2"};
+	// hiddenSelectionsTextures[] = {"ww2\assets_t\characters\americans_t\us_army\lodu_bagpack_co.paa","ww2\assets_t\characters\americans_t\us_army\us_m7_gas_mask_bag_co.paa"};
+};
+class BG21_US_B_SL_M36: BG21_US_B_SL {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_MEDIC_M36: BG21_US_B_MEDIC {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_AT_M36: BG21_US_B_AT {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_AT_AS_M36: BG21_US_B_AT_AS {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+class BG21_US_B_BAR_M36: BG21_US_B_BAR {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_MG_M36: BG21_US_B_MG {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+class BG21_US_B_MG_AS_M36: BG21_US_B_MG_AS {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_EXPLOS_M36: BG21_US_B_EXPLOS {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+class BG21_US_B_MINES_M36: BG21_US_B_MINES {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+class BG21_US_B_MORTAR_M36: BG21_US_B_MORTAR {
+	displayName = "$STR_B_LIB_US_M36";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_01.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
+};
+class BG21_US_B_GRENADIER_M36: BG21_US_B_GRENADIER {
+	displayName = "$STR_B_LIB_US_M36_Rope";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_02.p3d";
+	hiddenSelections[] = {"camo","camo1"};
+	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa","\WW2\Assets_t\Characters\Americans_t\WW2_US_Airborne\Rope_co.paa"};
+};
+
 //D-Day Backpacks
 class BG21_US_B_CO_DDAY: BG21_US_B_CO {
 	// model = "\WW2\Assets_m\Characters\Americans_m\US_Army\WW2_lodu_us_backpack_dday.p3d";
