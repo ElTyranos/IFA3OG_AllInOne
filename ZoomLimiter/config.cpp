@@ -20,41 +20,119 @@ class cfgWeapons
 
 	// FOW
 	class fow_rifle_base : Rifle_Base_F {
-			opticsZoomMin = 0.75;
-			opticsZoomInit = 0.75; // 1
-			opticsZoomMax = 0.75;
+			opticsZoomMin = 0.4;
+			opticsZoomInit = 0.4; // 1
+			opticsZoomMax = 0.4;
+	};
+
+	// LEN
+	class LIB_K98;
+	class LEN_SMLE_No4Mk1: LIB_K98
+	{
+		class OpticsModes
+		{
+			class Ironsights
+			{
+				opticsID = 1;
+				useModelOptics = 0;
+				opticsFlare = 0;
+				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+				opticsZoomMax = 1.4;
+				opticsZoomMin = 0.4;
+				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
+				discreteDistanceInitIndex = 1;
+				distanceZoomMax = 300;
+				distanceZoomMin = 300;
+				opticsZoomInit = 0.4;
+				memoryPointCamera = "eye";
+				visionMode[] = {};
+				opticsDisablePeripherialVision = 0;
+				cameraDir = "";
+			};
+		};
+		class WeaponSlotsInfo
+		{
+			class MuzzleSlot: SlotInfo
+			{
+				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {"Len_ACC_No4_Bayo"};
+			};
+			class CowsSlot{};
+			class PointerSlot{};
+			class UnderBarrelSlot{};
+		};
+	};
+	class LEN_SMLE_No4Mk1T: LEN_SMLE_No4Mk1
+	{
+		class OpticsModes
+		{
+			class Scope
+			{
+				opticsID = 1;
+				useModelOptics = 1;
+				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur3"};
+				opticsZoomMin = 0.0425;
+				opticsZoomMax = 0.0425;
+				opticsZoomInit = 0.0425;
+				memoryPointCamera = "opticView";
+				visionMode[] = {"Normal"};
+				opticsFlare = "true";
+				opticsDisablePeripherialVision = "true";
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				discreteDistance[] = {100,200,300,400,500,600,700,800};
+				discreteDistanceInitIndex = 2;
+				cameraDir = "";
+			};
+			class Ironsights: Scope
+			{
+				opticsID = 2;
+				useModelOptics = 0;
+				opticsFlare = "false";
+				opticsDisablePeripherialVision = "false";
+				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.4;
+				opticsZoomInit = 0.4;
+				memoryPointCamera = "eye";
+				visionMode[] = {};
+				distanceZoomMin = 100;
+				distanceZoomMax = 100;
+				discreteDistance[] = {100,200,300,400};
+				discreteDistanceInitIndex = 0;
+			};
+		};
 	};
 
 	// IF
 	class LIB_PISTOL: Pistol_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_SMG: Rifle_Short_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_RIFLE: Rifle_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_LMG: Rifle_Long_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_SRIFLE: Rifle_Long_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_K98ZF39: LIB_SRIFLE
 	{
@@ -70,9 +148,9 @@ class cfgWeapons
 			};
 			class Ironsights
 			{
-				opticsZoomMin = 0.75;
-				opticsZoomInit = 0.75; // 1
-				opticsZoomMax = 0.75;
+				opticsZoomMin = 0.4;
+				opticsZoomInit = 0.4; // 1
+				opticsZoomMax = 0.4;
 				discretefov[] = {0.75,0.75};
 				discreteInitIndex = 0;
 			};
@@ -92,9 +170,9 @@ class cfgWeapons
 			};
 			class Ironsights
 			{
-				opticsZoomMin = 0.75;
-				opticsZoomInit = 0.75; // 1
-				opticsZoomMax = 0.75;
+				opticsZoomMin = 0.4;
+				opticsZoomInit = 0.4; // 1
+				opticsZoomMax = 0.4;
 				discretefov[] = {0.75,0.75};
 				discreteInitIndex = 0;
 			};
@@ -108,15 +186,15 @@ class cfgWeapons
 	};
 	class LIB_LAUNCHER: Launcher_Base_F
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_PzFaust_30m: LIB_LAUNCHER
 	{
-		opticsZoomMin = 0.75;
-		opticsZoomInit = 0.75; // 1
-		opticsZoomMax = 0.75;
+		opticsZoomMin = 0.4;
+		opticsZoomInit = 0.4; // 1
+		opticsZoomMax = 0.4;
 	};
 	class LIB_DT_OPTIC: LIB_DT
 	{
