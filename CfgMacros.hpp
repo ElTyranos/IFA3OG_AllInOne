@@ -508,3 +508,119 @@
 				position[] = {-2,-2,0}; \
 			}; \
 		};
+
+#define GROUP8(CLASSNAME,DISPLAYNAME,FACTION,SIDE,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3,UNIT4,RANK4,UNIT5,RANK5,UNIT6,RANK6,UNIT7,RANK7) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+			class Unit4 { \
+				side = SIDE; \
+				vehicle = UNIT4; \
+				rank = RANK4; \
+				position[] = {4,-4,0}; \
+			}; \
+			class Unit5 { \
+				side = SIDE; \
+				vehicle = UNIT5; \
+				rank = RANK5; \
+				position[] = {-1,-1,0}; \
+			}; \
+			class Unit6 { \
+				side = SIDE; \
+				vehicle = UNIT6; \
+				rank = RANK6; \
+				position[] = {-2,-2,0}; \
+			}; \
+			class Unit7 { \
+				side = SIDE; \
+				vehicle = UNIT7; \
+				rank = RANK7; \
+				position[] = {-3,-3,0}; \
+			}; \
+		};
+
+#define GROUP9(CLASSNAME,DISPLAYNAME,FACTION,SIDE,UNIT0,RANK0,UNIT1,RANK1,UNIT2,RANK2,UNIT3,RANK3,UNIT4,RANK4,UNIT5,RANK5,UNIT6,RANK6,UNIT7,RANK7,UNIT8,RANK8) \
+		class CLASSNAME { \
+			name = DISPLAYNAME; \
+			faction = FACTION; \
+			side = SIDE; \
+			class Unit0 { \
+				side = SIDE; \
+				vehicle = UNIT0; \
+				rank = RANK0; \
+				position[] = {0,0,0}; \
+			}; \
+			class Unit1 { \
+				side = SIDE; \
+				vehicle = UNIT1; \
+				rank = RANK1; \
+				position[] = {1,-1,0}; \
+			}; \
+			class Unit2 { \
+				side = SIDE; \
+				vehicle = UNIT2; \
+				rank = RANK2; \
+				position[] = {2,-2,0}; \
+			}; \
+			class Unit3 { \
+				side = SIDE; \
+				vehicle = UNIT3; \
+				rank = RANK3; \
+				position[] = {3,-3,0}; \
+			}; \
+			class Unit4 { \
+				side = SIDE; \
+				vehicle = UNIT4; \
+				rank = RANK4; \
+				position[] = {4,-4,0}; \
+			}; \
+			class Unit5 { \
+				side = SIDE; \
+				vehicle = UNIT5; \
+				rank = RANK5; \
+				position[] = {-1,-1,0}; \
+			}; \
+			class Unit6 { \
+				side = SIDE; \
+				vehicle = UNIT6; \
+				rank = RANK6; \
+				position[] = {-2,-2,0}; \
+			}; \
+			class Unit7 { \
+				side = SIDE; \
+				vehicle = UNIT7; \
+				rank = RANK7; \
+				position[] = {-3,-3,0}; \
+			}; \
+			class Unit8 { \
+				side = SIDE; \
+				vehicle = UNIT8; \
+				rank = RANK8; \
+				position[] = {-4,-4,0}; \
+			}; \
+		};
