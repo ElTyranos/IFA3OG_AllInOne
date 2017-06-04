@@ -139,6 +139,11 @@ class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG_AS";
 };
+class BG21_US_ARMY_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS {
+	displayname = "M1919A4 Assistant (Tripod)";
+	weapons[] = {"LIB_M1_Garand","LIB_M2_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_M2_Tripod","Throw","Put"};
+};
 class BG21_US_ARMY_MG_TL: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "M1919A4 Team Leader";
@@ -396,6 +401,16 @@ class BG21_USAB101_MG_AS: BG21_US_ARMY_MG_AS {
 	};
 	backpack = "BG21_US_B_MG_AS_M36";
 };
+class BG21_USAB101_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
+	faction = "BG21_USAB101";
+	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MG_AS_M36";
+};
 class BG21_USAB101_MG_TL: BG21_US_ARMY_MG_TL {
 	faction = "BG21_USAB101";
 	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
@@ -589,6 +604,14 @@ class BG21_US_DDAY_MG_AS: BG21_US_ARMY_MG_AS {
 	};
 	backpack = "BG21_US_B_MG_AS_DDAY";
 };
+class BG21_US_DDAY_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
+	faction = "BG21_US_DDAY";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USRANGERS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_US_B_MG_AS_DDAY";
+};
 class BG21_US_DDAY_MG_TL: BG21_US_ARMY_MG_TL {
 	faction = "BG21_US_DDAY";
 	class EventHandlers: Eventhandlers
@@ -769,6 +792,18 @@ class BG21_USMC_MG: BG21_US_ARMY_MG {
 	backpack = "BG21_USMC_B_MG";
 };
 class BG21_USMC_MG_AS: BG21_US_ARMY_MG_AS {
+	faction = "BG21_USMC";
+	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "BG21_USMC_B_MG_AS";
+};
+class BG21_USMC_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
 	faction = "BG21_USMC";
 	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
