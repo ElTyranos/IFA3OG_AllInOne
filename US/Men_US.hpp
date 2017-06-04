@@ -260,8 +260,8 @@ class BG21_USAB101_SL: BG21_US_ARMY_SL {
 	faction = "BG21_USAB101";
 	uniformClass = "U_LIB_US_AB_Uniform_M42_NCO";
 	class EventHandlers {};
-	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson","V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson","V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson","H_LIB_US_AB_Helmet_NCO_1",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson","H_LIB_US_AB_Helmet_NCO_1",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_SL";
 };
 class BG21_USAB101_TL: BG21_US_ARMY_TL {
