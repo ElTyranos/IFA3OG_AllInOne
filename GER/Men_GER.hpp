@@ -507,6 +507,13 @@ class BG21_GER_FJS_TL_K98: BG21_GER_WH_TL_K98 {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
+class BG21_GER_FJS_TL_FG42: BG21_GER_FJS_TL_G43 {
+	displayname = "Unteroffizier (G43)";
+	weapons[] = {"LEN_FG42","Throw","Put"};
+	respawnWeapons[] = {"LEN_FG42","Throw","Put"};
+	magazines[] = {GER_9x_len_20Rnd_792x57,GER_GRENADES};
+	respawnmagazines[] = {GER_9x_len_20Rnd_792x57,GER_GRENADES};
+};
 class BG21_GER_FJS_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 	faction = "BG21_GER_FJS";
 	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
