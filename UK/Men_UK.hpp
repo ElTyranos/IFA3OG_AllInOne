@@ -49,6 +49,13 @@ class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
+class BG21_UK_ARMY_Recon_TL: BG21_UK_ARMY_Rifleman {
+	displayname = "Recon Team Leader";
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {UK_10x_LEN_10Rnd_303,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_10x_LEN_10Rnd_303,UK_GRENADES,UK_GRENADES_SMOKE};	
+};
 class BG21_UK_ARMY_Recon: BG21_UK_ARMY_Rifleman {
 	displayname = "Recon";
 	weapons[] = {"LEN_SMLE_No4Mk1","LIB_Binocular_US","Throw","Put"};
@@ -243,6 +250,15 @@ class BG21_UK_AB_Rifleman: BG21_UK_ARMY_Rifleman {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_AB_Recon_TL: BG21_UK_ARMY_Recon_TL {
+	faction = "BG21_UK_AB";
+	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -448,6 +464,16 @@ class BG21_UK_CDO_TL: BG21_UK_ARMY_TL {
 	};
 };
 class BG21_UK_CDO_Rifleman: BG21_UK_ARMY_Rifleman {
+	faction = "BG21_UK_CDO";
+	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
+	backpack = "BG21_UK_CDO_B";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_CDO'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_CDO_Recon_TL: BG21_UK_ARMY_Recon_TL {
 	faction = "BG21_UK_CDO";
 	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};

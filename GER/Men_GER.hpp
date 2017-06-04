@@ -65,6 +65,13 @@ class BG21_GER_WH_Grenadier: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Grenadier";
 	backpack = "B_LIB_GER_GRENADIER";
 };
+class BG21_GER_WH_Recon_TL: BG21_GER_WH_Rifleman_K98 {
+	displayname = "Recon Team Leader";
+	weapons[] = {"LIB_K98","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
+	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
+};
 class BG21_GER_WH_Recon: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Recon";
 	weapons[] = {"LIB_K98","LIB_Binocular_GER","Throw","Put"};
@@ -315,6 +322,13 @@ class BG21_GER_WH_W_Grenadier: BG21_GER_WH_Grenadier {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
+class BG21_GER_WH_W_Recon_TL: BG21_GER_WH_Recon_TL {
+	faction = "BG21_GER_WH_Winter";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
 class BG21_GER_WH_W_Recon: BG21_GER_WH_Recon {
 	faction = "BG21_GER_WH_Winter";
 	class EventHandlers: Eventhandlers
@@ -507,6 +521,16 @@ class BG21_GER_FJS_Grenadier: BG21_GER_WH_Grenadier {
 	faction = "BG21_GER_FJS";
 	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_FJS_Recon_TL: BG21_GER_WH_Recon_TL {
+	faction = "BG21_GER_FJS";
+	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -739,6 +763,16 @@ class BG21_GER_DAK_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 };
 class BG21_GER_DAK_Grenadier: BG21_GER_WH_Grenadier {
 	faction = "BG21_GER_DAK";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_DAK_Recon_TL: BG21_GER_WH_Recon_TL {
+	faction = "BG21_GER_DAK";
+	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
