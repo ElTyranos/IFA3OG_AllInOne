@@ -328,8 +328,8 @@ class BG21_USAB101_Radio: BG21_US_ARMY_Radio {
 	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
 	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
