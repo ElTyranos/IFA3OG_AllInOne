@@ -41,6 +41,8 @@
 
 #define GER_2x_LIB_8Rnd_9x19 "LIB_8Rnd_9x19","LIB_8Rnd_9x19"
 
+#define GER_9x_len_20Rnd_792x57 "len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57"
+
 // IJA
 #define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
 
