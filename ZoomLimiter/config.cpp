@@ -10,6 +10,7 @@ class CfgPatches
 };
 class cfgWeapons
 {
+	class SlotInfo;
 	class Launcher_Base_F;
 	class MGun;
 	class Pistol_Base_F;
@@ -17,91 +18,6 @@ class cfgWeapons
 	class Rifle_Long_Base_F;
 	class Rifle_Short_Base_F;
 	class LIB_DT;
-
-	// FOW
-	class fow_rifle_base : Rifle_Base_F {
-			opticsZoomMin = 0.4;
-			opticsZoomInit = 0.4; // 1
-			opticsZoomMax = 0.4;
-	};
-
-	// LEN
-	class LIB_K98;
-	class LEN_SMLE_No4Mk1: LIB_K98
-	{
-		class OpticsModes
-		{
-			class Ironsights
-			{
-				opticsID = 1;
-				useModelOptics = 0;
-				opticsFlare = 0;
-				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
-				opticsZoomMax = 1.4;
-				opticsZoomMin = 0.4;
-				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
-				discreteDistanceInitIndex = 1;
-				distanceZoomMax = 300;
-				distanceZoomMin = 300;
-				opticsZoomInit = 0.4;
-				memoryPointCamera = "eye";
-				visionMode[] = {};
-				opticsDisablePeripherialVision = 0;
-				cameraDir = "";
-			};
-		};
-		class WeaponSlotsInfo
-		{
-			class MuzzleSlot: SlotInfo
-			{
-				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[] = {"Len_ACC_No4_Bayo"};
-			};
-			class CowsSlot{};
-			class PointerSlot{};
-			class UnderBarrelSlot{};
-		};
-	};
-	class LEN_SMLE_No4Mk1T: LEN_SMLE_No4Mk1
-	{
-		class OpticsModes
-		{
-			class Scope
-			{
-				opticsID = 1;
-				useModelOptics = 1;
-				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur3"};
-				opticsZoomMin = 0.0425;
-				opticsZoomMax = 0.0425;
-				opticsZoomInit = 0.0425;
-				memoryPointCamera = "opticView";
-				visionMode[] = {"Normal"};
-				opticsFlare = "true";
-				opticsDisablePeripherialVision = "true";
-				distanceZoomMin = 300;
-				distanceZoomMax = 300;
-				discreteDistance[] = {100,200,300,400,500,600,700,800};
-				discreteDistanceInitIndex = 2;
-				cameraDir = "";
-			};
-			class Ironsights: Scope
-			{
-				opticsID = 2;
-				useModelOptics = 0;
-				opticsFlare = "false";
-				opticsDisablePeripherialVision = "false";
-				opticsZoomMin = 0.4;
-				opticsZoomMax = 0.4;
-				opticsZoomInit = 0.4;
-				memoryPointCamera = "eye";
-				visionMode[] = {};
-				distanceZoomMin = 100;
-				distanceZoomMax = 100;
-				discreteDistance[] = {100,200,300,400};
-				discreteDistanceInitIndex = 0;
-			};
-		};
-	};
 
 	// IF
 	class LIB_PISTOL: Pistol_Base_F
@@ -202,4 +118,92 @@ class cfgWeapons
 		opticsZoomInit = 0.194;
 		opticsZoomMax = 0.194;
 	};
+
+	// FOW
+	class fow_rifle_base : Rifle_Base_F {
+			opticsZoomMin = 0.4;
+			opticsZoomInit = 0.4; // 1
+			opticsZoomMax = 0.4;
+	};
+
+	// LEN
+	class LIB_K98: LIB_RIFLE {
+		
+	};
+	class LEN_SMLE_No4Mk1: LIB_K98
+	{
+		class OpticsModes
+		{
+			class Ironsights
+			{
+				opticsID = 1;
+				useModelOptics = 0;
+				opticsFlare = 0;
+				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+				opticsZoomMax = 1.4;
+				opticsZoomMin = 0.4;
+				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
+				discreteDistanceInitIndex = 1;
+				distanceZoomMax = 300;
+				distanceZoomMin = 300;
+				opticsZoomInit = 0.4;
+				memoryPointCamera = "eye";
+				visionMode[] = {};
+				opticsDisablePeripherialVision = 0;
+				cameraDir = "";
+			};
+		};
+		class WeaponSlotsInfo
+		{
+			class MuzzleSlot: SlotInfo
+			{
+				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {"Len_ACC_No4_Bayo"};
+			};
+			class CowsSlot{};
+			class PointerSlot{};
+			class UnderBarrelSlot{};
+		};
+	};
+	class LEN_SMLE_No4Mk1T: LEN_SMLE_No4Mk1
+	{
+		class OpticsModes
+		{
+			class Scope
+			{
+				opticsID = 1;
+				useModelOptics = 1;
+				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur3"};
+				opticsZoomMin = 0.0425;
+				opticsZoomMax = 0.0425;
+				opticsZoomInit = 0.0425;
+				memoryPointCamera = "opticView";
+				visionMode[] = {"Normal"};
+				opticsFlare = "true";
+				opticsDisablePeripherialVision = "true";
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				discreteDistance[] = {100,200,300,400,500,600,700,800};
+				discreteDistanceInitIndex = 2;
+				cameraDir = "";
+			};
+			class Ironsights: Scope
+			{
+				opticsID = 2;
+				useModelOptics = 0;
+				opticsFlare = "false";
+				opticsDisablePeripherialVision = "false";
+				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.4;
+				opticsZoomInit = 0.4;
+				memoryPointCamera = "eye";
+				visionMode[] = {};
+				distanceZoomMin = 100;
+				distanceZoomMax = 100;
+				discreteDistance[] = {100,200,300,400};
+				discreteDistanceInitIndex = 0;
+			};
+		};
+	};
+
 };
