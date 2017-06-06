@@ -139,12 +139,12 @@ class BG21_UK_ARMY_BREN: BG21_UK_Soldier_base {
 class BG21_UK_ARMY_BREN_AS: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "Bren Gunner Assistant";
-	weapons[] = {"fow_w_bren","Throw","Put"};
-	respawnWeapons[] = {"fow_w_bren","Throw","Put"};
-	magazines[] = {UK_5x_fow_30Rnd_303_bren,UK_GRENADES};
-	respawnmagazines[] = {UK_5x_fow_30Rnd_303_bren,UK_GRENADES};
-	linkedItems[] = {"fow_v_uk_bren",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_bren",LINKED_ITEMS_BASE};
+	weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+	magazines[] = {UK_10x_LEN_10Rnd_303,UK_GRENADES};
+	respawnmagazines[] = {UK_10x_LEN_10Rnd_303,UK_GRENADES};
+	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B_BREN";
 };
 class BG21_UK_ARMY_MG: BG21_UK_Soldier_base {
