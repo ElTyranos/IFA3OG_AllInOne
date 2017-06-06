@@ -16,6 +16,10 @@ class CfgPatches
 #include "CfgMarkers.hpp"
 #include "CfgMacros.hpp"
 
+class cfgMagazines
+{
+	#include "Compatibility\cfgMagazines.hpp"
+};
 class cfgWeapons
 {
 	#include "Compatibility\cfgWeapons.hpp"
