@@ -6,8 +6,8 @@ class BG21_US_ARMY_PL: BG21_US_Soldier_base {
 	class EventHandlers {};
 	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_CO";
@@ -23,8 +23,8 @@ class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 	displayname = "Squad Leader";
 	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES,US_GRENADES_SMOKE};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_SL";
@@ -59,8 +59,8 @@ class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
 	displayname = "Recon Team Leader";
 	weapons[] = {"LIB_M1_Carbine","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1_Carbine","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES,US_GRENADES_SMOKE};
-	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES,US_GRENADES_SMOKE};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
 };
 class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 	displayname = "Recon";
@@ -226,8 +226,8 @@ class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
 	class EventHandlers {};
 	weapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
-	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES,US_GRENADES_SMOKE};
+	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	backpack = "";
