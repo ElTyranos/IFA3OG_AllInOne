@@ -74,7 +74,7 @@ class BG21_UK_ARMY_Recon: BG21_UK_ARMY_Rifleman {
 };
 class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 	displayname = "Radio";
-	backpack = "fow_b_uk_p37_radio";
+	backpack = "BG21_UK_B_RADIO";
 };
 class BG21_UK_ARMY_Mortar: BG21_UK_ARMY_Rifleman {
 	displayname = "Mortar Operator";

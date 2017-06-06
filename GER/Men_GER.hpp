@@ -79,7 +79,7 @@ class BG21_GER_WH_Recon: BG21_GER_WH_Rifleman_K98 {
 };
 class BG21_GER_WH_Radio: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Radio";
-	backpack = "B_LIB_GER_Radio";
+	backpack = "BG21_GER_B_RADIO";
 };
 class BG21_GER_WH_Mortar: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Mortar Operator";

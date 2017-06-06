@@ -1,6 +1,6 @@
 class B_LIB_SOV_RA_Shinel;
 class B_LIB_SOV_RA_GasBag;
-class B_LIB_SOV_RA_Radio;
+class B_LIB_SOV_RA_Radio_ACRE2;
 class B_LIB_SOV_RA_Rucksack;
 class B_LIB_SOV_RA_Rucksack_Green;
 class B_LIB_SOV_RA_Rucksack2;
@@ -9,8 +9,16 @@ class B_LIB_SOV_RA_MedicalBag_Empty;
 class B_LIB_SOV_RA_MGAmmoBag_Empty;
 class B_LIB_SOV_RA_Paradrop;
 
-class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio {
+class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio_ACRE2 {
 	scope = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};	
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -29,6 +37,17 @@ class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio {
 			class _xx_LIB_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
+		};
+	};
+};
+class BG21_SOV_B_RADIO: B_LIB_SOV_RA_Radio_ACRE2 {
+	scope = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
 		};
 	};
 };

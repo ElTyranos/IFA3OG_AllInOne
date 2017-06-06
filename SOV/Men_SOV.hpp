@@ -66,7 +66,7 @@ class BG21_SOV_RA_Grenadier: BG21_SOV_RA_Rifleman_Mosin {
 };
 class BG21_SOV_RA_Radio: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Radio";
-	backpack = "B_LIB_SOV_RA_Radio";
+	backpack = "BG21_SOV_B_RADIO";
 };
 class BG21_SOV_RA_Recon: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Recon";

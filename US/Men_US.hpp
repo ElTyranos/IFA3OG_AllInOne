@@ -71,7 +71,7 @@ class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 };
 class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
-	backpack = "B_LIB_US_Radio";
+	backpack = "BG21_US_B_RADIO";
 };
 class BG21_US_ARMY_BAR: BG21_US_Soldier_base {
 	scope = 2;

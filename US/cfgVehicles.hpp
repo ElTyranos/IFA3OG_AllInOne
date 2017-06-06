@@ -1,12 +1,20 @@
 class B_LIB_US_Backpack;
 class B_LIB_US_Backpack_dday;
 class B_LIB_US_RocketBag;
-class B_LIB_US_Radio;
+class B_LIB_US_Radio_ACRE2;
 class B_LIB_US_Bandoleer;
 class B_LIB_US_MGbag;
 
-class BG21_US_B_CO: B_LIB_US_Radio {
+class BG21_US_B_CO: B_LIB_US_Radio_ACRE2 {
 	scopeArsenal = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};	
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -25,6 +33,17 @@ class BG21_US_B_CO: B_LIB_US_Radio {
 			class _xx_LIB_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
+		};
+	};
+};
+class BG21_US_B_RADIO: B_LIB_US_Radio_ACRE2 {
+	scopeArsenal = 1;
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
 		};
 	};
 };

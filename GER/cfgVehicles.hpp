@@ -1,7 +1,7 @@
 class B_LIB_GER_A_frame;
 class B_LIB_GER_A_frame_kit;
 class B_LIB_GER_A_frame_zeltbahn;
-class B_LIB_GER_Radio;
+class B_LIB_GER_Radio_ACRE2;
 class B_LIB_GER_Backpack;
 class B_LIB_GER_SapperBackpack_empty;
 class B_LIB_GER_MedicBackpack_Empty;
@@ -9,9 +9,15 @@ class B_LIB_GER_Tonister34_cowhide;
 class B_LIB_GER_LW_Paradrop;	
 class B_LIB_GER_Panzer_Empty;
 
-class BG21_GER_B_CO: B_LIB_GER_Radio {
-	scope = 1;
-	scopeArsenal = 1;
+class BG21_GER_B_CO: B_LIB_GER_Radio_ACRE2 {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -30,6 +36,16 @@ class BG21_GER_B_CO: B_LIB_GER_Radio {
 		class _xx_LIB_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
+		};
+	};
+};
+class BG21_GER_B_RADIO: B_LIB_GER_Radio_ACRE2 {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
 		};
 	};
 };

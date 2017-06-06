@@ -51,7 +51,7 @@ class BG21_IJA_Rifleman: BG21_IJA_Soldier_base {
 };
 class BG21_IJA_Radio: BG21_IJA_Rifleman {
 	displayname = "Radio";
-	backpack = "B_LIB_GER_Radio";
+	backpack = "BG21_IJA_B_RADIO";
 };
 class BG21_IJA_Mortar: BG21_IJA_Rifleman {
 	displayname = "Mortar Operator";

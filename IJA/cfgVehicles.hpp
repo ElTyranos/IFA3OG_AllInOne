@@ -8,7 +8,15 @@ class BG21_IJA_B_FOLIAGE: fow_b_ija_backpack_foliage {
 	scopeArsenal = 1;
 	maximumLoad = 100;
 };
-class BG21_IJA_B_CO: B_LIB_GER_Radio {
+class BG21_IJA_B_CO: B_LIB_GER_Radio_ACRE2 {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};	
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
@@ -27,6 +35,16 @@ class BG21_IJA_B_CO: B_LIB_GER_Radio {
 			class _xx_LIB_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
+		};
+	};
+};
+class BG21_IJA_B_RADIO: B_LIB_GER_Radio_ACRE2 {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
 		};
 	};
 };

@@ -3,6 +3,57 @@ class BG21_UK_B: fow_b_uk_p37 {
 	scopeArsenal = 1;
 	maximumLoad = 100;
 };
+class fow_b_uk_p37_radio: fow_b_uk_p37 {
+	// tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+	// tf_hasLRradio = 1;
+	// tf_range = 5000;
+	// tf_encryptionCode = "tf_guer_radio_code";
+	// tf_dialog = "anprc155_radio_dialog";
+	// tf_subtype = "digital_lr";
+	maximumLoad = 125;
+	class TransportItems {};	
+};
+class BG21_UK_B_CO: fow_b_uk_p37_radio {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};	
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_flare_red {
+			magazine = "LIB_1Rnd_flare_red";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_green {
+			magazine = "LIB_1Rnd_flare_green";
+			count = 2;
+		};
+		class _xx_LIB_1Rnd_flare_yellow {
+			magazine = "LIB_1Rnd_flare_yellow";
+			count = 2;
+		};
+	};
+	class TransportWeapons {
+			class _xx_LIB_LIB_FLARE_PISTOL {
+			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+	};
+};
+class BG21_UK_B_RADIO: fow_b_uk_p37_radio {
+	class TransportItems
+	{
+		class _xx_ACRE_PRC77
+		{
+			count = 1;
+			name = "ACRE_PRC77";
+		};
+	};
+};
+
 class BG21_UK_B_SL: BG21_UK_B {
 	class TransportMagazines {
 		class _xx_LIB_1Rnd_flare_red {
@@ -134,37 +185,6 @@ class BG21_UK_B_MORTAR: BG21_UK_B {
 			count = 3;
 		};
 	};	
-};
-
-class fow_b_uk_p37_radio: fow_b_uk_p37 {
-	tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-	tf_hasLRradio = 1;
-	tf_range = 5000;
-	tf_encryptionCode = "tf_guer_radio_code";
-	tf_dialog = "anprc155_radio_dialog";
-	tf_subtype = "digital_lr";
-};
-class BG21_UK_B_CO: fow_b_uk_p37_radio {
-	class TransportMagazines {
-		class _xx_LIB_1Rnd_flare_red {
-			magazine = "LIB_1Rnd_flare_red";
-			count = 2;
-		};
-		class _xx_LIB_1Rnd_flare_green {
-			magazine = "LIB_1Rnd_flare_green";
-			count = 2;
-		};
-		class _xx_LIB_1Rnd_flare_yellow {
-			magazine = "LIB_1Rnd_flare_yellow";
-			count = 2;
-		};
-	};
-	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
-			weapon = "LIB_FLARE_PISTOL";
-			count = 1;
-		};
-	};
 };
 
 // Commandos
