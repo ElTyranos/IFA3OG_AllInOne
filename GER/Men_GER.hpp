@@ -111,10 +111,10 @@ class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {
 class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (STG44)";
-	weapons[] = {"LIB_G43","Throw","Put"};
-	respawnWeapons[] = {"LIB_G43","Throw","Put"};
-	magazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
-	respawnmagazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
+	weapons[] = {"LIB_MP44","Throw","Put"};
+	respawnWeapons[] = {"LIB_MP44","Throw","Put"};
+	magazines[] = {GER_7x_LIB_30Rnd_792x33,GER_GRENADES};
+	respawnmagazines[] = {GER_7x_LIB_30Rnd_792x33,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestSTG",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestSTG",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
