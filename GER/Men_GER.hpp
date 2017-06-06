@@ -678,7 +678,7 @@ class BG21_GER_FJS_MG_TL: BG21_GER_WH_MG_TL {
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
-class BG21_GER_FJS_MG_AS_TRIPOD: BG21_GER_WH_MG_TL {
+class BG21_GER_FJS_MG_AS_TRIPOD: BG21_GER_WH_MG_AS_TRIPOD {
 	faction = "BG21_GER_FJS";
 	linkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
