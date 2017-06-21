@@ -216,12 +216,12 @@ class B_LIB_GER_GRENADIER: B_LIB_GER_Backpack {
 			count = 1;
 		};
 	};
-	class TransportWeapons {
-		class _xx_LIB_ACC_GW_SB_Empty {
-			weapon = "LIB_ACC_GW_SB_Empty";
-			count = 1;
-		};
-	};
+	// class TransportWeapons {
+		// class _xx_LIB_ACC_GW_SB_Empty {
+			// weapon = "LIB_ACC_GW_SB_Empty";
+			// count = 1;
+		// };
+	// };
 };
 
 class LIB_GER_Soldier_base;

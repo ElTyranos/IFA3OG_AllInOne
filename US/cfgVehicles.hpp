@@ -194,12 +194,12 @@ class BG21_US_B_GRENADIER: B_LIB_US_Backpack {
 			count = 1;
 		};
 	};
-	class TransportWeapons {
-		class _xx_LIB_ACC_GL_M7 {
-			weapon = "LIB_ACC_GL_M7";
-			count = 1;
-		};
-	};
+	// class TransportWeapons {
+		// class _xx_LIB_ACC_GL_M7 {
+			// weapon = "LIB_ACC_GL_M7";
+			// count = 1;
+		// };
+	// };
 };
 
 //Airborne backpacks

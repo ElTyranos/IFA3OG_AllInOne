@@ -53,6 +53,8 @@ class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 };
 class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
 	displayname = "Grenadier";
+	weapons[] = {"BG21_M1_Garand_Grenadier","Throw","Put"};
+	respawnWeapons[] = {"BG21_M1_Garand_Grenadier","Throw","Put"};	
 	backpack = "BG21_US_B_GRENADIER";
 };
 class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
