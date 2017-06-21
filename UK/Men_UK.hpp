@@ -152,8 +152,8 @@ class BG21_UK_ARMY_MG: BG21_UK_Soldier_base {
 	displayname = "M1919 Gunner";
 	weapons[] = {"LIB_M1919A4","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1919A4","Throw","Put"};
-	magazines[] = {UK_5x_fow_30Rnd_303_bren,UK_GRENADES};
-	respawnmagazines[] = {UK_5x_fow_30Rnd_303_bren,UK_GRENADES};
+	magazines[] = {UK_3x_LIB_50Rnd_762x63,UK_GRENADES};
+	respawnmagazines[] = {UK_3x_LIB_50Rnd_762x63,UK_GRENADES};
 	linkedItems[] = {"fow_v_uk_bren",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"fow_v_uk_bren",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B_MG";

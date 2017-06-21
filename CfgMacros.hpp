@@ -99,6 +99,7 @@
 
 #define UK_5x_fow_30Rnd_303_bren "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 
+#define UK_3x_LIB_50Rnd_762x63 "LIB_50Rnd_762x63","LIB_50Rnd_762x63","LIB_50Rnd_762x63"
 
 // Vehicles common
 #define COMMON_VHL_TRANSPORT_TOOLKIT \
