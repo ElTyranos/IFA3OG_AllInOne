@@ -269,7 +269,7 @@ class BG21_USAB101_SL: BG21_US_ARMY_SL {
 	class EventHandlers {};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson","H_LIB_US_AB_Helmet_NCO_1",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson","H_LIB_US_AB_Helmet_NCO_1",LINKED_ITEMS_COMMANDER};
-	backpack = "BG21_US_B_SL";
+	backpack = "BG21_US_B_SL_M36";
 };
 class BG21_USAB101_TL: BG21_US_ARMY_TL {
 	faction = "BG21_USAB101";
