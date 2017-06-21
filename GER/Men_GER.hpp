@@ -508,7 +508,7 @@ class BG21_GER_FJS_TL_K98: BG21_GER_WH_TL_K98 {
 	};
 };
 class BG21_GER_FJS_TL_FG42: BG21_GER_FJS_TL_G43 {
-	displayname = "Unteroffizier (G43)";
+	displayname = "Unteroffizier (FG42)";
 	weapons[] = {"LEN_FG42","Throw","Put"};
 	respawnWeapons[] = {"LEN_FG42","Throw","Put"};
 	magazines[] = {GER_9x_len_20Rnd_792x57,GER_GRENADES};
