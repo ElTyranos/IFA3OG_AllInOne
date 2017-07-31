@@ -293,6 +293,21 @@ class BG21_USAB101_Rifleman: BG21_US_ARMY_Rifleman {
 	};
 	backpack = "B_LIB_US_Backpack_M36";
 };
+class BG21_USAB101_AssaultRifleman: BG21_US_ARMY_Rifleman {
+	faction = "BG21_USAB101";
+	displayname = "Assault rifleman";
+	weapons[] = {"LIB_M1A1_Thompson","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","Throw","Put"};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson",LINKED_ITEMS_BASE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
+	};
+	backpack = "B_LIB_US_Backpack_M36";	
+};
 class BG21_USAB101_Grenadier: BG21_US_ARMY_Grenadier {
 	faction = "BG21_USAB101";
 	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
