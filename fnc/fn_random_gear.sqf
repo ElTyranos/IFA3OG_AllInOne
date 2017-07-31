@@ -191,6 +191,18 @@ switch (_this select 1) do {
 		_unit addHeadGear _headgear;
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	case "USARMY_W" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_US_Helmet_w","H_LIB_US_Helmet_Net_w","H_LIB_US_Helmet_Cover_w"];
+		_uniforms = ["U_LIB_US_Private_w"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
 	case "USRANGERS" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Rangers_Helmet","H_LIB_US_Rangers_Helmet_ns","H_LIB_US_Rangers_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];

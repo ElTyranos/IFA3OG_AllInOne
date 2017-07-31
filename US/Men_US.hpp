@@ -220,6 +220,166 @@ class BG21_US_ARMY_Mortar_AS: BG21_US_ARMY_Rifleman {
 	backpack = "BG21_US_B_MORTAR";
 };
 
+// ARMY WINTER
+class BG21_US_ARMY_W_PL: BG21_US_ARMY_PL {
+	uniformClass = "U_LIB_US_Private_w";
+	class EventHandlers {};
+	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap_w",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap_w",LINKED_ITEMS_COMMANDER};
+};
+class BG21_US_ARMY_W_PL2: BG21_US_ARMY_PL2 {
+	uniformClass = "U_LIB_US_Private_w";
+	class EventHandlers {};
+	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_First_lieutenant_w",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_First_lieutenant_w",LINKED_ITEMS_COMMANDER};
+};
+class BG21_US_ARMY_W_SL: BG21_US_ARMY_SL {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_TL: BG21_US_ARMY_TL {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Rifleman: BG21_US_ARMY_Rifleman {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Grenadier: BG21_US_ARMY_Grenadier {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Recon_TL: BG21_US_ARMY_Recon_TL {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Recon: BG21_US_ARMY_Recon {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Radio: BG21_US_ARMY_Radio {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_BAR: BG21_US_ARMY_BAR {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Sniper: BG21_US_ARMY_Sniper {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_AT: BG21_US_ARMY_AT {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_AT_AS: BG21_US_ARMY_AT_AS {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_MG: BG21_US_ARMY_MG {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_MG_AS: BG21_US_ARMY_MG_AS {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_MG_TL: BG21_US_ARMY_MG_TL {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Engineer_Mines: BG21_US_ARMY_Engineer_Mines {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Medic: BG21_US_ARMY_Medic {
+	uniformClass = "U_LIB_US_Med";
+	class EventHandlers {};
+	linkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_w",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_w",LINKED_ITEMS_BASE};
+};
+class BG21_US_ARMY_W_Mortar_TL: BG21_US_ARMY_Mortar_TL {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Mortar: BG21_US_ARMY_Mortar {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_US_ARMY_W_Mortar_AS: BG21_US_ARMY_Mortar_AS {
+	faction = "BG21_US_Winter";	
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USARMY_W'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+
 // TANK CREW
 class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
 	scope = 2;
