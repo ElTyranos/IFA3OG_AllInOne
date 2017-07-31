@@ -34,7 +34,7 @@ switch (_this select 1) do {
 	case "WH_W" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 		_headgears = ["H_LIB_GER_HelmetCamo_w","H_LIB_GER_Helmet_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"];
-		_uniforms = ["U_LIB_GER_Schutze_w"];
+		_uniforms = ["U_LIB_GER_Soldier3_w","U_LIB_GER_Soldier_camo_w","U_LIB_GER_Scharfschutze_w"];
 		_uniform = _uniforms call BIS_fnc_selectRandom;
 		_headgear = _headgears call BIS_fnc_selectRandom;
 		_blacklist_uniform = [""];
