@@ -266,7 +266,7 @@ switch (_this select 1) do {
 	
 	case "UK" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
-		_headgears = ["fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk3","fow_h_uk_mk3_net"];
+		_headgears = ["fow_h_uk_mk2","fow_h_uk_mk2_net","fow_h_uk_mk2_net_camo","fow_h_uk_mk3","fow_h_uk_mk3_net_camo"];
 		_uniforms = ["fow_u_uk_bd40_01_private"];
 		_uniform = _uniforms call BIS_fnc_selectRandom;
 		_headgear = _headgears call BIS_fnc_selectRandom;
