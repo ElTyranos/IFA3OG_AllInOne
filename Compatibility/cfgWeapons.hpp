@@ -126,6 +126,15 @@ class fow_v_fall_bandoleer: fow_v_base
 	};
 };
 
+// PIAT ACE3 Compat
+class Launcher_Base_F;
+class fow_w_piat: Launcher_Base_F
+{
+	ace_overpressure_angle = 0;
+	ace_overpressure_range = 0;
+	ace_overpressure_damage = 0;
+};
+
 // LEN Sounds
 class LIB_RIFLE;
 class LIB_K98: LIB_RIFLE {
