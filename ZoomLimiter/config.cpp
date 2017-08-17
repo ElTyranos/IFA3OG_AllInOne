@@ -122,7 +122,7 @@ class cfgWeapons
 	// FOW
 	class fow_rifle_base : Rifle_Base_F {
 			opticsZoomMin = 0.4;
-			opticsZoomInit = 0.4; // 1
+			opticsZoomInit = 0.4;
 			opticsZoomMax = 0.4;
 	};
 
@@ -140,13 +140,13 @@ class cfgWeapons
 				useModelOptics = 0;
 				opticsFlare = 0;
 				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
-				opticsZoomMax = 1.4;
 				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.4;
+				opticsZoomInit = 0.4;
 				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000};
 				discreteDistanceInitIndex = 1;
 				distanceZoomMax = 300;
 				distanceZoomMin = 300;
-				opticsZoomInit = 0.4;
 				memoryPointCamera = "eye";
 				visionMode[] = {};
 				opticsDisablePeripherialVision = 0;
@@ -191,8 +191,8 @@ class cfgWeapons
 			{
 				opticsID = 2;
 				useModelOptics = 0;
-				opticsFlare = "false";
-				opticsDisablePeripherialVision = "false";
+				opticsFlare = 0;
+				opticsDisablePeripherialVision = 0;
 				opticsZoomMin = 0.4;
 				opticsZoomMax = 0.4;
 				opticsZoomInit = 0.4;
