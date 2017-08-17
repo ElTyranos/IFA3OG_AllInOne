@@ -18,6 +18,7 @@ class cfgWeapons
 	class Rifle_Long_Base_F;
 	class Rifle_Short_Base_F;
 	class LIB_DT;
+	class LIB_MP44;
 
 	// IF
 	class LIB_PISTOL: Pistol_Base_F
@@ -205,5 +206,29 @@ class cfgWeapons
 			};
 		};
 	};
-
+	class LEN_FG42: LIB_MP44
+	{
+		class OpticsModes
+		{
+			class Ironsights
+			{
+				opticsID = 1;
+				useModelOptics = 0;
+				opticsPPEffects[] = {"OpticsCHAbera1","OpticsBlur1"};
+				opticsZoomMin = 0.4;
+				opticsZoomMax = 0.4;
+				opticsZoomInit = 0.4;
+				memoryPointCamera = "eye";
+				visionMode[] = {"Normal"};
+				opticsFlare = 1;
+				opticsDisablePeripherialVision = 1;
+				distanceZoomMin = 300;
+				distanceZoomMax = 300;
+				discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200};
+				discreteDistanceCameraPoint[] = {"eye","eye_200","eye_300","eye_400","eye_500","eye_600","eye_700","eye_800","eye_900","eye_1000","eye_1100","eye_1200"};
+				discreteDistanceInitIndex = 0;
+				cameraDir = "eye_look";
+			};
+		};
+	};
 };
