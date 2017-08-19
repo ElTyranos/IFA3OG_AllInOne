@@ -12,4 +12,14 @@ class CfgFunctions
 			};
 		};
 	};
+	class BG21
+	{
+		class DeathScreams
+		{
+			class DeathScream
+			{
+				file="\WW2OG_AllInOne\fnc\DeathScream.sqf";
+			};
+		};
+	};
 };

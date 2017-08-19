@@ -10,11 +10,16 @@ class CfgPatches
 	};
 	#include "Compatibility\cfgPatches.hpp"
 };
+
+#include "Extended_killed_Eventhandlers.hpp"
+#include "Extended_PostInit_EventHandlers.hpp"
 #include "CfgRagdolls.hpp"
 #include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
 #include "CfgMarkers.hpp"
+#include "CfgSounds.hpp"
+#include "CfgDeathScreams.hpp"
 #include "CfgMacros.hpp"
 
 class cfgMagazines
