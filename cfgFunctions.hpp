@@ -9,7 +9,7 @@ class CfgFunctions
 			class random_gear
 			{
 				preInit = 1;
-			};			
+			};
 		};
 	};
 };
