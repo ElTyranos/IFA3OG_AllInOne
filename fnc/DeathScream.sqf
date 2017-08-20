@@ -22,7 +22,7 @@ publicVariable  "BG21_DeathScreamEvent";
 //Publicvars don't fire on those who set the var
 if ((player distance _killedUnit) > 140) exitWith {};
 // Create a dummy that will play the sound
-_dummy = "Land_HelipadEmpty_F" createVehicleLocal _position;
+_dummy = "#particlesource" createVehicleLocal _position;
 _dummy attachTo [_killedUnit, [0,0,0],"head"];
 _dummy say3d _sound;
 

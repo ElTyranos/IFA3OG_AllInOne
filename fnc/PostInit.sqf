@@ -11,7 +11,7 @@ _this select 1 spawn
         // Out of reach
         if ((player distance _killedUnit) > 140) exitWith {};
 
-        _dummy = "Land_HelipadEmpty_F" createVehicleLocal _position;
+        _dummy = "#particlesource" createVehicleLocal _position;
         _dummy attachTo [_killedUnit, [0,0,0],"head"];
         _dummy say3d _sound;
 
