@@ -46,6 +46,8 @@
 // IJA
 #define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
 
+#define IJA_10x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
+
 #define IJA_7x_fow_32Rnd_8x22 "fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22"
 
 #define IJA_5x_fow_30Rnd_77x58 "fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58"
