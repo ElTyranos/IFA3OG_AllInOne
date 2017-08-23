@@ -3,10 +3,10 @@ class BG21_SOV_RA_PL: BG21_SOV_RA_Soldier_base {
 	displayname = "Kapitan";
 	uniformClass = "U_LIB_SOV_Kapitan";
 	class EventHandlers {};
-	weapons[] = {"LIB_PPSh41_m","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_PPSh41_m","LIB_Binocular_SU","Throw","Put"};
-	magazines[] = {SOV_6x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
-	respawnmagazines[] = {SOV_6x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
+	weapons[] = {"LIB_PPSh41_m","LIB_TT33","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LIB_PPSh41_m","LIB_TT33","LIB_Binocular_SU","Throw","Put"};
+	magazines[] = {SOV_6x_LIB_35Rnd_762x25,SOV_2x_LIB_8Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
+	respawnmagazines[] = {SOV_6x_LIB_35Rnd_762x25,SOV_2x_LIB_8Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_CO";
@@ -19,10 +19,10 @@ class BG21_SOV_RA_PL2: BG21_SOV_RA_PL {
 class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Serjant";
-	weapons[] = {"LIB_PPSh41_d","LIB_Binocular_SU","Throw","Put"};
-	respawnWeapons[] = {"LIB_PPSh41_d","LIB_Binocular_SU","Throw","Put"};
-	magazines[] = {SOV_3x_LIB_71Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
-	respawnmagazines[] = {SOV_3x_LIB_71Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
+	weapons[] = {"LIB_PPSh41_d","LIB_TT33","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LIB_PPSh41_d","LIB_TT33","LIB_Binocular_SU","Throw","Put"};
+	magazines[] = {SOV_3x_LIB_71Rnd_762x25,SOV_2x_LIB_8Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
+	respawnmagazines[] = {SOV_3x_LIB_71Rnd_762x25,SOV_2x_LIB_8Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_SOV_RA_PPShBelt",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_PPShBelt",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_SL";

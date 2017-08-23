@@ -6,13 +6,11 @@
 // Items[]
 #define ITEMS_BASE "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_MapTools","ACE_Flashlight_MX991","ACE_earplugs"
 
-// Magazines[]
-
 // Grenades
 #define GER_GRENADES "LIB_shg24","LIB_shg24"
 #define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
 
-#define IJA_GRENADES "LIB_f1","LIB_f1"
+#define IJA_GRENADES "fow_e_type97","fow_e_type97"
 #define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
 #define SOV_GRENADES "LIB_f1","LIB_f1"
@@ -21,10 +19,13 @@
 #define US_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
 #define US_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
-#define UK_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
+#define UK_GRENADES "fow_e_no36mk1","fow_e_no36mk1"
 #define UK_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
 // GER
+#define GER_2x_lib_8Rnd_9x19 "lib_8Rnd_9x19","lib_8Rnd_9x19"
+#define GER_2x_LIB_8Rnd_9x19_P08 "LIB_8Rnd_9x19_P08","LIB_8Rnd_9x19_P08"
+
 #define GER_20x_lib_5Rnd_792x57 "lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57"
 
 #define GER_10x_lib_5Rnd_792x57 "lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57","lib_5Rnd_792x57"
@@ -44,6 +45,8 @@
 #define GER_9x_len_20Rnd_792x57 "len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57"
 
 // IJA
+#define IJA_2x_fow_8Rnd_8x22 "fow_8Rnd_8x22","fow_8Rnd_8x22"
+
 #define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
 
 #define IJA_10x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
@@ -54,6 +57,8 @@
 
 
 // SOV
+#define SOV_2x_LIB_8Rnd_762x25 "LIB_8Rnd_762x25","LIB_8Rnd_762x25"
+
 #define SOV_20x_LIB_5Rnd_762x54 "LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54"
 
 #define SOV_10x_LIB_5Rnd_762x54 "LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54","LIB_5Rnd_762x54"
@@ -74,6 +79,8 @@
 
 
 // US
+#define US_2x_LIB_7Rnd_45ACP "LIB_7Rnd_45ACP","LIB_7Rnd_45ACP"
+
 #define US_13x_LIB_8Rnd_762x63 "LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63","LIB_8Rnd_762x63"
 
 #define US_7x_LIB_20Rnd_762x63 "LIB_20Rnd_762x63","LIB_20Rnd_762x63","LIB_20Rnd_762x63","LIB_20Rnd_762x63","LIB_20Rnd_762x63","LIB_20Rnd_762x63","LIB_20Rnd_762x63"
@@ -91,6 +98,8 @@
 #define US_20x_LIB_5Rnd_762x63  "LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63"
 
 // UK
+#define UK_2x_fow_6Rnd_455 "fow_6Rnd_455","fow_6Rnd_455"
+
 #define UK_10x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
 
 #define UK_5x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"

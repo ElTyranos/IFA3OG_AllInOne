@@ -4,10 +4,10 @@ class BG21_GER_WH_PL: BG21_GER_WH_Soldier_base {
 	displayname = "Kapitan";
 	uniformClass = "U_LIB_GER_Oberst";
 	class EventHandlers {};
-	weapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	respawnWeapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
-	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
+	weapons[] = {"LIB_MP40","LIB_P08","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_MP40","LIB_P08","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_LIB_8Rnd_9x19_P08,GER_GRENADES,GER_GRENADES_SMOKE};
+	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_LIB_8Rnd_9x19_P08,GER_GRENADES,GER_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_CO";
@@ -20,10 +20,10 @@ class BG21_GER_WH_PL2: BG21_GER_WH_PL {
 class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Unterfeldwebel";
-	weapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	respawnWeapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
-	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
+	weapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
+	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_SL";
@@ -241,10 +241,10 @@ class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base {
 	displayname = "Panzerkommandant";
 	uniformClass = "U_LIB_GER_Tank_crew_leutnant";
 	class EventHandlers {};
-	weapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	respawnWeapons[] = {"LIB_MP40","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {GER_3x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
-	respawnmagazines[] = {GER_3x_lib_32Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
+	weapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	magazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
+	respawnmagazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
 	backpack = "";

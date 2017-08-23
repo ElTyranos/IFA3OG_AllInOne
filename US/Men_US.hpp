@@ -4,10 +4,10 @@ class BG21_US_ARMY_PL: BG21_US_Soldier_base {
 	displayname = "Captain";
 	uniformClass = "U_LIB_US_Private";
 	class EventHandlers {};
-	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	weapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_CO";
@@ -21,10 +21,10 @@ class BG21_US_ARMY_PL2: BG21_US_ARMY_PL {
 class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Squad Leader";
-	weapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	weapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_SL";
@@ -77,10 +77,10 @@ class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 };
 class BG21_US_ARMY_Flamethrower: BG21_US_ARMY_Rifleman {
 	displayname = "Flamethrower Operator";
-	weapons[] = {"LIB_M2_Flamethrower","Throw","Put"};
-	respawnWeapons[] = {"LIB_M2_Flamethrower","Throw","Put"};
-	magazines[] = {US_GRENADES};
-	respawnmagazines[] = {US_GRENADES};
+	weapons[] = {"LIB_M2_Flamethrower","LIB_Colt_M1911","Throw","Put"};
+	respawnWeapons[] = {"LIB_M2_Flamethrower","LIB_Colt_M1911","Throw","Put"};
+	magazines[] = {US_2x_LIB_7Rnd_45ACP,US_GRENADES};
+	respawnmagazines[] = {US_2x_LIB_7Rnd_45ACP,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_45",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_45",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_US_M2Flamethrower";	
@@ -396,10 +396,10 @@ class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
 	displayname = "Tank Commander";
 	uniformClass = "U_LIB_US_Tank_Crew";
 	class EventHandlers {};
-	weapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
-	respawnWeapons[] = {"LEN_M3a1","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_GRENADES_SMOKE,US_GRENADES};
+	weapons[] = {"LEN_M3a1","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LEN_M3a1","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	backpack = "";
@@ -1057,7 +1057,7 @@ class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	};
 	backpack = "BG21_USMC_B_MEDIC";
 };
-class BG21_US_USMC_Mortar_TL: BG21_US_ARMY_Mortar_TL {
+class BG21_USMC_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 	faction = "BG21_USMC";
 	class EventHandlers: Eventhandlers
 	{
@@ -1065,7 +1065,7 @@ class BG21_US_USMC_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 	};	
 	backpack = "BG21_USMC_B_MORTAR";
 };
-class BG21_US_USMC_Mortar: BG21_US_ARMY_Mortar {
+class BG21_USMC_Mortar: BG21_US_ARMY_Mortar {
 	faction = "BG21_USMC";
 	class EventHandlers: Eventhandlers
 	{
@@ -1073,7 +1073,7 @@ class BG21_US_USMC_Mortar: BG21_US_ARMY_Mortar {
 	};
 	backpack = "BG21_USMC_B_MORTAR";
 };
-class BG21_US_USMC_Mortar_AS: BG21_US_ARMY_Mortar_AS {
+class BG21_USMC_Mortar_AS: BG21_US_ARMY_Mortar_AS {
 	faction = "BG21_USMC";
 	class EventHandlers: Eventhandlers
 	{
