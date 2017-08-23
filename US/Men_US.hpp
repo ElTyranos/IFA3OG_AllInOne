@@ -75,6 +75,16 @@ class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
 	backpack = "BG21_US_B_RADIO";
 };
+class BG21_US_ARMY_Flamethrower: BG21_US_ARMY_Rifleman {
+	displayname = "Flamethrower Operator";
+	weapons[] = {"LIB_M2_Flamethrower","Throw","Put"};
+	respawnWeapons[] = {"LIB_M2_Flamethrower","Throw","Put"};
+	magazines[] = {US_GRENADES};
+	respawnmagazines[] = {US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_45",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_45",LINKED_ITEMS_BASE};
+	backpack = "B_LIB_US_M2Flamethrower";	
+};
 class BG21_US_ARMY_BAR: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "BAR Rifleman";
@@ -914,6 +924,13 @@ class BG21_USMC_Radio: BG21_US_ARMY_Radio {
 	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
 	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_USMC_Flamethrower: BG21_US_ARMY_Flamethrower {
+	faction = "BG21_USMC";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
