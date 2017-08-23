@@ -202,6 +202,14 @@ class BG21_IJA_B_MORTAR: BG21_IJA_B {
 		};
 	};		
 };
+class BG21_IJA_B_GRENADIER: BG21_IJA_B {
+	class TransportMagazines {
+		class _xx_fow_1Rnd_type2_40 {
+			magazine = "fow_1Rnd_type2_40";
+			count = 4;
+		};
+	};		
+};
 
 class fow_s_ija_base;
 class BG21_IJA_base: fow_s_ija_base

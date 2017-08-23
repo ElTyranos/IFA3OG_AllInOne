@@ -49,6 +49,12 @@ class BG21_IJA_Rifleman: BG21_IJA_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_ija_rifle",LINKED_ITEMS_BASE};
 	backpack = "BG21_IJA_B";
 };
+class BG21_IJA_Grenadier: BG21_IJA_Rifleman {
+	displayname = "Grenadier";
+	linkedItems[] = {"fow_v_ija_grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_ija_grenadier",LINKED_ITEMS_BASE};
+	backpack = "BG21_IJA_B_GRENADIER";
+};
 class BG21_IJA_Radio: BG21_IJA_Rifleman {
 	displayname = "Radio";
 	backpack = "BG21_IJA_B_RADIO";
