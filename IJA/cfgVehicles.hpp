@@ -114,16 +114,16 @@ class BG21_IJA_B_MEDIC: BG21_IJA_B {
 };
 class BG21_IJA_B_AT: BG21_IJA_B {
 	class TransportMagazines {
-		class _xx_LIB_1Rnd_RPzB	{
-			magazine = "LIB_1Rnd_RPzB";
+		class _xx_LIB_1Rnd_60mm_M6	{
+			magazine = "LIB_1Rnd_60mm_M6";
 			count = 2;
 		};
 	};
 };
 class BG21_IJA_B_AT_AS: BG21_IJA_B {
 	class TransportMagazines {
-		class _xx_LIB_1Rnd_RPzB	{
-			magazine = "LIB_1Rnd_RPzB";
+		class _xx_LIB_1Rnd_60mm_M6	{
+			magazine = "LIB_1Rnd_60mm_M6";
 			count = 3;
 		};
 	};
