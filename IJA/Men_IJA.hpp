@@ -63,16 +63,22 @@ class BG21_IJA_Mortar: BG21_IJA_Rifleman {
 	displayname = "Mortar Operator";
 	weapons[] = {"fow_w_type99","LIB_GrWr34_Barrel","Throw","Put"};
 	respawnWeapons[] = {"fow_w_type99","LIB_GrWr34_Barrel","Throw","Put"};	
+	linkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};	
 	backpack = "BG21_IJA_B_MORTAR";
 };
 class BG21_IJA_Mortar_TL: BG21_IJA_Rifleman {
 	displayname = "Mortar Team Leader";
+	linkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};	
 	backpack = "BG21_IJA_B_MORTAR";
 };
 class BG21_IJA_Mortar_AS: BG21_IJA_Rifleman {
 	displayname = "Mortar Assistant";
 	weapons[] = {"fow_w_type99","LIB_GrWr34_Tripod","Throw","Put"};
-	respawnWeapons[] = {"fow_w_type99","LIB_GrWr34_Tripod","Throw","Put"};	
+	respawnWeapons[] = {"fow_w_type99","LIB_GrWr34_Tripod","Throw","Put"};
+	linkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_ija_mortar",LINKED_ITEMS_BASE};	
 	backpack = "BG21_IJA_B_MORTAR";
 };
 class BG21_IJA_Sniper: BG21_IJA_Soldier_base {
