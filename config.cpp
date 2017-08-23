@@ -6,7 +6,7 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 1.00;
 		requiredAddons[] = {"WW2_Core_c_WW2_Core_c","fow_characters_c","LEN_IFA3_WP","CBA_Extended_EventHandlers"};
-		author[] = {"El Tyranos"};
+		authors[] = {"El Tyranos"};
 	};
 	#include "Compatibility\cfgPatches.hpp"
 };
