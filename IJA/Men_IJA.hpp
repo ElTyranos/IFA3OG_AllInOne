@@ -154,6 +154,17 @@ class BG21_IJA_MG_AS: BG21_IJA_Soldier_base {
 	respawnLinkedItems[] = {"fow_v_ija_rifle",LINKED_ITEMS_BASE};
 	backpack = "BG21_IJA_B_MG_AS";
 };
+class BG21_IJA_MG_TL: BG21_IJA_Soldier_base {
+	scope = 2;
+	displayname = "LMG Team Leader";
+	weapons[] = {"fow_w_type99","Throw","Put"};
+	respawnWeapons[] = {"fow_w_type99","Throw","Put"};
+	magazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	respawnmagazines[] = {IJA_20x_fow_5Rnd_77x58,IJA_GRENADES};
+	linkedItems[] = {"fow_v_ija_rifle",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_ija_rifle",LINKED_ITEMS_BASE};
+	backpack = "BG21_IJA_B_MG_AS";
+};
 class BG21_IJA_Engineer_Mines: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "Engineer (Mines)";
