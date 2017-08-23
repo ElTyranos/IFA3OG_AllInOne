@@ -104,6 +104,10 @@ class BG21_IJA_SL_Recon: BG21_IJA_Recon {
 	respawnLinkedItems[] = {"fow_v_ija_nco","fow_h_ija_type90_foliage",LINKED_ITEMS_COMMANDER};	
 	backpack = "BG21_IJA_B_CO_RECON";
 };
+class BG21_IJA_Radio_Recon: BG21_IJA_Recon {
+	displayname = "Recon Radio";
+	backpack = "BG21_IJA_B_RADIO";
+};
 class BG21_IJA_AT: BG21_IJA_Soldier_base {
 	scope = 2;
 	displayname = "AT Rifleman";
