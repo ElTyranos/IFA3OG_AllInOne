@@ -1046,7 +1046,7 @@ class BG21_US_USMC_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
 	};	
-	backpack = "BG21_US_B_MORTAR_USMC";
+	backpack = "BG21_USMC_B_MORTAR";
 };
 class BG21_US_USMC_Mortar: BG21_US_ARMY_Mortar {
 	faction = "BG21_USMC";
@@ -1054,7 +1054,7 @@ class BG21_US_USMC_Mortar: BG21_US_ARMY_Mortar {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	backpack = "BG21_US_B_MORTAR_USMC";
+	backpack = "BG21_USMC_B_MORTAR";
 };
 class BG21_US_USMC_Mortar_AS: BG21_US_ARMY_Mortar_AS {
 	faction = "BG21_USMC";
@@ -1062,6 +1062,6 @@ class BG21_US_USMC_Mortar_AS: BG21_US_ARMY_Mortar_AS {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
 	};
-	backpack = "BG21_US_B_MORTAR_USMC";
+	backpack = "BG21_USMC_B_MORTAR";
 };
 
