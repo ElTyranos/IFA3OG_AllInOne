@@ -910,10 +910,10 @@ class BG21_USMC_Recon: BG21_US_ARMY_Recon {
 };
 class BG21_USMC_Radio: BG21_US_ARMY_Radio {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -936,12 +936,12 @@ class BG21_USMC_Sniper: BG21_US_ARMY_Sniper {
 };
 class BG21_USMC_AT: BG21_US_ARMY_AT {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};	
+	// weapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
+	// respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -950,10 +950,10 @@ class BG21_USMC_AT: BG21_US_ARMY_AT {
 };
 class BG21_USMC_AT_AS: BG21_US_ARMY_AT_AS {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -970,10 +970,10 @@ class BG21_USMC_MG: BG21_US_ARMY_MG {
 };
 class BG21_USMC_MG_AS: BG21_US_ARMY_MG_AS {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -982,10 +982,10 @@ class BG21_USMC_MG_AS: BG21_US_ARMY_MG_AS {
 };
 class BG21_USMC_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -994,10 +994,10 @@ class BG21_USMC_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
 };
 class BG21_USMC_MG_TL: BG21_US_ARMY_MG_TL {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1030,10 +1030,10 @@ class BG21_USMC_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
 };
 class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
-	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
