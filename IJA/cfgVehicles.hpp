@@ -98,7 +98,7 @@ class BG21_IJA_B_SL_RECON: BG21_IJA_B_FOLIAGE {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};
