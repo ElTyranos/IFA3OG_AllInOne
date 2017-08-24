@@ -34,10 +34,18 @@ class BG21_IJA_B_CO: B_LIB_GER_Radio_ACRE2 {
 			magazine = "LIB_1Rnd_flare_yellow";
 			count = 2;
 		};
+		class _xx_Katana_swing {
+			magazine = "Katana_swing"; // katana mag
+			count = 1;
+		};
 	};
 	class TransportWeapons {
 		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+		class _xx_Hatchet {
+			weapon = "Hatchet"; // katana
 			count = 1;
 		};
 	};
@@ -70,10 +78,18 @@ class BG21_IJA_B_SL: BG21_IJA_B {
 			magazine = "LIB_1Rnd_flare_yellow";
 			count = 2;
 		};
+		class _xx_Katana_swing {
+			magazine = "Katana_swing"; // katana mag
+			count = 1;
+		};
 	};
 	class TransportWeapons {
 		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+		class _xx_Hatchet {
+			weapon = "Hatchet"; // katana
 			count = 1;
 		};
 	};
@@ -96,10 +112,18 @@ class BG21_IJA_B_SL_RECON: BG21_IJA_B_FOLIAGE {
 			magazine = "LIB_1Rnd_flare_yellow";
 			count = 2;
 		};
+		class _xx_Katana_swing {
+			magazine = "Katana_swing"; // katana mag
+			count = 1;
+		};
 	};
 	class TransportWeapons {
 		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
+			count = 1;
+		};
+		class _xx_Hatchet {
+			weapon = "Hatchet"; // katana
 			count = 1;
 		};
 	};
