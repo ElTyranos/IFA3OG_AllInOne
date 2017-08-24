@@ -21,7 +21,7 @@ class BG21_IJA_B_CO: B_LIB_GER_Radio_ACRE2 {
 		class _xx_LIB_RDG {
 			magazine = "LIB_RDG";
 			count = 2;
-		};
+		};		
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
@@ -57,7 +57,7 @@ class BG21_IJA_B_SL: BG21_IJA_B {
 		class _xx_LIB_RDG {
 			magazine = "LIB_RDG";
 			count = 2;
-		};
+		};		
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
