@@ -6,6 +6,23 @@
 // Items[]
 #define ITEMS_BASE "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_MapTools","ACE_Flashlight_MX991","ACE_earplugs"
 
+
+// Knives
+#define GER_KNIFE "KA_knife"
+#define GER_KNIFE_MAG "KA_knife_blade"
+
+#define IJA_KNIFE "KA_knife"
+#define IJA_KNIFE_MAG "KA_knife_blade"
+
+#define SOV_KNIFE "KA_knife"
+#define SOV_KNIFE_MAG "KA_knife_blade"
+
+#define US_KNIFE "KA_knife"
+#define US_KNIFE_MAG "KA_knife_blade"
+
+#define UK_KNIFE "KA_knife"
+#define UK_KNIFE_MAG "KA_knife_blade"
+
 // Grenades
 #define GER_GRENADES "LIB_shg24","LIB_shg24"
 #define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
@@ -190,7 +207,7 @@
 		}; \
 	}; \
 	class TransportWeapons { \
-		class _xx_LIB_LIB_FLARE_PISTOL \
+		class _xx_LIB_FLARE_PISTOL \
 		{ \
 			weapon = "LIB_FLARE_PISTOL"; \
 			count = 1; \
