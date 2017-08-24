@@ -23,6 +23,14 @@ class BG21_UK_B_CO: fow_b_uk_p37_radio {
 		};
 	};	
 	class TransportMagazines {
+		class _xx_LIB_US_M18 {
+			magazine = "LIB_US_M18";
+			count = 1;
+		};
+		class _xx_LIB_US_M18_Red {
+			magazine = "LIB_US_M18_Red";
+			count = 1;
+		};
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
@@ -45,7 +53,7 @@ class BG21_UK_B_CO: fow_b_uk_p37_radio {
 };
 class BG21_UK_B_RADIO: fow_b_uk_p37_radio {
 	class TransportItems
-	{
+	{		
 		class _xx_ACRE_PRC77
 		{
 			count = 1;
@@ -56,6 +64,14 @@ class BG21_UK_B_RADIO: fow_b_uk_p37_radio {
 
 class BG21_UK_B_SL: BG21_UK_B {
 	class TransportMagazines {
+		class _xx_LIB_US_M18 {
+			magazine = "LIB_US_M18";
+			count = 1;
+		};
+		class _xx_LIB_US_M18_Red {
+			magazine = "LIB_US_M18_Red";
+			count = 1;
+		};
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;

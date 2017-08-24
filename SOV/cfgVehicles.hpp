@@ -20,6 +20,10 @@ class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio_ACRE2 {
 		};
 	};	
 	class TransportMagazines {
+		class _xx_LIB_RDG {
+			magazine = "LIB_RDG";
+			count = 2;
+		};
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
@@ -54,6 +58,10 @@ class BG21_SOV_B_RADIO: B_LIB_SOV_RA_Radio_ACRE2 {
 class BG21_SOV_B_SL: B_LIB_SOV_RA_Rucksack2 {
 	scope = 1;
 	class TransportMagazines {
+		class _xx_LIB_RDG {
+			magazine = "LIB_RDG";
+			count = 2;
+		};
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;

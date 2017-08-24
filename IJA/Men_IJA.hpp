@@ -6,8 +6,8 @@ class BG21_IJA_PL: BG21_IJA_Soldier_base {
 	class EventHandlers {};
 	weapons[] = {"fow_w_type100","fow_w_type14","LIB_Binocular_GER","Throw","Put"};
 	respawnWeapons[] = {"fow_w_type100","fow_w_type14","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
-	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
+	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES};
+	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES};
 	linkedItems[] = {"fow_v_ija_officer","fow_h_ija_fieldcap_officer",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"fow_v_ija_officer","fow_h_ija_fieldcap_officer",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_IJA_B_CO";
@@ -21,8 +21,8 @@ class BG21_IJA_SL: BG21_IJA_Soldier_base {
 	displayname = "Squad Leader";
 	weapons[] = {"fow_w_type100",,"fow_w_type14","LIB_Binocular_GER","Throw","Put"};
 	respawnWeapons[] = {"fow_w_type100","fow_w_type14","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
-	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
+	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES};
+	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_2x_fow_8Rnd_8x22,IJA_GRENADES};
 	linkedItems[] = {"fow_v_ija_nco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"fow_v_ija_nco",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_IJA_B_SL";
@@ -106,11 +106,11 @@ class BG21_IJA_SL_Recon: BG21_IJA_Recon {
 	displayname = "Recon Squad Leader";
 	weapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
 	respawnWeapons[] = {"fow_w_type100","LIB_Binocular_GER","Throw","Put"};
-	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
-	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES,IJA_GRENADES_SMOKE};
+	magazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES};
+	respawnmagazines[] = {IJA_7x_fow_32Rnd_8x22,IJA_GRENADES};
 	linkedItems[] = {"fow_v_ija_nco","fow_h_ija_type90_foliage",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"fow_v_ija_nco","fow_h_ija_type90_foliage",LINKED_ITEMS_COMMANDER};	
-	backpack = "BG21_IJA_B_CO_RECON";
+	backpack = "BG21_IJA_B_SL_RECON";
 };
 class BG21_IJA_Radio_Recon: BG21_IJA_Recon {
 	displayname = "Recon Radio";

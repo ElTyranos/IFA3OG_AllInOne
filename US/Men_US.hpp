@@ -6,8 +6,8 @@ class BG21_US_ARMY_PL: BG21_US_Soldier_base {
 	class EventHandlers {};
 	weapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson_nco","H_LIB_US_Helmet_Cap",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_CO";
@@ -23,8 +23,8 @@ class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 	displayname = "Squad Leader";
 	weapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Thompson","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Thompson",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_US_B_SL";

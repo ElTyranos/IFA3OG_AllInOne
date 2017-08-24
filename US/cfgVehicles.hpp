@@ -16,6 +16,14 @@ class BG21_US_B_CO: B_LIB_US_Radio_ACRE2 {
 		};
 	};	
 	class TransportMagazines {
+		class _xx_LIB_US_M18 {
+			magazine = "LIB_US_M18";
+			count = 1;
+		};
+		class _xx_LIB_US_M18_Red {
+			magazine = "LIB_US_M18_Red";
+			count = 1;
+		};
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
@@ -50,6 +58,14 @@ class BG21_US_B_RADIO: B_LIB_US_Radio_ACRE2 {
 class BG21_US_B_SL: B_LIB_US_Backpack {
 	scopeArsenal = 1;
 	class TransportMagazines {
+		class _xx_LIB_US_M18 {
+			magazine = "LIB_US_M18";
+			count = 1;
+		};
+		class _xx_LIB_US_M18_Red {
+			magazine = "LIB_US_M18_Red";
+			count = 1;
+		};		
 		class _xx_LIB_1Rnd_flare_red {
 			magazine = "LIB_1Rnd_flare_red";
 			count = 2;
