@@ -36,7 +36,7 @@ class BG21_IJA_B_CO: B_LIB_GER_Radio_ACRE2 {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};
@@ -72,7 +72,7 @@ class BG21_IJA_B_SL: BG21_IJA_B {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};

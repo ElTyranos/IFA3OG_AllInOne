@@ -38,7 +38,7 @@ class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio_ACRE2 {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};
@@ -76,7 +76,7 @@ class BG21_SOV_B_SL: B_LIB_SOV_RA_Rucksack2 {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+		class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};

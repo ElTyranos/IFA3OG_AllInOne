@@ -45,7 +45,7 @@ class BG21_UK_B_CO: fow_b_uk_p37_radio {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+			class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};
@@ -86,7 +86,7 @@ class BG21_UK_B_SL: BG21_UK_B {
 		};
 	};
 	class TransportWeapons {
-			class _xx_LIB_LIB_FLARE_PISTOL {
+			class _xx_LIB_FLARE_PISTOL {
 			weapon = "LIB_FLARE_PISTOL";
 			count = 1;
 		};
