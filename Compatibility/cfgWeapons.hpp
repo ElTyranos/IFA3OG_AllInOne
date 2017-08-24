@@ -126,6 +126,63 @@ class fow_v_fall_bandoleer: fow_v_base
 	};
 };
 
+class fow_v_ija_grenadier: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_bayonet: fow_v_base
+{	
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_medic: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_mg: fow_v_base
+{	
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_nco: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_officer: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_rifle: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+class fow_v_ija_mortar: fow_v_base
+{
+	class ItemInfo: ItemInfo
+	{
+		containerClass = "Supply100";
+	};
+};
+
 // PIAT ACE3 Compat
 class Launcher_Base_F;
 class fow_w_piat: Launcher_Base_F
