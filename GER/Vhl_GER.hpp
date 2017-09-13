@@ -1,9 +1,15 @@
+class LIB_SdKfz124;
 class LIB_FlakPanzerIV_Wirbelwind;
 class LIB_PzKpfwIV_H;
 class LIB_PzKpfwV;
 class LIB_PzKpfwVI_B;
 class LIB_PzKpfwVI_E;
 class LIB_StuG_III_G;
+class BG21_SdKfz124: LIB_SdKfz124 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Tanks";
+	ARMORED_VHL_TRANSPORT_ITEMS
+};
 class BG21_FlakPanzerIV_Wirbelwind: LIB_FlakPanzerIV_Wirbelwind {
 	faction = "BG21_GER_WH";
 	vehicleClass = "BG21_Tanks";
@@ -122,6 +128,53 @@ class BG21_OB_Ammo: LIB_opelblitz_ammo {
 	vehicleClass = "BG21_Wheeled";
 	COMMON_VHL_TRANSPORT_ITEMS
 	GER_VHL_TRANSPORT_WEAPONS
+};
+
+class LIB_SdKfz222;
+class BG21_SdKfz222: LIB_SdKfz222 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+
+class LIB_SdKfz234_1;
+class LIB_SdKfz234_2;
+class LIB_SdKfz234_3;
+class LIB_SdKfz234_4;
+class BG21_SdKfz234_1: LIB_SdKfz234_1 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_SdKfz234_2: LIB_SdKfz234_2 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_SdKfz234_3: LIB_SdKfz234_3 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
+};
+class BG21_SdKfz234_4: LIB_SdKfz234_4 {
+	faction = "BG21_GER_WH";
+	vehicleClass = "BG21_Wheeled";
+	COMMON_VHL_TRANSPORT_TOOLKIT
+	class TransportMagazines {};
+	class TransportWeapons {};
+	class TransportBackpacks {};
 };
 
 class LIB_Kfz1;
