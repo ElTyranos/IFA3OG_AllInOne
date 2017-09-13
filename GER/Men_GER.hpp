@@ -42,8 +42,8 @@ class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base {
 class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Unteroffizier (K98)";
-	weapons[] = {"LIB_K98",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_K98",GER_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_K98_Late",GER_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LIB_K98_Late",GER_KNIFE,"Throw","Put"};
 	magazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
@@ -69,8 +69,8 @@ class BG21_GER_WH_Grenadier: BG21_GER_WH_Rifleman_K98 {
 };
 class BG21_GER_WH_Recon_TL: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Recon Team Leader";
-	weapons[] = {"LIB_K98","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_K98","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_K98_Late","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LIB_K98_Late","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
 	magazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
 	respawnmagazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
 };
@@ -159,8 +159,8 @@ class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base {
 class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
 	scope = 2;
 	displayname = "Schutze (Panzerfaust)";
-	weapons[] = {"LIB_K98","LIB_PzFaust_30m",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_K98","LIB_PzFaust_30m",GER_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_K98_Late","LIB_PzFaust_30m",GER_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LIB_K98_Late","LIB_PzFaust_30m",GER_KNIFE,"Throw","Put"};
 	magazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
@@ -196,8 +196,8 @@ class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base {
 };
 class BG21_GER_WH_MG_TL: BG21_GER_WH_MG_AS {
 	displayname = "MG Team Leader";
-	weapons[] = {"LIB_K98","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_K98","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_K98_Late","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LIB_K98_Late","LIB_Binocular_GER",GER_KNIFE,"Throw","Put"};
 };
 class BG21_GER_WH_MG_AS_TRIPOD: BG21_GER_WH_MG_AS {
 	displayname = "MG Assistant (Tripod)";
@@ -229,8 +229,8 @@ class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98",GER_KNIFE,"Throw","Put"};
 	magazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_KNIFE_MAG,GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MEDIC";
 };
 
@@ -241,8 +241,8 @@ class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base {
 	displayname = "Panzerkommandant";
 	uniformClass = "U_LIB_GER_Tank_crew_leutnant";
 	class EventHandlers {};
-	weapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
-	respawnWeapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	weapons[] = {"LIB_MP38","LIB_P38","LIB_Binocular_GER","Throw","Put"};
+	respawnWeapons[] = {"LIB_MP38","LIB_P38","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	respawnmagazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
@@ -255,8 +255,8 @@ class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base {
 	displayname = "Panzerbesatzung";
 	uniformClass = "U_LIB_GER_Tank_crew_private";
 	class EventHandlers {};
-	weapons[] = {"LIB_MP40",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_MP40",GER_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_MP38",GER_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LIB_MP38",GER_KNIFE,"Throw","Put"};
 	magazines[] = {GER_KNIFE_MAG,GER_3x_lib_32Rnd_9x19,GER_GRENADES};
 	respawnmagazines[] = {GER_KNIFE_MAG,GER_3x_lib_32Rnd_9x19,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",LINKED_ITEMS_BASE};
@@ -461,10 +461,7 @@ class BG21_GER_WH_W_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 };
 class BG21_GER_WH_W_Medic: BG21_GER_WH_Medic {
 	faction = "BG21_GER_WH_Winter";
-	class EventHandlers: Eventhandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'WH_W'] call BG21_IFA3_fnc_random_gear;};";
-	};
+	uniformClass = "U_LIB_GER_Soldier3_w";
 };
 
 // FJS
@@ -954,6 +951,6 @@ class BG21_GER_DAK_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 class BG21_GER_DAK_Medic: BG21_GER_WH_Medic {
 	faction = "BG21_GER_DAK";
 	uniformClass = "U_LIB_DAK_Medic";
-	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_DAK_Helmet",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_DAK_Helmet",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
 };
