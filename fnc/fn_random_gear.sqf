@@ -8,11 +8,10 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 	
 		_headgears = [
-			"H_LIB_GER_Helmet","H_LIB_GER_Helmet_net","H_LIB_GER_Helmet_ns","H_LIB_GER_Helmet_painted","H_LIB_GER_Helmet_net_painted","H_LIB_GER_Helmet_ns_painted"
+			"H_LIB_GER_Helmet","H_LIB_GER_Helmet_net","H_LIB_GER_Helmet_ns","H_LIB_GER_Helmet_os","H_LIB_GER_Helmet_painted","H_LIB_GER_Helmet_net_painted","H_LIB_GER_Helmet_ns_painted","H_LIB_GER_Helmet_os_painted","H_LIB_GER_Helmet_Glasses","H_LIB_GER_HelmetUtility","H_LIB_GER_HelmetUtility_Grass","H_LIB_GER_HelmetUtility_Oak","H_LIB_GER_HelmetCamo","H_LIB_GER_HelmetCamo2","H_LIB_GER_HelmetCamo3","H_LIB_GER_HelmetCamo4","H_LIB_GER_Cap"
 		];
 		_uniforms = [
-			"U_LIB_GER_Schutze","U_LIB_GER_Recruit","U_LIB_GER_Gefreiter","U_LIB_GER_Pionier",
-			"U_LIB_GER_MG_schutze","U_LIB_GER_Soldier2","U_LIB_GER_Soldier3"
+			"U_LIB_GER_Schutze","U_LIB_GER_Soldier3","U_LIB_GER_Soldier2","U_LIB_GER_Soldier_camo2","U_LIB_GER_Scharfschutze","U_LIB_GER_Soldier_camo","U_LIB_GER_Soldier_camo4","U_LIB_GER_Soldier_camo3","U_LIB_GER_Soldier_camo5","U_LIB_GER_Schutze_HBT","U_LIB_GER_MG_schutze_HBT","U_LIB_GER_MG_schutze","U_LIB_GER_Gefreiter","U_LIB_GER_Oberschutze"
 		];
 		
 		_uniform = _uniforms call BIS_fnc_selectRandom;
@@ -33,7 +32,7 @@ switch (_this select 1) do {
 	};
 	case "WH_W" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
-		_headgears = ["H_LIB_GER_HelmetCamo_w","H_LIB_GER_Helmet_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"];
+		_headgears = ["H_LIB_GER_Helmet","H_LIB_GER_Helmet_net","H_LIB_GER_Helmet_ns","H_LIB_GER_Helmet_os","H_LIB_GER_HelmetUtility","H_LIB_GER_HelmetUtility_Grass","H_LIB_GER_Helmet_w","H_LIB_GER_Helmet_net_w","H_LIB_GER_Helmet_ns_w","H_LIB_GER_HelmetCamo_w","H_LIB_GER_HelmetCamob_w","H_LIB_GER_HelmetCamo2_w","H_LIB_GER_HelmetCamo2b_w","H_LIB_GER_HelmetCamo4_w","H_LIB_GER_Helmet_Glasses_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"];
 		_uniforms = ["U_LIB_GER_Soldier3_w","U_LIB_GER_Soldier_camo_w","U_LIB_GER_Scharfschutze_w"];
 		_uniform = _uniforms call BIS_fnc_selectRandom;
 		_headgear = _headgears call BIS_fnc_selectRandom;
@@ -77,7 +76,7 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 	
 		_headgears = [
-			"H_LIB_DAK_Helmet","H_LIB_DAK_Helmet_2","H_LIB_DAK_Helmet_net","H_LIB_DAK_Helmet_net_2","H_LIB_DAK_Helmet_ns","H_LIB_DAK_Helmet_ns_2","H_LIB_DAK_Cap"
+			"H_LIB_DAK_Helmet","H_LIB_DAK_Helmet_2","H_LIB_DAK_Helmet_net","H_LIB_DAK_Helmet_net_2","H_LIB_DAK_Helmet_ns","H_LIB_DAK_Helmet_ns_2","H_LIB_DAK_Helmet_Glasses","H_LIB_DAK_Cap"
 		];
 		_uniforms = [
 			"U_LIB_DAK_Soldier","U_LIB_DAK_Soldier_2","U_LIB_DAK_Soldier_3"
@@ -99,6 +98,7 @@ switch (_this select 1) do {
 		
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	
 	case "IJA" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_ija_fieldcap","fow_h_ija_fieldcap_neck","fow_h_ija_hakimachi","fow_h_ija_type90","fow_h_ija_type90_net","fow_h_ija_type90_net_neck"];
