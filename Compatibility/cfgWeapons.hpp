@@ -190,6 +190,14 @@ class fow_w_piat: Launcher_Base_F
 	ace_overpressure_angle = 0;
 	ace_overpressure_range = 0;
 	ace_overpressure_damage = 0;
+	ace_reloadlaunchers_enabled = 1;
+};
+class fow_w_m1a1_bazooka : Launcher_Base_F
+{
+	ace_overpressure_angle = 60;
+	ace_overpressure_range = 10;
+	ace_overpressure_damage = 0.4;
+	ace_reloadlaunchers_enabled = 1;
 };
 
 // LEN Sounds
