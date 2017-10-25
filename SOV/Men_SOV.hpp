@@ -77,10 +77,14 @@ class BG21_SOV_RA_Mortar: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Operator";
 	weapons[] = {"LIB_M9130","LIB_BM37_Barrel",SOV_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Barrel",SOV_KNIFE,"Throw","Put"};	
+	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_MORTAR";
 };
 class BG21_SOV_RA_Mortar_TL: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Team Leader";
+	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_MORTAR";
 };
 class BG21_SOV_RA_Mortar_AS: BG21_SOV_RA_Rifleman_Mosin {

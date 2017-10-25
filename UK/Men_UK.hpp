@@ -56,8 +56,8 @@ class BG21_UK_ARMY_Rifleman_Sten: BG21_UK_Soldier_base {
 	respawnWeapons[] = {"LEN_StenMk2",UK_KNIFE,"Throw","Put"};
 	magazines[] = {UK_KNIFE_MAG,UK_7x_LEN_32Rnd_9x19,UK_GRENADES};
 	respawnmagazines[] = {UK_KNIFE_MAG,UK_7x_LEN_32Rnd_9x19,UK_GRENADES};
-	linkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_sten",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
 class BG21_UK_ARMY_Recon_TL: BG21_UK_ARMY_Rifleman {
@@ -66,6 +66,8 @@ class BG21_UK_ARMY_Recon_TL: BG21_UK_ARMY_Rifleman {
 	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_Binocular_US",UK_KNIFE,"Throw","Put"};
 	magazines[] = {UK_KNIFE_MAG,UK_10x_LEN_10Rnd_303,UK_GRENADES,UK_GRENADES_SMOKE};
 	respawnmagazines[] = {UK_KNIFE_MAG,UK_10x_LEN_10Rnd_303,UK_GRENADES,UK_GRENADES_SMOKE};	
+	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
 };
 class BG21_UK_ARMY_Recon: BG21_UK_ARMY_Rifleman {
 	displayname = "Recon";
@@ -78,12 +80,16 @@ class BG21_UK_ARMY_Radio: BG21_UK_ARMY_Rifleman {
 };
 class BG21_UK_ARMY_Mortar: BG21_UK_ARMY_Rifleman {
 	displayname = "Mortar Operator";
-	backpack = "BG21_UK_B_MORTAR";
 	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel",UK_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M2_60_Barrel",UK_KNIFE,"Throw","Put"};	
+	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
+	backpack = "BG21_UK_B_MORTAR";
 };
 class BG21_UK_ARMY_Mortar_TL: BG21_UK_ARMY_Rifleman {
 	displayname = "Mortar Team leader";
+	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_B_MORTAR";
 };
 class BG21_UK_ARMY_Mortar_AS: BG21_UK_ARMY_Rifleman {
@@ -272,8 +278,8 @@ class BG21_UK_AB_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 	respawnWeapons[] = {"LEN_StenMk5","LIB_Binocular_US",UK_KNIFE,"Throw","Put"};
 	magazines[] = {UK_KNIFE_MAG,UK_7x_LEN_32Rnd_9x19,UK_GRENADES};
 	respawnmagazines[] = {UK_KNIFE_MAG,UK_7x_LEN_32Rnd_9x19,UK_GRENADES};
-	linkedItems[] = {"fow_v_uk_para_sten",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_uk_para_sten",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"fow_v_uk_para_sten",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_para_sten",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -281,8 +287,8 @@ class BG21_UK_AB_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 };
 class BG21_UK_AB_Recon_TL: BG21_UK_ARMY_Recon_TL {
 	faction = "BG21_UK_AB";
-	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -308,8 +314,8 @@ class BG21_UK_AB_Radio: BG21_UK_ARMY_Radio {
 };
 class BG21_UK_AB_Mortar: BG21_UK_ARMY_Mortar {
 	faction = "BG21_UK_AB";
-	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -317,8 +323,8 @@ class BG21_UK_AB_Mortar: BG21_UK_ARMY_Mortar {
 };
 class BG21_UK_AB_Mortar_TL: BG21_UK_ARMY_Mortar_TL {
 	faction = "BG21_UK_AB";
-	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_para_base",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -504,8 +510,8 @@ class BG21_UK_CDO_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Binocular_US",UK_KNIFE,"Throw","Put"};
 	magazines[] = {UK_KNIFE_MAG,UK_7x_LIB_30Rnd_45ACP,UK_GRENADES};
 	respawnmagazines[] = {UK_KNIFE_MAG,UK_7x_LIB_30Rnd_45ACP,UK_GRENADES};
-	linkedItems[] = {"fow_v_uk_sten_green",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_uk_sten_green",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"fow_v_uk_sten_green",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"fow_v_uk_sten_green",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_CDO_B";
 	class EventHandlers: Eventhandlers
 	{
@@ -514,8 +520,8 @@ class BG21_UK_CDO_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 };
 class BG21_UK_CDO_Recon_TL: BG21_UK_ARMY_Recon_TL {
 	faction = "BG21_UK_CDO";
-	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
+	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_CDO_B";
 	class EventHandlers: Eventhandlers
 	{
@@ -543,8 +549,8 @@ class BG21_UK_CDO_Radio: BG21_UK_ARMY_Radio {
 };
 class BG21_UK_CDO_Mortar: BG21_UK_ARMY_Mortar {
 	faction = "BG21_UK_CDO";
-	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
+	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_CDO'] call BG21_IFA3_fnc_random_gear;};";
@@ -553,8 +559,8 @@ class BG21_UK_CDO_Mortar: BG21_UK_ARMY_Mortar {
 };
 class BG21_UK_CDO_Mortar_TL: BG21_UK_ARMY_Mortar_TL {
 	faction = "BG21_UK_CDO";
-	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_BASE};
+	linkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"fow_v_uk_base_green",LINKED_ITEMS_COMMANDER};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_CDO'] call BG21_IFA3_fnc_random_gear;};";

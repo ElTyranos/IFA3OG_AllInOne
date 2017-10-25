@@ -63,6 +63,8 @@ class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
 	respawnWeapons[] = {"LIB_M1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
 	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
 	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_COMMANDER};
 };
 class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 	displayname = "Recon";
@@ -203,8 +205,8 @@ class BG21_US_ARMY_Mortar_TL: BG21_US_ARMY_Rifleman {
 	respawnWeapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
 	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	backpack = "BG21_US_B_MORTAR";	
 };
 class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
@@ -214,8 +216,8 @@ class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
 	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	backpack = "BG21_US_B_MORTAR";
 };
 class BG21_US_ARMY_Mortar_AS: BG21_US_ARMY_Rifleman {
@@ -492,8 +494,8 @@ class BG21_USAB101_Recon_TL: BG21_US_ARMY_Recon_TL {
 	faction = "BG21_USAB101";
 	weapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
@@ -641,8 +643,8 @@ class BG21_USAB101_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 	faction = "BG21_USAB101";
 	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};		
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
@@ -653,8 +655,8 @@ class BG21_USAB101_Mortar: BG21_US_ARMY_Mortar {
 	faction = "BG21_USAB101";
 	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
-	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
+	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};		
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";

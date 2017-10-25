@@ -1,5 +1,5 @@
 // linkedItems[]
-#define LINKED_ITEMS_BASE "ItemMap","ItemCompass","ItemWatch"
+#define LINKED_ITEMS_BASE "ItemCompass","ItemWatch"
 #define LINKED_ITEMS_COMMANDER "ItemMap","ItemCompass","ItemWatch"
 // "ItemRadio",
 
