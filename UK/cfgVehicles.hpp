@@ -114,16 +114,24 @@ class BG21_UK_B_MEDIC: BG21_UK_B {
 };
 class BG21_UK_B_AT: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_fow_1Rnd_piat	{
-			magazine = "fow_1Rnd_piat";
+		// class _xx_fow_1Rnd_piat	{
+			// magazine = "fow_1Rnd_piat";
+			// count = 2;
+		// };
+		class _xx_LIB_1Rnd_60mm_M6	{
+			magazine = "LIB_1Rnd_60mm_M6";
 			count = 2;
 		};
 	};
 };
 class BG21_UK_B_AT_AS: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_fow_1Rnd_piat	{
-			magazine = "fow_1Rnd_piat";
+		// class _xx_fow_1Rnd_piat	{
+			// magazine = "fow_1Rnd_piat";
+			// count = 3;
+		// };
+		class _xx_LIB_1Rnd_60mm_M6	{
+			magazine = "LIB_1Rnd_60mm_M6";
 			count = 3;
 		};
 	};

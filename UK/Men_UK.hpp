@@ -112,8 +112,8 @@ class BG21_UK_ARMY_Sniper: BG21_UK_Soldier_base {
 class BG21_UK_ARMY_AT: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "AT Rifleman";
-	weapons[] = {"LEN_SMLE_No4Mk1","fow_w_piat",UK_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LEN_SMLE_No4Mk1","fow_w_piat",UK_KNIFE,"Throw","Put"};
+	weapons[] = {"LEN_SMLE_No4Mk1","LIB_M1A1_Bazooka",UK_KNIFE,"Throw","Put"};
+	respawnWeapons[] = {"LEN_SMLE_No4Mk1","LIB_M1A1_Bazooka",UK_KNIFE,"Throw","Put"};
 	magazines[] = {UK_KNIFE_MAG,UK_10x_LEN_10Rnd_303,UK_GRENADES};
 	respawnmagazines[] = {UK_KNIFE_MAG,UK_10x_LEN_10Rnd_303,UK_GRENADES};
 	linkedItems[] = {"fow_v_uk_base",LINKED_ITEMS_BASE};
