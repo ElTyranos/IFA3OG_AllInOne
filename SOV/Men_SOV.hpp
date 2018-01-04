@@ -225,7 +225,7 @@ class BG21_SOV_RA_Pilot: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_KNIFE_MAG,SOV_2x_LIB_7Rnd_762x38};
 	linkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_PilotHelmet",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_PilotHelmet",LINKED_ITEMS_COMMANDER};
-	backpack = "ACE_NonSteerableParachute";
+	backpack = "B_LIB_SOV_RA_Paradrop";
 };
 
 // WINTER
