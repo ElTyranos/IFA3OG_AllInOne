@@ -55,6 +55,8 @@ class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
 	displayname = "Grenadier";
 	weapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};
 	respawnWeapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};	
+	linkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_GRENADIER";
 };
 class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
@@ -149,8 +151,8 @@ class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
 	respawnWeapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
 	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG_AS";
 };
 class BG21_US_ARMY_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS {
@@ -398,10 +400,10 @@ class BG21_US_ARMY_Tank_Commander: BG21_US_Soldier_base {
 	displayname = "Tank Commander";
 	uniformClass = "U_LIB_US_Tank_Crew";
 	class EventHandlers {};
-	weapons[] = {"LEN_M3a1","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
-	respawnWeapons[] = {"LEN_M3a1","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
-	magazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_7x_LEN_30Rnd_45ACP_M3,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	weapons[] = {"LIB_M3_GreaseGun","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M3_GreaseGun","LIB_Colt_M1911","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_2x_LIB_7Rnd_45ACP,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_COMMANDER};
 	backpack = "";
@@ -572,8 +574,8 @@ class BG21_USAB101_AT_AS: BG21_US_ARMY_AT_AS {
 };
 class BG21_USAB101_MG: BG21_US_ARMY_MG {
 	faction = "BG21_USAB101";
-	linkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Bar",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_M1919",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_M1919",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
@@ -582,8 +584,8 @@ class BG21_USAB101_MG: BG21_US_ARMY_MG {
 };
 class BG21_USAB101_MG_AS: BG21_US_ARMY_MG_AS {
 	faction = "BG21_USAB101";
-	linkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Grenadier",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_US_AB_Vest_Asst_MG",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Asst_MG",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
