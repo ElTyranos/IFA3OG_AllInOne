@@ -54,7 +54,7 @@ class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
 	displayname = "Grenadier";
 	weapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};	
+	respawnWeapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};
 	linkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_GRENADIER";
@@ -136,12 +136,12 @@ class BG21_US_ARMY_AT_AS: BG21_US_Soldier_base {
 class BG21_US_ARMY_MG: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "M1919A4 Gunner";
-	weapons[] = {"LIB_M1919A4",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1919A4",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_3x_LIB_50Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_3x_LIB_50Rnd_762x63,US_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
+	weapons[] = {"LIB_M1919A4","LIB_Colt_M1911","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1919A4","LIB_Colt_M1911","Throw","Put"};
+	magazines[] = {US_KNIFUS_7x_LIB_30Rnd_45ACPE_MAG,US_3x_LIB_50Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_3x_LIB_50Rnd_762x63,US_GRENADES};
+	linkedItems[] = {"V_LIB_US_Vest_M1919",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_US_Vest_M1919",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG";
 };
 class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
