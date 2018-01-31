@@ -138,7 +138,7 @@ class BG21_US_ARMY_MG: BG21_US_Soldier_base {
 	displayname = "M1919A4 Gunner";
 	weapons[] = {"LIB_M1919A4","LIB_Colt_M1911","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1919A4","LIB_Colt_M1911","Throw","Put"};
-	magazines[] = {US_KNIFUS_7x_LIB_30Rnd_45ACPE_MAG,US_3x_LIB_50Rnd_762x63,US_GRENADES};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_3x_LIB_50Rnd_762x63,US_GRENADES};
 	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_3x_LIB_50Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_M1919",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_M1919",LINKED_ITEMS_BASE};
