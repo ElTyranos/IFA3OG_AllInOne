@@ -259,7 +259,7 @@ class BG21_US_B_BAR_M36: BG21_US_B_BAR {
 };
 class BG21_US_B_MG_M36: BG21_US_B_MG {
 	displayName = "$STR_B_LIB_US_M36_Rope";
-	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_M36_Rope_ca.paa";
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_Rope.p3d";
 	hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
@@ -274,14 +274,14 @@ class BG21_US_B_MG_AS_M36: BG21_US_B_MG_AS {
 };
 class BG21_US_B_EXPLOS_M36: BG21_US_B_EXPLOS {
 	displayName = "$STR_B_LIB_US_M36_Rope";
-	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_M36_Rope_ca.paa";
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_Rope.p3d";
 	hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
 };
 class BG21_US_B_MINES_M36: BG21_US_B_MINES {
 	displayName = "$STR_B_LIB_US_M36_Rope";
-	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_M36_Rope_ca.paa";
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_Rope.p3d";
 	hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
@@ -295,7 +295,7 @@ class BG21_US_B_MORTAR_M36: BG21_US_B_MORTAR {
 };
 class BG21_US_B_GRENADIER_M36: BG21_US_B_GRENADIER {
 	displayName = "$STR_B_LIB_US_M36_Rope";
-	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_Army_M36_Rope_ca.paa";
+	picture = "\WW2\Assets_t\Characters\Pictures_t\Backpacks\B_US_M36_Rope_ca.paa";
 	model = "\WW2\Assets_m\Characters\Americans_m\US_Airborne\WW2_US_Airborne_m36_Rope.p3d";
 	hiddenSelections[] = {"camo1"};
 	hiddenSelectionsTextures[] = {"\ww2\assets_t\characters\americans_t\ww2_us_airborne\m36_co.paa"};
