@@ -473,20 +473,20 @@ class BG21_GER_WH_W_Medic: BG21_GER_WH_Medic {
 // FJS
 class BG21_GER_FJS_PL: BG21_GER_WH_PL {
 	faction = "BG21_GER_FJS";
-	uniformClass = "fow_u_ger_fall_01_sergeant";
-	linkedItems[] = {"fow_v_heer_mp40_nco","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_heer_mp40_nco","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_GER_FJS_PL2: BG21_GER_WH_PL2 {
 	faction = "BG21_GER_FJS";
-	uniformClass = "fow_u_ger_fall_01_sergeant";
-	linkedItems[] = {"fow_v_heer_mp40_nco","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_heer_mp40_nco","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_GER_FJS_SL: BG21_GER_WH_SL {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -494,9 +494,6 @@ class BG21_GER_FJS_SL: BG21_GER_WH_SL {
 };
 class BG21_GER_FJS_TL_G43: BG21_GER_WH_TL_G43 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_g43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_g43",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -504,9 +501,6 @@ class BG21_GER_FJS_TL_G43: BG21_GER_WH_TL_G43 {
 };
 class BG21_GER_FJS_TL_K98: BG21_GER_WH_TL_K98 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -514,16 +508,13 @@ class BG21_GER_FJS_TL_K98: BG21_GER_WH_TL_K98 {
 };
 class BG21_GER_FJS_TL_FG42: BG21_GER_FJS_TL_G43 {
 	displayname = "Unteroffizier (FG42)";
-	weapons[] = {"LEN_FG42",GER_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LEN_FG42",GER_KNIFE,"Throw","Put"};
-	magazines[] = {GER_KNIFE_MAG,GER_9x_len_20Rnd_792x57,GER_GRENADES};
-	respawnmagazines[] = {GER_KNIFE_MAG,GER_9x_len_20Rnd_792x57,GER_GRENADES};
+	weapons[] = {"LIB_FG42G","Throw","Put"};
+	respawnWeapons[] = {"LIB_FG42G","Throw","Put"};
+	magazines[] = {GER_9x_LIB_20Rnd_792x57,GER_GRENADES};
+	respawnmagazines[] = {GER_9x_LIB_20Rnd_792x57,GER_GRENADES};
 };
 class BG21_GER_FJS_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -531,8 +522,6 @@ class BG21_GER_FJS_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 };
 class BG21_GER_FJS_Grenadier: BG21_GER_WH_Grenadier {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -540,9 +529,6 @@ class BG21_GER_FJS_Grenadier: BG21_GER_WH_Grenadier {
 };
 class BG21_GER_FJS_Recon_TL: BG21_GER_WH_Recon_TL {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_COMMANDER};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -550,9 +536,6 @@ class BG21_GER_FJS_Recon_TL: BG21_GER_WH_Recon_TL {
 };
 class BG21_GER_FJS_Recon: BG21_GER_WH_Recon {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -560,8 +543,6 @@ class BG21_GER_FJS_Recon: BG21_GER_WH_Recon {
 };
 class BG21_GER_FJS_Radio: BG21_GER_WH_Radio {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -569,8 +550,6 @@ class BG21_GER_FJS_Radio: BG21_GER_WH_Radio {
 };
 class BG21_GER_FJS_Mortar: BG21_GER_WH_Mortar {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -578,17 +557,13 @@ class BG21_GER_FJS_Mortar: BG21_GER_WH_Mortar {
 };
 class BG21_GER_FJS_Mortar_TL: BG21_GER_WH_Mortar_TL {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
 	};
 };
 class BG21_GER_FJS_Mortar_AS: BG21_GER_WH_Mortar_AS {
-	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	faction = "BG21_GER_FJS";	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -596,9 +571,6 @@ class BG21_GER_FJS_Mortar_AS: BG21_GER_WH_Mortar_AS {
 };
 class BG21_GER_FJS_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_g43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_g43",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -606,9 +578,6 @@ class BG21_GER_FJS_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 };
 class BG21_GER_FJS_Rifleman_STG44: BG21_GER_WH_Rifleman_STG44 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_mp44",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_mp44",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -616,13 +585,9 @@ class BG21_GER_FJS_Rifleman_STG44: BG21_GER_WH_Rifleman_STG44 {
 };
 class BG21_GER_FJS_Sniper: BG21_GER_WH_Sniper {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"V_LIB_GER_VestKar98","fow_h_ger_m40_fall_01_camo",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","fow_h_ger_m40_fall_01_camo",LINKED_ITEMS_BASE};
 };
 class BG21_GER_FJS_AT: BG21_GER_WH_AT {
-	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};	
+	faction = "BG21_GER_FJS";	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -630,8 +595,6 @@ class BG21_GER_FJS_AT: BG21_GER_WH_AT {
 };
 class BG21_GER_FJS_AT_AS: BG21_GER_WH_AT_AS {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -639,9 +602,6 @@ class BG21_GER_FJS_AT_AS: BG21_GER_WH_AT_AS {
 };
 class BG21_GER_FJS_AT_pzft: BG21_GER_WH_AT_pzft {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_fall_bandoleer",LINKED_ITEMS_BASE};
-	backpack = "B_LIB_GER_A_frame_kit";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -649,8 +609,6 @@ class BG21_GER_FJS_AT_pzft: BG21_GER_WH_AT_pzft {
 };
 class BG21_GER_FJS_MG_34: BG21_GER_WH_MG_34 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_mg",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_mg",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -658,8 +616,6 @@ class BG21_GER_FJS_MG_34: BG21_GER_WH_MG_34 {
 };
 class BG21_GER_FJS_MG_42: BG21_GER_WH_MG_42 {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_mg",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_mg",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -667,8 +623,6 @@ class BG21_GER_FJS_MG_42: BG21_GER_WH_MG_42 {
 };
 class BG21_GER_FJS_MG_AS: BG21_GER_WH_MG_AS {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -676,8 +630,6 @@ class BG21_GER_FJS_MG_AS: BG21_GER_WH_MG_AS {
 };
 class BG21_GER_FJS_MG_TL: BG21_GER_WH_MG_TL {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -685,8 +637,6 @@ class BG21_GER_FJS_MG_TL: BG21_GER_WH_MG_TL {
 };
 class BG21_GER_FJS_MG_AS_TRIPOD: BG21_GER_WH_MG_AS_TRIPOD {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98_ass",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -694,8 +644,6 @@ class BG21_GER_FJS_MG_AS_TRIPOD: BG21_GER_WH_MG_AS_TRIPOD {
 };
 class BG21_GER_FJS_Pioneer_Mines: BG21_GER_WH_Pioneer_Mines {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -703,8 +651,6 @@ class BG21_GER_FJS_Pioneer_Mines: BG21_GER_WH_Pioneer_Mines {
 };
 class BG21_GER_FJS_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
@@ -712,12 +658,9 @@ class BG21_GER_FJS_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 };
 class BG21_GER_FJS_Medic: BG21_GER_WH_Medic {
 	faction = "BG21_GER_FJS";
-	linkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"fow_v_heer_k98",LINKED_ITEMS_BASE};
-	class EventHandlers: Eventhandlers
-	{
-		init = "if (local (_this select 0)) then {[(_this select 0), 'FJS'] call BG21_IFA3_fnc_random_gear;};";
-	};
+	uniformClass = "U_LIB_FSJ_Soldier";
+	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",LINKED_ITEMS_BASE};
 };
 
 // DAK
