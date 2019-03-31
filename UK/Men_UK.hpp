@@ -239,6 +239,7 @@ class BG21_UK_DR_SL: BG21_UK_ARMY_SL {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
 	};
+};
 class BG21_UK_DR_TL: BG21_UK_ARMY_TL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
@@ -459,7 +460,7 @@ class BG21_UK_AB_TL: BG21_UK_ARMY_TL {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -469,7 +470,7 @@ class BG21_UK_AB_Rifleman: BG21_UK_ARMY_Rifleman {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -483,7 +484,7 @@ class BG21_UK_AB_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -493,7 +494,7 @@ class BG21_UK_AB_Recon_TL: BG21_UK_ARMY_Recon_TL {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};	
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -503,7 +504,7 @@ class BG21_UK_AB_Recon: BG21_UK_ARMY_Recon {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -522,7 +523,7 @@ class BG21_UK_AB_Mortar: BG21_UK_ARMY_Mortar {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};
-	faction = "BG21_UK_AB_B_MORTAR";
+	backpack = "BG21_UK_AB_B_MORTAR";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -532,7 +533,7 @@ class BG21_UK_AB_Mortar_TL: BG21_UK_ARMY_Mortar_TL {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_COMMANDER};
-	faction = "BG21_UK_AB_B_MORTAR";
+	backpack = "BG21_UK_AB_B_MORTAR";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -542,7 +543,7 @@ class BG21_UK_AB_Mortar_AS: BG21_UK_ARMY_Mortar_AS {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B_MORTAR";
+	backpack = "BG21_UK_AB_B_MORTAR";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -552,7 +553,7 @@ class BG21_UK_AB_Sniper: BG21_UK_ARMY_Sniper {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B";
+	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -562,7 +563,7 @@ class BG21_UK_AB_AT: BG21_UK_ARMY_AT {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B_AT";
+	backpack = "BG21_UK_AB_B_AT";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -572,7 +573,7 @@ class BG21_UK_AB_AT_AS: BG21_UK_ARMY_AT_AS {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B_AT_AS";
+	backpack = "BG21_UK_AB_B_AT_AS";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -582,7 +583,7 @@ class BG21_UK_AB_BREN: BG21_UK_ARMY_BREN {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Heavy_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Heavy_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B_BREN";
+	backpack = "BG21_UK_AB_B_BREN";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -592,7 +593,7 @@ class BG21_UK_AB_BREN_AS: BG21_UK_ARMY_BREN_AS {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
-	faction = "BG21_UK_AB_B_BREN_AS";
+	backpack = "BG21_UK_AB_B_BREN_AS";
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
