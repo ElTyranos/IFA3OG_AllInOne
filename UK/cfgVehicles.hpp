@@ -1,19 +1,6 @@
-class fow_b_uk_p37;
-class BG21_UK_B: fow_b_uk_p37 {
-	scopeArsenal = 1;
-	maximumLoad = 100;
-};
-class fow_b_uk_p37_radio: fow_b_uk_p37 {
-	// tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
-	// tf_hasLRradio = 1;
-	// tf_range = 5000;
-	// tf_encryptionCode = "tf_guer_radio_code";
-	// tf_dialog = "anprc155_radio_dialog";
-	// tf_subtype = "digital_lr";
-	maximumLoad = 125;
-	class TransportItems {};	
-};
-class BG21_UK_B_CO: fow_b_uk_p37_radio {
+class B_LIB_UK_HSack;
+class B_LIB_US_Radio_ACRE2;
+class BG21_UK_B_CO: B_LIB_US_Radio_ACRE2 {
 	class TransportItems
 	{
 		class _xx_ACRE_PRC77
@@ -51,7 +38,7 @@ class BG21_UK_B_CO: fow_b_uk_p37_radio {
 		};
 	};
 };
-class BG21_UK_B_RADIO: fow_b_uk_p37_radio {
+class BG21_UK_B_RADIO: B_LIB_US_Radio_ACRE2 {
 	class TransportItems
 	{		
 		class _xx_ACRE_PRC77
@@ -62,6 +49,10 @@ class BG21_UK_B_RADIO: fow_b_uk_p37_radio {
 	};
 };
 
+// ARMY
+class BG21_UK_B: B_LIB_UK_HSack {
+	scopeArsenal = 1;
+};
 class BG21_UK_B_SL: BG21_UK_B {
 	class TransportMagazines {
 		class _xx_LIB_US_M18 {
@@ -114,24 +105,16 @@ class BG21_UK_B_MEDIC: BG21_UK_B {
 };
 class BG21_UK_B_AT: BG21_UK_B {
 	class TransportMagazines {
-		// class _xx_fow_1Rnd_piat	{
-			// magazine = "fow_1Rnd_piat";
-			// count = 2;
-		// };
-		class _xx_LIB_1Rnd_60mm_M6	{
-			magazine = "LIB_1Rnd_60mm_M6";
+		class _xx_LIB_1Rnd_89m_PIAT	{
+			magazine = "LIB_1Rnd_89m_PIAT";
 			count = 2;
 		};
 	};
 };
 class BG21_UK_B_AT_AS: BG21_UK_B {
 	class TransportMagazines {
-		// class _xx_fow_1Rnd_piat	{
-			// magazine = "fow_1Rnd_piat";
-			// count = 3;
-		// };
-		class _xx_LIB_1Rnd_60mm_M6	{
-			magazine = "LIB_1Rnd_60mm_M6";
+		class _xx_LIB_1Rnd_89m_PIAT	{
+			magazine = "LIB_1Rnd_89m_PIAT";
 			count = 3;
 		};
 	};
@@ -154,16 +137,16 @@ class BG21_UK_B_MG_AS: BG21_UK_B {
 };
 class BG21_UK_B_BREN: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_fow_30Rnd_303_bren {
-			magazine = "fow_30Rnd_303_bren";
+		class _xx_LIB_30Rnd_770x56 {
+			magazine = "LIB_30Rnd_770x56";
 			count = 2;
 		};
 	};
 };
 class BG21_UK_B_BREN_AS: BG21_UK_B {
 	class TransportMagazines {
-		class _xx_fow_30Rnd_303_bren {
-			magazine = "fow_30Rnd_303_bren";
+		class _xx_LIB_30Rnd_770x56 {
+			magazine = "LIB_30Rnd_770x56";
 			count = 6;
 		};
 	};
@@ -211,167 +194,228 @@ class BG21_UK_B_MORTAR: BG21_UK_B {
 	};	
 };
 
-// Commandos
-class BG21_UK_CDO_B: BG21_UK_B {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+// AB
+class BG21_UK_AB_B: BG21_UK_B {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_SL: BG21_UK_B_SL {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};
+};
+class BG21_UK_AB_B_MEDIC: BG21_UK_B_MEDIC {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_AT: BG21_UK_B_AT {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_AT_AS: BG21_UK_B_AT_AS {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_MG: BG21_UK_B_MG {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_MG_AS: BG21_UK_B_MG_AS {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_BREN: BG21_UK_B_BREN {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_BREN_AS: BG21_UK_B_BREN_AS {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};	
+};
+class BG21_UK_AB_B_EXPLOS: BG21_UK_B_EXPLOS {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};		
+};
+class BG21_UK_AB_B_MINES: BG21_UK_B_MINES {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};		
+};
+class BG21_UK_AB_B_MORTAR: BG21_UK_B_MORTAR {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems: TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};
+};
+
+// CDO
+class BG21_UK_CDO_B: BG21_UK_B {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_SL: BG21_UK_B_SL {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};
 };
 class BG21_UK_CDO_B_MEDIC: BG21_UK_B_MEDIC {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems: TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_AT: BG21_UK_B_AT {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_AT_AS: BG21_UK_B_AT_AS {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_MG: BG21_UK_B_MG {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_MG_AS: BG21_UK_B_MG_AS {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_BREN: BG21_UK_B_BREN {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_BREN_AS: BG21_UK_B_BREN_AS {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};	
 };
 class BG21_UK_CDO_B_EXPLOS: BG21_UK_B_EXPLOS {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems: TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};		
 };
 class BG21_UK_CDO_B_MINES: BG21_UK_B_MINES {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems: TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};		
 };
 class BG21_UK_CDO_B_MORTAR: BG21_UK_B_MORTAR {
-	model = "\fow\fow_characters\uk\lodu_brit_bergenpack";
-	displayName = "[UK] Bergen pack";
-	picture = "\fow\fow_characters\uk\data\ui\fow_b_uk_p37_ca.paa";
-	hiddenSelections[]={"camo"};
-	hiddenSelectionsTextures[]={"fow\fow_characters\uk\data\bergen_co.paa"};
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems: TransportItems {
-		class _xx_fow_h_uk_beret_commando_kieffer {
-			name = "fow_h_uk_beret_commando_kieffer";
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
 	};
 };
 
-
-class fow_s_uk_base;
-class BG21_UK_base: fow_s_uk_base
+class LIB_UK_Soldier_base;
+class BG21_UK_base: LIB_UK_Soldier_base
 {
 	class EventHandlers;
 };
@@ -382,7 +426,7 @@ class BG21_UK_Soldier_base: BG21_UK_base
 	identityTypes[] = {"Language_EN_EP1","Head_EURO","LIB_Glasses"};
 	faction = "BG21_UK_ARMY";
 	vehicleClass = "BG21_Men";
-	uniformClass = "fow_u_uk_bd40_01_private";
+	uniformClass = "U_LIB_UK_P37";
 	attendant = 0;
 	canDeactivateMines = 0;
 	engineer = 0;
@@ -392,12 +436,12 @@ class BG21_UK_Soldier_base: BG21_UK_base
 	};
 	Items[] = {ITEMS_BASE};
 	RespawnItems[] = {ITEMS_BASE};
-	weapons[] = {"fow_w_leeenfield_no4mk1","Throw","Put"};
-	respawnWeapons[] = {"fow_w_leeenfield_no4mk1","Throw","Put"};
-	magazines[] = {US_13x_LIB_8Rnd_762x63,UK_GRENADES};
-	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,UK_GRENADES};
-	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
+	weapons[] = {"LIB_LeeEnfield_No4","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No4","Throw","Put"};
+	magazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
+	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
+	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
 

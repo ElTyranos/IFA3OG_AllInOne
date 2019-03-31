@@ -36,8 +36,8 @@
 #define US_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
 #define US_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
-#define UK_GRENADES "fow_e_no36mk1","fow_e_no36mk1"
-#define UK_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
+#define UK_GRENADES "LIB_MillsBomb","LIB_MillsBomb"
+#define UK_GRENADES_SMOKE "LIB_No77","LIB_No77"
 
 // GER
 #define GER_2x_lib_8Rnd_9x19 "lib_8Rnd_9x19","lib_8Rnd_9x19"
@@ -59,7 +59,7 @@
 
 #define GER_2x_LIB_8Rnd_9x19 "LIB_8Rnd_9x19","LIB_8Rnd_9x19"
 
-#define GER_9x_len_20Rnd_792x57 "len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57"
+#define GER_9x_LIB_20Rnd_792x57 "LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57","LIB_20Rnd_792x57"
 
 // IJA
 ///#define IJA_2x_fow_8Rnd_8x22 "fow_8Rnd_8x22","fow_8Rnd_8x22"
@@ -113,17 +113,17 @@
 #define US_20x_LIB_5Rnd_762x63  "LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63","LIB_5Rnd_762x63"
 
 // UK
-#define UK_2x_fow_6Rnd_455 "fow_6Rnd_455","fow_6Rnd_455"
+#define UK_2x_LIB_6Rnd_455 "LIB_6Rnd_455","LIB_6Rnd_455"
 
-#define UK_10x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
+#define UK_10x_LIB_10Rnd_770x56 "LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56"
 
-#define UK_5x_LEN_10Rnd_303 "LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303","LEN_10Rnd_303"
+#define UK_5x_LIB_10Rnd_770x56 "LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56","LIB_10Rnd_770x56"
 
-#define UK_7x_LEN_32Rnd_9x19 "LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19"
+#define UK_7x_LIB_32Rnd_9x19_Sten "LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten"
 
 #define UK_7x_LIB_30Rnd_45ACP "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 
-#define UK_5x_fow_30Rnd_303_bren "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
+#define UK_5x_LIB_30Rnd_770x56 "LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56"
 
 #define UK_3x_LIB_50Rnd_762x63 "LIB_50Rnd_762x63","LIB_50Rnd_762x63","LIB_50Rnd_762x63"
 
@@ -278,9 +278,9 @@
 
 #define UK_VHL_TRANSPORT_WEAPONS \
 	class TransportMagazines { \
-		class _xx_fow_30Rnd_303_bren \
+		class _xx_LIB_30Rnd_770x56 \
 		{ \
-			magazine = "fow_30Rnd_303_bren"; \
+			magazine = "LIB_30Rnd_770x56"; \
 			count = 10; \
 		}; \
 		class _xx_LIB_rpg6 \
