@@ -327,6 +327,18 @@ switch (_this select 1) do {
 		_unit addHeadGear _headgear;
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	case "UK_DR" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_UK_Helmet_Mk2_Desert","H_LIB_UK_Helmet_Mk2_Desert_Bowed","H_LIB_UK_Helmet_Mk2_Cover"];
+		_uniforms = ["U_LIB_UK_KhakiDrills"];
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
 
 	case default {};
 };
