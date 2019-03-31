@@ -11,6 +11,7 @@ class B_LIB_SOV_RA_Paradrop;
 
 class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio_ACRE2 {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportItems
 	{
 		class _xx_ACRE_PRC77
@@ -46,6 +47,7 @@ class BG21_SOV_B_CO: B_LIB_SOV_RA_Radio_ACRE2 {
 };
 class BG21_SOV_B_RADIO: B_LIB_SOV_RA_Radio_ACRE2 {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportItems
 	{
 		class _xx_ACRE_PRC77
@@ -123,6 +125,7 @@ class BG21_SOV_B_AT_AS: B_LIB_SOV_RA_Rucksack2 {
 };
 class BG21_SOV_B_MG: B_LIB_SOV_RA_MGAmmoBag_Empty {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportMagazines {
 		class _xx_LIB_47Rnd_762x54 {
 			magazine = "LIB_47Rnd_762x54";
@@ -132,6 +135,7 @@ class BG21_SOV_B_MG: B_LIB_SOV_RA_MGAmmoBag_Empty {
 };
 class BG21_SOV_B_MG_AS: B_LIB_SOV_RA_MGAmmoBag_Empty {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportMagazines {
 		class _xx_LIB_LIB_47Rnd_762x54 {
 			magazine = "LIB_47Rnd_762x54";
