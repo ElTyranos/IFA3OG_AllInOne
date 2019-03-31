@@ -6,6 +6,7 @@ class B_LIB_US_M36_Rope;
 
 class BG21_US_B_CO: B_LIB_US_Radio_ACRE2 {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportItems
 	{
 		class _xx_ACRE_PRC77
@@ -45,6 +46,7 @@ class BG21_US_B_CO: B_LIB_US_Radio_ACRE2 {
 };
 class BG21_US_B_RADIO: B_LIB_US_Radio_ACRE2 {
 	scope = 1;
+	scopeArsenal = 0;
 	class TransportItems
 	{
 		class _xx_ACRE_PRC77
