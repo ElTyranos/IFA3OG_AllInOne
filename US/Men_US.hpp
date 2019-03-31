@@ -32,10 +32,10 @@ class BG21_US_ARMY_SL: BG21_US_Soldier_base {
 class BG21_US_ARMY_TL: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Team Leader";
-	weapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_US_Backpack";
@@ -43,37 +43,37 @@ class BG21_US_ARMY_TL: BG21_US_Soldier_base {
 class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Rifleman";
-	weapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1_Garand","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	backpack = "B_LIB_US_Backpack";
 };
 class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
 	displayname = "Grenadier";
-	weapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"BG21_M1_Garand_Grenadier",US_KNIFE,"Throw","Put"};
+	weapons[] = {"BG21_M1_Garand_Grenadier","Throw","Put"};
+	respawnWeapons[] = {"BG21_M1_Garand_Grenadier","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_GRENADIER";
 };
 class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
 	displayname = "Recon Team Leader";
-	weapons[] = {"LIB_M1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES_SMOKE,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_COMMANDER};
 };
 class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 	displayname = "Recon";
-	weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 };
 class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
@@ -92,10 +92,10 @@ class BG21_US_ARMY_Flamethrower: BG21_US_ARMY_Rifleman {
 class BG21_US_ARMY_BAR: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "BAR Rifleman";
-	weapons[] = {"LIB_M1918A2_BAR",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1918A2_BAR",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_7x_LIB_20Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_7x_LIB_20Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1918A2_BAR","Throw","Put"};
+	magazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_20Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Bar",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_BAR";
@@ -103,10 +103,10 @@ class BG21_US_ARMY_BAR: BG21_US_Soldier_base {
 class BG21_US_ARMY_Sniper: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Sniper";
-	weapons[] = {"LIB_M1903A4_Springfield",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A4_Springfield",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_5Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A4_Springfield","Throw","Put"};
+	magazines[] = {US_10x_LIB_5Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_5Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	backpack = "";
@@ -114,10 +114,10 @@ class BG21_US_ARMY_Sniper: BG21_US_Soldier_base {
 class BG21_US_ARMY_AT: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "AT Rifleman";
-	weapons[] = {"LIB_M1_Carbine","LIB_M1A1_Bazooka",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M1A1_Bazooka",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","LIB_M1A1_Bazooka","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M1A1_Bazooka","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_AT";
@@ -125,10 +125,10 @@ class BG21_US_ARMY_AT: BG21_US_Soldier_base {
 class BG21_US_ARMY_AT_AS: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "AT Assistant";
-	weapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1_Garand","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_AT_AS";
@@ -147,26 +147,26 @@ class BG21_US_ARMY_MG: BG21_US_Soldier_base {
 class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "M1919A4 Assistant";
-	weapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1_Garand","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG_AS";
 };
 class BG21_US_ARMY_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS {
 	displayname = "M1919A4 Assistant (Tripod)";
-	weapons[] = {"LIB_M1_Garand","LIB_M2_Tripod",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand","LIB_M2_Tripod",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1_Garand","LIB_M2_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_M2_Tripod","Throw","Put"};
 };
 class BG21_US_ARMY_MG_TL: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "M1919A4 Team Leader";
-	weapons[] = {"LIB_M1_Garand","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	weapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MG_AS";
@@ -174,10 +174,10 @@ class BG21_US_ARMY_MG_TL: BG21_US_Soldier_base {
 class BG21_US_ARMY_Engineer_Mines: BG21_US_Soldier_base {
 	scope = 2;
 	displayname = "Engineer (Mines)";
-	weapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63};
+	weapons[] = {"LIB_M1_Garand","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine_eng",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine_eng",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MINES";
@@ -192,10 +192,10 @@ class BG21_US_ARMY_Medic: BG21_US_Soldier_base {
 	displayname = "Medic";
 	uniformClass = "U_LIB_US_Med";
 	class EventHandlers {};
-	weapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_ns",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_Helmet_Med_ns",LINKED_ITEMS_BASE};
 	backpack = "BG21_US_B_MEDIC";
@@ -203,10 +203,10 @@ class BG21_US_ARMY_Medic: BG21_US_Soldier_base {
 class BG21_US_ARMY_Mortar_TL: BG21_US_ARMY_Rifleman {
 	scope = 2;
 	displayname = "Mortar Team Leader";
-	weapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	backpack = "BG21_US_B_MORTAR";	
@@ -214,10 +214,10 @@ class BG21_US_ARMY_Mortar_TL: BG21_US_ARMY_Rifleman {
 class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 	scope = 2;
 	displayname = "Mortar Operator";
-	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	backpack = "BG21_US_B_MORTAR";
@@ -225,10 +225,10 @@ class BG21_US_ARMY_Mortar: BG21_US_ARMY_Rifleman {
 class BG21_US_ARMY_Mortar_AS: BG21_US_ARMY_Rifleman {
 	scope = 2;
 	displayname = "Mortar Assistant";
-	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine",LINKED_ITEMS_BASE};	
 	backpack = "BG21_US_B_MORTAR";
@@ -413,10 +413,10 @@ class BG21_US_ARMY_Tank_Crew: BG21_US_Soldier_base {
 	displayname = "Tank Crew";
 	uniformClass = "U_LIB_US_Tank_Crew";
 	class EventHandlers {};
-	weapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Carbine",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_45","H_LIB_US_Helmet_Tank",LINKED_ITEMS_BASE};
 	backpack = "";
@@ -447,8 +447,8 @@ class BG21_USAB101_SL: BG21_US_ARMY_SL {
 };
 class BG21_USAB101_TL: BG21_US_ARMY_TL {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
@@ -470,10 +470,10 @@ class BG21_USAB101_Rifleman: BG21_US_ARMY_Rifleman {
 class BG21_USAB101_AssaultRifleman: BG21_US_ARMY_Rifleman {
 	faction = "BG21_USAB101";
 	displayname = "Assault rifleman";
-	weapons[] = {"LIB_M1A1_Thompson",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Thompson",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_7x_LIB_30Rnd_45ACP,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_7x_LIB_30Rnd_45ACP,US_GRENADES};	
+	weapons[] = {"LIB_M1A1_Thompson","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Thompson","Throw","Put"};
+	magazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES};
+	respawnmagazines[] = {US_7x_LIB_30Rnd_45ACP,US_GRENADES};	
 	linkedItems[] = {"V_LIB_US_AB_Vest_Thompson",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Thompson",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
@@ -494,8 +494,8 @@ class BG21_USAB101_Grenadier: BG21_US_ARMY_Grenadier {
 };
 class BG21_USAB101_Recon_TL: BG21_US_ARMY_Recon_TL {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_Binocular_US","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
@@ -506,10 +506,10 @@ class BG21_USAB101_Recon_TL: BG21_US_ARMY_Recon_TL {
 };
 class BG21_USAB101_Recon: BG21_US_ARMY_Recon {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1_Garand","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_13x_LIB_8Rnd_762x63,US_GRENADES};	
+	weapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1_Garand","LIB_Binocular_US","Throw","Put"};
+	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};	
 	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
@@ -520,10 +520,10 @@ class BG21_USAB101_Recon: BG21_US_ARMY_Recon {
 };
 class BG21_USAB101_Radio: BG21_US_ARMY_Radio {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	magazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
+	respawnmagazines[] = {US_10x_LIB_15Rnd_762x33,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
@@ -552,8 +552,8 @@ class BG21_USAB101_Sniper: BG21_US_ARMY_Sniper {
 };
 class BG21_USAB101_AT: BG21_US_ARMY_AT {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
@@ -635,16 +635,16 @@ class BG21_USAB101_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
 class BG21_USAB101_Medic: BG21_US_ARMY_Medic {
 	faction = "BG21_USAB101";
 	uniformClass = "U_LIB_US_AB_Uniform_M42_Medic";
-	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_AB_Helmet_Medic_1",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Medic2","H_LIB_US_AB_Helmet_Medic_1",LINKED_ITEMS_BASE};	
 	backpack = "BG21_US_B_MEDIC_M36";
 };
 class BG21_USAB101_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};		
 	class EventHandlers: Eventhandlers
@@ -655,8 +655,8 @@ class BG21_USAB101_Mortar_TL: BG21_US_ARMY_Mortar_TL {
 };
 class BG21_USAB101_Mortar: BG21_US_ARMY_Mortar {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Barrel","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_COMMANDER};		
 	class EventHandlers: Eventhandlers
@@ -667,8 +667,8 @@ class BG21_USAB101_Mortar: BG21_US_ARMY_Mortar {
 };
 class BG21_USAB101_Mortar_AS: BG21_US_ARMY_Mortar_AS {
 	faction = "BG21_USAB101";
-	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod",US_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1A1_Carbine","LIB_M2_60_Tripod","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Carbine",LINKED_ITEMS_BASE};		
 	class EventHandlers: Eventhandlers
@@ -924,10 +924,10 @@ class BG21_USMC_Recon: BG21_US_ARMY_Recon {
 };
 class BG21_USMC_Radio: BG21_US_ARMY_Radio {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -957,10 +957,10 @@ class BG21_USMC_Sniper: BG21_US_ARMY_Sniper {
 };
 class BG21_USMC_AT: BG21_US_ARMY_AT {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// weapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_M1A1_Bazooka","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	// linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	// respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
@@ -971,10 +971,10 @@ class BG21_USMC_AT: BG21_US_ARMY_AT {
 };
 class BG21_USMC_AT_AS: BG21_US_ARMY_AT_AS {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -991,10 +991,10 @@ class BG21_USMC_MG: BG21_US_ARMY_MG {
 };
 class BG21_USMC_MG_AS: BG21_US_ARMY_MG_AS {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1003,10 +1003,10 @@ class BG21_USMC_MG_AS: BG21_US_ARMY_MG_AS {
 };
 class BG21_USMC_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1015,10 +1015,10 @@ class BG21_USMC_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS_TRIPOD {
 };
 class BG21_USMC_MG_TL: BG21_US_ARMY_MG_TL {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1027,10 +1027,10 @@ class BG21_USMC_MG_TL: BG21_US_ARMY_MG_TL {
 };
 class BG21_USMC_Engineer_Mines: BG21_US_ARMY_Engineer_Mines {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1039,10 +1039,10 @@ class BG21_USMC_Engineer_Mines: BG21_US_ARMY_Engineer_Mines {
 };
 class BG21_USMC_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
 	faction = "BG21_USMC";
-	weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
@@ -1051,10 +1051,10 @@ class BG21_USMC_Engineer_Explos: BG21_US_ARMY_Engineer_Explos {
 };
 class BG21_USMC_Medic: BG21_US_ARMY_Medic {
 	faction = "BG21_USMC";
-	// weapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// respawnWeapons[] = {"LIB_M1903A3_Springfield",US_KNIFE,"Throw","Put"};
-	// magazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};
-	// respawnmagazines[] = {US_KNIFE_MAG,US_20x_LIB_5Rnd_762x63,US_GRENADES};	
+	// weapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// respawnWeapons[] = {"LIB_M1903A3_Springfield","Throw","Put"};
+	// magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	// respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USMC'] call BG21_IFA3_fnc_random_gear;};";
