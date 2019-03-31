@@ -49,10 +49,37 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 	
 		_headgears = [
-			"fow_h_ger_m40_fall_01_camo","fow_h_ger_m40_fall_01"
+			"H_LIB_GER_FSJ_M44_Helmet","H_LIB_GER_FSJ_M44_Helmet_os","H_LIB_GER_FSJ_M44_HelmetCamo1","H_LIB_GER_FSJ_M44_HelmetCamo2","H_LIB_GER_FSJ_M38_Helmet_Cover","H_LIB_GER_FSJ_M44_HelmetUtility"
 		];
 		_uniforms = [
-			"fow_u_ger_fall_03_private","fow_u_ger_fall_01_private"
+			"U_LIB_FSJ_Soldier","U_LIB_FSJ_Soldier_camo"
+		];
+		
+		_uniform = _uniforms call BIS_fnc_selectRandom;
+		
+		_headgear = _headgears call BIS_fnc_selectRandom;
+		
+		_blacklist_uniform = [""];
+		
+		if (_uniform in _blacklist_uniform) then {_headgear = ""};
+		_items = uniformItems _unit;
+		
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		
+		_unit addHeadGear _headgear;
+		
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	case "FJS_DAK" : {
+		
+		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
+	
+		_headgears = [
+			"H_LIB_GER_FSJ_M38_Helmet_DAK","H_LIB_GER_FSJ_M38_Helmet_grey","H_LIB_GER_FSJ_M38_Helmet_grey_os"
+		];
+		_uniforms = [
+			"U_LIB_FSJ_Soldier_dak","U_LIB_FSJ_Soldier_dak_camo"
 		];
 		
 		_uniform = _uniforms call BIS_fnc_selectRandom;
