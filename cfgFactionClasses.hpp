@@ -56,6 +56,13 @@ class cfgFactionClasses
 		priority = 1;
 		side = 2;
 	};
+	class BG21_UK_DR
+	{
+		displayName = "[BG21] British Desert";
+		icon = "";
+		priority = 1;
+		side = 2;
+	};
 	class BG21_UK_CDO
 	{
 		displayName = "[BG21] No4 Commando";

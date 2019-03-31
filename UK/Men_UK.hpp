@@ -214,6 +214,206 @@ class BG21_UK_ARMY_Medic: BG21_UK_Soldier_base {
 	backpack = "BG21_UK_B_MEDIC";
 };
 
+// DESERT
+class BG21_UK_DR_PL: BG21_UK_ARMY_PL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_PL2: BG21_UK_ARMY_PL2 {
+	faction = "BG21_UK_DR";
+};
+class BG21_UK_DR_SL: BG21_UK_ARMY_SL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+class BG21_UK_DR_TL: BG21_UK_ARMY_TL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Rifleman: BG21_UK_ARMY_Rifleman {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+};
+class BG21_UK_DR_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
+	faction = "BG21_UK_DR";
+	displayname = "Assault Rifleman (Thompson)";
+	weapons[] = {"LIB_M1928A1_Thompson","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1928A1_Thompson","Throw","Put"};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_GRENADES};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_GRENADES};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Recon_TL: BG21_UK_ARMY_Recon_TL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Recon: BG21_UK_ARMY_Recon {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Radio: BG21_UK_ARMY_Radio {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Mortar: BG21_UK_ARMY_Mortar {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Barrel","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Mortar_TL: BG21_UK_ARMY_Mortar_TL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Mortar_AS: BG21_UK_ARMY_Mortar_AS {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Tripod","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Sniper: BG21_UK_ARMY_Sniper {
+	faction = "BG21_UK_DR";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_AT: BG21_UK_ARMY_AT {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_PIAT","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_PIAT","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_AT_AS: BG21_UK_ARMY_AT_AS {
+	faction = "BG21_UK_DR";
+	displayname = "AT Assistant";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_BREN: BG21_UK_ARMY_BREN {
+	faction = "BG21_UK_DR";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_BREN_AS: BG21_UK_ARMY_BREN_AS {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_MG: BG21_UK_ARMY_MG {
+	faction = "BG21_UK_DR";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_MG_AS: BG21_UK_ARMY_MG_AS {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_MG_TL: BG21_UK_ARMY_TL {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Engineer_Mines: BG21_UK_ARMY_Engineer_Mines {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Engineer_Explos: BG21_UK_ARMY_Engineer_Explos {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_DR_Medic: BG21_UK_ARMY_Medic {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+
 // AIRBORNE
 class BG21_UK_AB_PL: BG21_UK_ARMY_PL {
 	faction = "BG21_UK_AB";
