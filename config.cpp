@@ -13,7 +13,7 @@ class CfgPatches
 
 #include "Extended_killed_Eventhandlers.hpp"
 #include "Extended_PostInit_EventHandlers.hpp"
-#include "CfgRagdolls.hpp"
+// #include "CfgRagdolls.hpp" // Included in IFA3
 #include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
