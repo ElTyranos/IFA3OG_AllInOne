@@ -1,4 +1,4 @@
-// FOW Vests
+/*// FOW Vests
 class ItemCore;
 class Vest_Camo_Base;
 class fow_v_base: Vest_Camo_Base {
@@ -227,3 +227,4 @@ class LEN_SMLE_No4Mk1: LIB_K98 {
 		};
 	};
 };
+*/

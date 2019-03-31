@@ -1,4 +1,4 @@
-// class LIB_K98; // Already called
+class LIB_K98; // Already called
 class BG21_K98_Grenadier: LIB_K98
 {
 	scope = 1;

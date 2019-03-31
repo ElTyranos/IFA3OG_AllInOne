@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.00;
-		requiredAddons[] = {"WW2_Core_c_WW2_Core_c","fow_characters_c","LEN_IFA3_WP","CBA_Extended_EventHandlers"};
+		requiredAddons[] = {"WW2_Core_c_WW2_Core_c","CBA_Extended_EventHandlers"};
 		authors[] = {"El Tyranos"};
 	};
 	#include "Compatibility\cfgPatches.hpp"
@@ -33,7 +33,7 @@ class cfgWeapons
 	#include "GER\cfgWeapons.hpp"
 	#include "US\cfgWeapons.hpp"
 	#include "UK\cfgWeapons.hpp"
-	#include "IJA\cfgWeapons.hpp"
+	// #include "IJA\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
@@ -41,14 +41,14 @@ class CfgVehicles
 	#include "GER\cfgVehicles.hpp"
 	#include "US\cfgVehicles.hpp"
 	#include "UK\cfgVehicles.hpp"
-	#include "IJA\cfgVehicles.hpp"
+	// #include "IJA\cfgVehicles.hpp"
 };
 class CfgGroups
 {
 	class West
 	{
 		#include "GER\CfgGroups.hpp"
-		#include "IJA\CfgGroups.hpp"
+		// #include "IJA\CfgGroups.hpp"
 	};
 	class East
 	{

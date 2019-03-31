@@ -321,10 +321,11 @@ class BG21_US_B_GRENADIER_DDAY: BG21_US_B_GRENADIER {};
 
 //USMC Backpacks
 class BG21_USMC_Backpack: B_LIB_US_Backpack {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	scope = 1;
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_CO: BG21_US_B_CO {
 	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
@@ -333,70 +334,70 @@ class BG21_USMC_B_CO: BG21_US_B_CO {
 	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_SL: BG21_US_B_SL {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MEDIC: BG21_US_B_MEDIC {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_AT: BG21_US_B_AT {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_AT_AS: BG21_US_B_AT_AS {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_BAR: BG21_US_B_BAR {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MG: BG21_US_B_MG {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MG_AS: BG21_US_B_MG_AS {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_EXPLOS: BG21_US_B_EXPLOS {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MINES: BG21_US_B_MINES {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_MORTAR: BG21_US_B_MORTAR {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 class BG21_USMC_B_GRENADIER: BG21_US_B_GRENADIER {
-	model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
-	displayName = "[USMC] Haversack M-1928";
-	picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
-	hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
+	// model = "\fow\fow_characters\usmc\lodu_usmc_backpack01";
+	// displayName = "[USMC] Haversack M-1928";
+	// picture = "\fow\fow_characters\us\data\ui\fow_b_us_m1928_ca.paa";
+	// hiddenSelectionsTextures[]={"fow\fow_characters\usmc\data\sac_usmc_co.paa"};
 };
 
 class LIB_US_Soldier_base;

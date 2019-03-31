@@ -27,8 +27,8 @@
 #define GER_GRENADES "LIB_shg24","LIB_shg24"
 #define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
 
-#define IJA_GRENADES "fow_e_type97","fow_e_type97"
-#define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
+// #define IJA_GRENADES "fow_e_type97","fow_e_type97"
+// #define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
 #define SOV_GRENADES "LIB_f1","LIB_f1"
 #define SOV_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
@@ -62,15 +62,15 @@
 #define GER_9x_len_20Rnd_792x57 "len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57","len_20Rnd_792x57"
 
 // IJA
-#define IJA_2x_fow_8Rnd_8x22 "fow_8Rnd_8x22","fow_8Rnd_8x22"
+///#define IJA_2x_fow_8Rnd_8x22 "fow_8Rnd_8x22","fow_8Rnd_8x22"
 
-#define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
+///#define IJA_20x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
 
-#define IJA_10x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
+///#define IJA_10x_fow_5Rnd_77x58 "fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58","fow_5Rnd_77x58"
 
-#define IJA_7x_fow_32Rnd_8x22 "fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22"
+///#define IJA_7x_fow_32Rnd_8x22 "fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22","fow_32Rnd_8x22"
 
-#define IJA_5x_fow_30Rnd_77x58 "fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58"
+///#define IJA_5x_fow_30Rnd_77x58 "fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58","fow_30Rnd_77x58"
 
 
 // SOV
