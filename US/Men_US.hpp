@@ -511,7 +511,7 @@ class BG21_USAB101_Recon: BG21_US_ARMY_Recon {
 	magazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};	
 	linkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};	
+	respawnLinkedItems[] = {"V_LIB_US_AB_Vest_Garand",LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'USAB_101'] call BG21_IFA3_fnc_random_gear;};";
