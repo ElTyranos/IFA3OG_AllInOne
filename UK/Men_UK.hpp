@@ -268,6 +268,7 @@ class BG21_UK_DR_Rifleman: BG21_UK_ARMY_Rifleman {
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
 	};
+};
 class BG21_UK_DR_Piper: BG21_UK_ARMY_Piper {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_Bagpipes","Throw","Put"};
