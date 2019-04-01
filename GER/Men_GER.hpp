@@ -63,8 +63,8 @@ class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 };
 class BG21_GER_WH_Grenadier: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Grenadier";
-	weapons[] = {"BG21_K98_Grenadier","Throw","Put"};
-	respawnWeapons[] = {"BG21_K98_Grenadier","Throw","Put"};	
+	weapons[] = {"LIB_K98_GW","Throw","Put"};
+	respawnWeapons[] = {"LIB_K98_GW","Throw","Put"};	
 	backpack = "B_LIB_GER_GRENADIER";
 };
 class BG21_GER_WH_Recon_TL: BG21_GER_WH_Rifleman_K98 {
