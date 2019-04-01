@@ -49,7 +49,11 @@ class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	backpack = "BG21_UK_B";
 };
-class BG21_UK_ARMY_Rifleman_Sten: BG21_UK_Soldier_base {
+class BG21_UK_ARMY_Piper: BG21_UK_ARMY_Rifleman {
+	displayname = "Piper";
+	weapons[] = {"LIB_LeeEnfield_No4","LIB_Bagpipes","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No4","LIB_Bagpipes","Throw","Put"};
+};class BG21_UK_ARMY_Rifleman_Sten: BG21_UK_Soldier_base {
 	scope = 2;
 	displayname = "Assault Rifleman (Sten)";
 	weapons[] = {"LIB_Sten_Mk2","Throw","Put"};
@@ -253,7 +257,17 @@ class BG21_UK_DR_Rifleman: BG21_UK_ARMY_Rifleman {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-};
+class BG21_UK_DR_Piper: BG21_UK_ARMY_Piper {
+	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_LeeEnfield_No1","LIB_Bagpipes","Throw","Put"};
+	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Bagpipes","Throw","Put"};
+	items[] = {"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};};
 class BG21_UK_DR_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 	faction = "BG21_UK_DR";
 	displayname = "Assault Rifleman (Thompson)";
@@ -467,6 +481,16 @@ class BG21_UK_AB_TL: BG21_UK_ARMY_TL {
 	};
 };
 class BG21_UK_AB_Rifleman: BG21_UK_ARMY_Rifleman {
+	faction = "BG21_UK_AB";
+	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
+	backpack = "BG21_UK_AB_B";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_AB_Piper: BG21_UK_ARMY_Piper {
 	faction = "BG21_UK_AB";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
@@ -714,6 +738,16 @@ class BG21_UK_CDO_TL: BG21_UK_ARMY_TL {
 	};
 };
 class BG21_UK_CDO_Rifleman: BG21_UK_ARMY_Rifleman {
+	faction = "BG21_UK_CDO";
+	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
+	backpack = "BG21_UK_CDO_B";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_CDO'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_UK_CDO_Piper: BG21_UK_ARMY_Piper {
 	faction = "BG21_UK_CDO";
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman_Blanco",LINKED_ITEMS_BASE};
