@@ -193,7 +193,15 @@ class BG21_UK_B_MORTAR: BG21_UK_B {
 		};
 	};	
 };
-
+class BG21_UK_B_GRENADIER: BG21_UK_B {
+	scope = 1;
+	class TransportMagazines {
+		class _xx_LIB_1Rnd_G_MillsBomb {
+			magazine = "LIB_1Rnd_G_MillsBomb";
+			count = 4;
+		};
+	};
+};
 // AB
 class BG21_UK_AB_B: BG21_UK_B {
 	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
@@ -297,6 +305,15 @@ class BG21_UK_AB_B_MINES: BG21_UK_B_MINES {
 class BG21_UK_AB_B_MORTAR: BG21_UK_B_MORTAR {
 	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
 	class TransportItems: TransportItems {
+		class _xx_H_LIB_UK_Para_Beret {
+			name = "H_LIB_UK_Para_Beret";
+			count = 1;
+		};
+	};
+};
+class BG21_UK_AB_B_GRENADIER: BG21_UK_B_GRENADIER {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
 		class _xx_H_LIB_UK_Para_Beret {
 			name = "H_LIB_UK_Para_Beret";
 			count = 1;
@@ -413,6 +430,16 @@ class BG21_UK_CDO_B_MORTAR: BG21_UK_B_MORTAR {
 		};
 	};
 };
+class BG21_UK_CDO_B_GRENADIER: BG21_UK_B_GRENADIER {
+	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
+	class TransportItems {
+		class _xx_H_LIB_UK_Beret_Commando {
+			name = "H_LIB_UK_Beret_Commando";
+			count = 1;
+		};
+	};
+};
+
 
 class LIB_UK_Soldier_base;
 class BG21_UK_base: LIB_UK_Soldier_base
