@@ -47,6 +47,8 @@ class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
 class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base {
@@ -58,6 +60,8 @@ class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "B_LIB_SOV_RA_Shinel";
 };
 class BG21_SOV_RA_Grenadier: BG21_SOV_RA_Rifleman_Mosin {
@@ -137,6 +141,8 @@ class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "BG21_SOV_B_AT_AS";
 };
 class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base {
@@ -159,6 +165,8 @@ class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "BG21_SOV_B_MG_AS";
 };
 class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base {
@@ -170,6 +178,8 @@ class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "BG21_SOV_B_MINES";
 };
 class BG21_SOV_RA_Pioneer_Explos: BG21_SOV_RA_Pioneer_Mines {
@@ -186,6 +196,8 @@ class BG21_SOV_RA_Medic: BG21_SOV_RA_Soldier_base {
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1891_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1891_Bayo"};
 	backpack = "BG21_SOV_B_MEDIC";
 };
 class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base {

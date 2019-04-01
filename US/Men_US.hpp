@@ -49,6 +49,8 @@ class BG21_US_ARMY_Rifleman: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "B_LIB_US_Backpack";
 };
 class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
@@ -57,6 +59,8 @@ class BG21_US_ARMY_Grenadier: BG21_US_ARMY_Rifleman {
 	respawnWeapons[] = {"LIB_M1_Garand_M7","Throw","Put"};
 	linkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Grenadier",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "BG21_US_B_GRENADIER";
 };
 class BG21_US_ARMY_Recon_TL: BG21_US_ARMY_Rifleman {
@@ -74,6 +78,8 @@ class BG21_US_ARMY_Recon: BG21_US_ARMY_Rifleman {
 	respawnWeapons[] = {"LIB_M1903A3_Springfield","LIB_Binocular_US","Throw","Put"};
 	magazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
 	respawnmagazines[] = {US_20x_LIB_5Rnd_762x63,US_GRENADES};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 };
 class BG21_US_ARMY_Radio: BG21_US_ARMY_Rifleman {
 	displayname = "Radio";
@@ -131,6 +137,8 @@ class BG21_US_ARMY_AT_AS: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "BG21_US_B_AT_AS";
 };
 class BG21_US_ARMY_MG: BG21_US_Soldier_base {
@@ -153,6 +161,8 @@ class BG21_US_ARMY_MG_AS: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Asst_MG",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "BG21_US_B_MG_AS";
 };
 class BG21_US_ARMY_MG_AS_TRIPOD: BG21_US_ARMY_MG_AS {
@@ -169,6 +179,8 @@ class BG21_US_ARMY_MG_TL: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63,US_GRENADES};
 	linkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Garand",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "BG21_US_B_MG_AS";
 };
 class BG21_US_ARMY_Engineer_Mines: BG21_US_Soldier_base {
@@ -180,6 +192,8 @@ class BG21_US_ARMY_Engineer_Mines: BG21_US_Soldier_base {
 	respawnmagazines[] = {US_13x_LIB_8Rnd_762x63};
 	linkedItems[] = {"V_LIB_US_Vest_Carbine_eng",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_US_Vest_Carbine_eng",LINKED_ITEMS_BASE};
+	items[] = {"LIB_ACC_M1_Bayo"};
+	respawnItems[] = {"LIB_ACC_M1_Bayo"};
 	backpack = "BG21_US_B_MINES";
 };
 class BG21_US_ARMY_Engineer_Explos: BG21_US_ARMY_Engineer_Mines {
