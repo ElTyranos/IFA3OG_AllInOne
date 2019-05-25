@@ -34,13 +34,22 @@ while {true} do
 			// hint "Punishment";
 			if (surfaceIsWater position player) then {
 				_this setDamage 1
-			} else {
-				_pos = position player; _pos set [2, 0];
-				_mine = createMine ["APERSMine", _pos, [], 0];
-				_mine setDamage 1;
+			} else 
+			{
+				if (vehicle player == player) then {
+						_pos = position player; _pos set [2, 0];
+						_mine = createMine ["APERSMine", _pos, [], 0];
+						_mine setDamage 1;
+					}
+				else { 
+					_pos = position player; _pos set [2, 0];
+					_mine = createMine ["ATMine", _pos, [], 0];
+					_mine setDamage 1;
+				};
 			};
-			sleep 5;
 		};
+
+		sleep 5;
 	}
 	else
 	{
