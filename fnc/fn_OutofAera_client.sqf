@@ -10,7 +10,7 @@ while {true} do
 
 	if ((!(player inArea LIB_MissionArea)) && ((side (group player)) != civilian) && (alive player)) then
 	{
-		hint format ["%1 OutOfMissionArea",(time - (LIB_TimeOutsideMissionArea) < LIB_MissionParameter_PunishTimeOutOfArea)];
+		// hint format ["%1 OutOfMissionArea",(time - (LIB_TimeOutsideMissionArea) < LIB_MissionParameter_PunishTimeOutOfArea)];
 
 		if (isnull (uiNamespace getVariable ["rr_restrictedArea", displayNull])) then
 		{
@@ -31,7 +31,7 @@ while {true} do
 
 		if (time > (LIB_TimeOutsideMissionArea + LIB_MissionParameter_PunishTimeOutOfArea)) then
 		{
-			hint "Punishment";
+			// hint "Punishment";
 			if (surfaceIsWater position player) then {
 				_this setDamage 1
 			} else {
