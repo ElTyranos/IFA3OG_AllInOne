@@ -21,6 +21,7 @@ class CfgPatches
 #include "CfgSounds.hpp"
 #include "CfgDeathScreams.hpp"
 #include "CfgMacros.hpp"
+#include "CfgUserInterface.hpp"
 
 class cfgMagazines
 {
