@@ -15,7 +15,7 @@ if (_activated) then {
 	_sizeY = _area select 1;
 	_dir = _area select 2;
 
-	_sizeOut = 100000;
+	_sizeOut = 10000;
 
 	for "_i" from 0 to 270 step 90 do {
 		_size1 = [_sizeX,_sizeY] select (abs cos _i);
