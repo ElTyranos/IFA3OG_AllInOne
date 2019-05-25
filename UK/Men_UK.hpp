@@ -243,6 +243,42 @@ class BG21_UK_ARMY_Medic: BG21_UK_Soldier_base {
 	backpack = "BG21_UK_B_MEDIC";
 };
 
+// Tank crew
+class BG21_UK_Army_Tank_Commander: BG21_UK_Soldier_base {
+	scope = 2;
+	displayname = "Tank commander";
+	uniformClass = "U_LIB_UK_P37";
+	class EventHandlers {};
+	weapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	magazines[] = {UK_3x_LIB_32Rnd_9x19_Sten,GER_2x_lib_8Rnd_9x19,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_3x_LIB_32Rnd_9x19_Sten,GER_2x_lib_8Rnd_9x19,UK_GRENADES,UK_GRENADES_SMOKE};
+	linkedItems[] = {"V_LIB_UK_P37_Officer","H_LIB_UK_Beret_Headset",LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer","H_LIB_UK_Beret_Headset",LINKED_ITEMS_COMMANDER};
+	backpack = "";
+};
+class BG21_UK_Army_Tank_Crew: BG21_UK_Soldier_base {
+	scope = 2;
+	displayname = "Tank crew";
+	uniformClass = "U_LIB_UK_P37";
+	class EventHandlers {};
+	weapons[] = {"LIB_Sten_Mk2","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_Sten_Mk2","LIB_Binocular_UK","Throw","Put"};
+	magazines[] = {UK_3x_LIB_32Rnd_9x19_Sten,UK_GRENADES};
+	respawnmagazines[] = {UK_3x_LIB_32Rnd_9x19_Sten,UK_GRENADES};
+	linkedItems[] = {"V_LIB_UK_P37_Crew","H_LIB_UK_Beret_Tankist",LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_UK_P37_Crew","H_LIB_UK_Beret_Tankist",LINKED_ITEMS_BASE};
+	backpack = "";
+};
+class BG21_UK_DR_Tank_Commander: BG21_UK_Army_Tank_Commander {
+	faction = "BG21_UK_DR";
+	uniformClass = "U_LIB_UK_KhakiDrills";
+};
+class BG21_UK_DR_Tank_Crew: BG21_UK_Army_Tank_Crew {
+	faction = "BG21_UK_DR";
+	uniformClass = "U_LIB_UK_KhakiDrills";
+};
+
 // DESERT
 class BG21_UK_DR_PL: BG21_UK_ARMY_PL {
 	faction = "BG21_UK_DR";
