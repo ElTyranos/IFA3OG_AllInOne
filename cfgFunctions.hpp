@@ -21,26 +21,19 @@ class CfgFunctions
 				file="\WW2OG_AllInOne\fnc\DeathScream.sqf";
 			};
 		};
-		class CoverMap
+		class MapHandler
 		{
-			class Mainthread
+			class CoverMap
 			{
-				file = "WW2OG_AllInOne\fnc\fn_CoverMap.sqf";
+				file = "\WW2OG_AllInOne\fnc\fn_CoverMap.sqf";
 			};
-		};
-		class OutofAera
-		{
-			class Settings
+			class OutofAera_Client
 			{
-				file = "WW2OG_AllInOne\fnc\fn_OutofAera_PreInit.sqf";
+				file = "\WW2OG_AllInOne\fnc\fn_OutofAera_client.sqf";
 			};
-			class client
+			class OutofAera_Server
 			{
-				file = "WW2OG_AllInOne\fnc\fn_OutofAera_client.sqf";
-			};
-			class server
-			{
-				file = "WW2OG_AllInOne\fnc\fn_OutofAera_server.sqf";
+				file = "\WW2OG_AllInOne\fnc\fn_OutofAera_server.sqf";
 			};
 		};
 	};
