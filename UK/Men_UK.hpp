@@ -4,8 +4,8 @@ class BG21_UK_ARMY_PL: BG21_UK_Soldier_base {
 	displayname = "Captain";
 	weapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_B_CO";
@@ -21,8 +21,8 @@ class BG21_UK_ARMY_SL: BG21_UK_Soldier_base {
 	displayname = "Squad Leader";
 	weapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_Sten_Mk2","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Sten",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_B_SL";
@@ -284,8 +284,8 @@ class BG21_UK_DR_PL: BG21_UK_ARMY_PL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -293,13 +293,21 @@ class BG21_UK_DR_PL: BG21_UK_ARMY_PL {
 };
 class BG21_UK_DR_PL2: BG21_UK_ARMY_PL2 {
 	faction = "BG21_UK_DR";
+	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
+	};
 };
 class BG21_UK_DR_SL: BG21_UK_ARMY_SL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -543,8 +551,8 @@ class BG21_UK_AB_PL: BG21_UK_ARMY_PL {
 	faction = "BG21_UK_AB";
 	weapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
@@ -558,8 +566,8 @@ class BG21_UK_AB_PL2: BG21_UK_ARMY_PL2 {
 	faction = "BG21_UK_AB";
 	weapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
@@ -573,8 +581,8 @@ class BG21_UK_AB_SL: BG21_UK_ARMY_SL {
 	faction = "BG21_UK_AB";
 	weapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_Sten_Mk5","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
 	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
@@ -816,8 +824,8 @@ class BG21_UK_CDO_PL: BG21_UK_ARMY_PL {
 	faction = "BG21_UK_CDO";
 	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_B_CO";
@@ -830,8 +838,8 @@ class BG21_UK_CDO_PL2: BG21_UK_ARMY_PL2 {
 	faction = "BG21_UK_CDO";
 	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_B_CO";
@@ -844,8 +852,8 @@ class BG21_UK_CDO_SL: BG21_UK_ARMY_SL {
 	faction = "BG21_UK_CDO";
 	weapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_M1928A1_Thompson","LIB_Webley_mk6","LIB_Binocular_UK","Throw","Put"};
-	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
-	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES};
+	magazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
+	respawnmagazines[] = {UK_7x_LIB_30Rnd_45ACP,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_UK_CDO_B_SL";
