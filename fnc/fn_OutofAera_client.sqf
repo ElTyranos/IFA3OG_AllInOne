@@ -47,9 +47,9 @@ while {true} do
 					_mine setDamage 1;
 				};
 			};
+		
+			sleep 5;
 		};
-
-		sleep 5;
 	}
 	else
 	{
