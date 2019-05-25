@@ -121,6 +121,8 @@
 
 #define UK_7x_LIB_32Rnd_9x19_Sten "LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten"
 
+#define UK_3x_LIB_32Rnd_9x19_Sten "LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten","LIB_32Rnd_9x19_Sten"
+
 #define UK_7x_LIB_30Rnd_45ACP "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 
 #define UK_5x_LIB_30Rnd_770x56 "LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56","LIB_30Rnd_770x56"
