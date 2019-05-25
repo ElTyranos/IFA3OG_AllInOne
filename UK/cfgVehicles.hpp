@@ -291,7 +291,10 @@ class BG21_UK_AB_B_EXPLOS: BG21_UK_B_EXPLOS {
 			name = "H_LIB_UK_Para_Beret";
 			count = 1;
 		};
-	};		
+		class _xx_LIB_US_TNT_4pound_mag: _xx_LIB_US_TNT_4pound_mag {};
+		class _xx_ACE_LIB_LadungPM: _xx_ACE_LIB_LadungPM {};
+		class _xx_ACE_LIB_FireCord: _xx_ACE_LIB_FireCord {};
+	};
 };
 class BG21_UK_AB_B_MINES: BG21_UK_B_MINES {
 	hiddenSelectionsTextures[] = {"\WW2\Assets_t\Characters\British_t\WW2_UK_Army\HSack_Blanco_co.paa"};
@@ -300,6 +303,8 @@ class BG21_UK_AB_B_MINES: BG21_UK_B_MINES {
 			name = "H_LIB_UK_Para_Beret";
 			count = 1;
 		};
+		class _xx_LIB_US_M1A1_ATMINE_mag: _xx_LIB_US_M1A1_ATMINE_mag {};
+		class _xx_ACE_DefusalKit: _xx_ACE_DefusalKit {};
 	};		
 };
 class BG21_UK_AB_B_MORTAR: BG21_UK_B_MORTAR {
@@ -410,6 +415,9 @@ class BG21_UK_CDO_B_EXPLOS: BG21_UK_B_EXPLOS {
 			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
+		class _xx_LIB_US_TNT_4pound_mag: _xx_LIB_US_TNT_4pound_mag {};
+		class _xx_ACE_LIB_LadungPM: _xx_ACE_LIB_LadungPM {};
+		class _xx_ACE_LIB_FireCord: _xx_ACE_LIB_FireCord {};
 	};		
 };
 class BG21_UK_CDO_B_MINES: BG21_UK_B_MINES {
@@ -419,6 +427,8 @@ class BG21_UK_CDO_B_MINES: BG21_UK_B_MINES {
 			name = "H_LIB_UK_Beret_Commando";
 			count = 1;
 		};
+		class _xx_LIB_US_M1A1_ATMINE_mag: _xx_LIB_US_M1A1_ATMINE_mag {};
+		class _xx_ACE_DefusalKit: _xx_ACE_DefusalKit {};
 	};		
 };
 class BG21_UK_CDO_B_MORTAR: BG21_UK_B_MORTAR {
