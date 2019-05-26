@@ -23,6 +23,10 @@ class CfgFunctions
 		};
 		class Mission
 		{
+			class Spectator
+			{
+				file="\WW2OG_AllInOne\fnc\fn_onPlayerKilled.sqf";
+			};
 			// class Log
 			// {
 				// file="\WW2OG_AllInOne\fnc\fn_log.sqf";
