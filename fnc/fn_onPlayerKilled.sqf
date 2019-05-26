@@ -101,8 +101,8 @@
 	[] spawn
 	{
 		private["_ctrl", "_leftTime", "_s1"];
-		waitUntil { !isNull findDisplay 60000 };
-
+		waitUntil { !isNull findDisplay 60000 && !isNil "WMT_Global_LeftTime"};
+		
 		disableSerialization;
 		uisleep 1.;
 
