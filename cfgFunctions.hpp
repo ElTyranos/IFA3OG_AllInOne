@@ -18,8 +18,21 @@ class CfgFunctions
 		{
 			class DeathScream
 			{
-				file="\WW2OG_AllInOne\fnc\DeathScream.sqf";
+				file="\WW2OG_AllInOne\fnc\fn_DeathScream.sqf";
 			};
+		};
+		class Mission
+		{
+			// class Log
+			// {
+				// file="\WW2OG_AllInOne\fnc\fn_log.sqf";
+				// preInit = 1;
+			// };
+			// class isModLoaded
+			// {
+				// file="\WW2OG_AllInOne\fnc\fn_isModLoaded.sqf";
+				// preInit = 1;
+			// };
 		};
 		class MapHandler
 		{
