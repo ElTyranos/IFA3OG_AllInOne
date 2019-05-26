@@ -13,7 +13,12 @@ class CfgPatches
 
 #include "Extended_killed_Eventhandlers.hpp"
 #include "Extended_PostInit_EventHandlers.hpp"
+#include "Extended_PreInit_EventHandlers.hpp"
+
 // #include "CfgRagdolls.hpp" // Included in IFA3
+#include "CfgUserInterface.hpp"
+#include "CfgRespawnTemplate.hpp"
+
 #include "CfgFunctions.hpp"
 #include "CfgFactionClasses.hpp"
 #include "CfgVehicleClasses.hpp"
@@ -21,7 +26,6 @@ class CfgPatches
 #include "CfgSounds.hpp"
 #include "CfgDeathScreams.hpp"
 #include "CfgMacros.hpp"
-#include "CfgUserInterface.hpp"
 
 class cfgMagazines
 {
