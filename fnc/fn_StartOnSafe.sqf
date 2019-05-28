@@ -12,4 +12,7 @@ if (_weapon != "") then {
 
 waitUntil {!isNil "WMT_Global_LeftTime"};
 
+private _safedWeapons = player getVariable ["ace_safemode_safedWeapons",[]];  
+if (_weapon !in _safedWeapons) exitwith {};
+
 [player, _weapon, _muzzle] call ace_safemode_fnc_unlockSafety;
