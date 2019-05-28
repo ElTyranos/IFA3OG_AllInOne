@@ -1,5 +1,7 @@
 waitUntil {!(isNull player)};
 
+if (isNil ("LIB_MissionArea")) exitWith {};
+
 LIB_OutOfMissionArea = false;
 LIB_TimeOutsideMissionArea = 0;
 
