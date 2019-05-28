@@ -48,8 +48,8 @@ class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
@@ -61,8 +61,8 @@ class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_Grenadier: BG21_GER_WH_Rifleman_K98 {
@@ -153,8 +153,8 @@ class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_AT";
 };
 class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base {
@@ -166,8 +166,8 @@ class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_AT_AS";
 };
 class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
@@ -179,8 +179,8 @@ class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base {
@@ -208,8 +208,8 @@ class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MG_AS";
 };
 class BG21_GER_WH_MG_TL: BG21_GER_WH_MG_AS {
@@ -231,8 +231,8 @@ class BG21_GER_WH_Pioneer_Mines: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57};
 	linkedItems[] = {"V_LIB_GER_PioneerVest",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_PioneerVest",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MINES";
 };
 class BG21_GER_WH_Pioneer_Explos: BG21_GER_WH_Pioneer_Mines {
@@ -251,8 +251,8 @@ class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base {
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_K98_Bayo"};
-	respawnItems[] = {"LIB_ACC_K98_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MEDIC";
 };
 
