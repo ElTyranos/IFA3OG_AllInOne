@@ -36,8 +36,8 @@ class BG21_UK_ARMY_TL: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B";
 };
 class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
@@ -49,8 +49,8 @@ class BG21_UK_ARMY_Rifleman: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B";
 };
 class BG21_UK_ARMY_Piper: BG21_UK_ARMY_Rifleman {
@@ -133,8 +133,8 @@ class BG21_UK_ARMY_AT: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_AT";
 };
 class BG21_UK_ARMY_AT_AS: BG21_UK_Soldier_base {
@@ -146,8 +146,8 @@ class BG21_UK_ARMY_AT_AS: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_AT_AS";
 };
 class BG21_UK_ARMY_BREN: BG21_UK_Soldier_base {
@@ -170,8 +170,8 @@ class BG21_UK_ARMY_BREN_AS: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_BREN";
 };
 class BG21_UK_ARMY_MG: BG21_UK_Soldier_base {
@@ -194,8 +194,8 @@ class BG21_UK_ARMY_MG_AS: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_MG_AS";
 };
 class BG21_UK_ARMY_MG_TL: BG21_UK_Soldier_base {
@@ -207,8 +207,8 @@ class BG21_UK_ARMY_MG_TL: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_MG_AS";
 };
 class BG21_UK_ARMY_Engineer_Mines: BG21_UK_Soldier_base {
@@ -220,8 +220,8 @@ class BG21_UK_ARMY_Engineer_Mines: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_MINES";
 };
 class BG21_UK_ARMY_Engineer_Explos: BG21_UK_ARMY_Engineer_Mines {
@@ -238,8 +238,8 @@ class BG21_UK_ARMY_Medic: BG21_UK_Soldier_base {
 	respawnmagazines[] = {UK_10x_LIB_10Rnd_770x56,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Rifleman",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_B_MEDIC";
 };
 
@@ -317,8 +317,8 @@ class BG21_UK_DR_TL: BG21_UK_ARMY_TL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -328,8 +328,8 @@ class BG21_UK_DR_Rifleman: BG21_UK_ARMY_Rifleman {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -339,8 +339,8 @@ class BG21_UK_DR_Piper: BG21_UK_ARMY_Piper {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_Bagpipes","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Bagpipes","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -350,8 +350,8 @@ class BG21_UK_DR_Grenadier: BG21_UK_ARMY_Grenadier {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1_CUP","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1_CUP","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -373,8 +373,8 @@ class BG21_UK_DR_Recon_TL: BG21_UK_ARMY_Recon_TL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -384,8 +384,8 @@ class BG21_UK_DR_Recon: BG21_UK_ARMY_Recon {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -395,8 +395,8 @@ class BG21_UK_DR_Radio: BG21_UK_ARMY_Radio {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -406,8 +406,8 @@ class BG21_UK_DR_Mortar: BG21_UK_ARMY_Mortar {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Barrel","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Barrel","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -417,8 +417,8 @@ class BG21_UK_DR_Mortar_TL: BG21_UK_ARMY_Mortar_TL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -428,8 +428,8 @@ class BG21_UK_DR_Mortar_AS: BG21_UK_ARMY_Mortar_AS {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Tripod","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_M2_60_Tripod","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -446,8 +446,8 @@ class BG21_UK_DR_AT: BG21_UK_ARMY_AT {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_PIAT","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_PIAT","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -458,8 +458,8 @@ class BG21_UK_DR_AT_AS: BG21_UK_ARMY_AT_AS {
 	displayname = "AT Assistant";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -476,8 +476,8 @@ class BG21_UK_DR_BREN_AS: BG21_UK_ARMY_BREN_AS {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -494,8 +494,8 @@ class BG21_UK_DR_MG_AS: BG21_UK_ARMY_MG_AS {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -505,8 +505,8 @@ class BG21_UK_DR_MG_TL: BG21_UK_ARMY_TL {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","LIB_Binocular_UK","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -516,8 +516,8 @@ class BG21_UK_DR_Engineer_Mines: BG21_UK_ARMY_Engineer_Mines {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -527,8 +527,8 @@ class BG21_UK_DR_Engineer_Explos: BG21_UK_ARMY_Engineer_Explos {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -538,8 +538,8 @@ class BG21_UK_DR_Medic: BG21_UK_ARMY_Medic {
 	faction = "BG21_UK_DR";
 	weapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
 	respawnWeapons[] = {"LIB_LeeEnfield_No1","Throw","Put"};
-	items[] = {"LIB_ACC_P1903_Bayo"};
-	respawnItems[] = {"LIB_ACC_P1903_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_P1903_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_DR'] call BG21_IFA3_fnc_random_gear;};";
@@ -555,8 +555,8 @@ class BG21_UK_AB_PL: BG21_UK_ARMY_PL {
 	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -570,8 +570,8 @@ class BG21_UK_AB_PL2: BG21_UK_ARMY_PL2 {
 	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Officer_Blanco",LINKED_ITEMS_COMMANDER};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'UK_AB'] call BG21_IFA3_fnc_random_gear;};";
@@ -585,8 +585,8 @@ class BG21_UK_AB_SL: BG21_UK_ARMY_SL {
 	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_2x_LIB_6Rnd_455,UK_GRENADES,UK_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_COMMANDER};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_AB_B_SL";
 	class EventHandlers: Eventhandlers
 	{
@@ -641,8 +641,8 @@ class BG21_UK_AB_Rifleman_Sten: BG21_UK_ARMY_Rifleman_Sten {
 	respawnmagazines[] = {UK_7x_LIB_32Rnd_9x19_Sten,UK_GRENADES};
 	linkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_UK_P37_Sten_Blanco",LINKED_ITEMS_BASE};
-	items[] = {"LIB_ACC_No4_Mk2_Bayo"};
-	respawnItems[] = {"LIB_ACC_No4_Mk2_Bayo"};
+	items[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
+	respawnItems[] = {ITEMS_BASE,"LIB_ACC_No4_Mk2_Bayo"};
 	backpack = "BG21_UK_AB_B";
 	class EventHandlers: Eventhandlers
 	{
