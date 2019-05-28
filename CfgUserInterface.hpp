@@ -1,7 +1,48 @@
+class Controls;
 class RscText;
 class RscStructuredText;
+class RscPicture;
+class RscDisplayMainMenuBackground;
+class CfgMainMenuSpotlight
+{
+	delete Bootcamp;
+	delete EastWind;
+	delete ApexProtocol;
+	// delete Orange_Campaign;
+	delete Orange_CampaignGerman;
+	delete Orange_Showcase_IDAP;
+	delete Orange_Showcase_LoW;
+	delete Showcase_TankDestroyers;
+	// delete Tacops_Campaign_01;
+	delete Tacops_Campaign_02;
+	delete Tacops_Campaign_03;
+	delete Tanks_Campaign_01;
+	class BG21_Server
+	{
+		text = "World War 2 : Open Games";
+		textIsQuote = 0;
+		picture = "\WW2OG_AllInOne\data\menu_spotlight.paa";
+		// video = "\a3\Ui_f\Video\spotlight_1_Bootcamp.ogv";
+		action = "";
+		actionText = "srv.battlegroup21.com:2302 - PW: 1944"; // Text displayed in top left corner of on-hover white frame
+		condition = "true"; // Condition for showing the spotlight
+	};
+	class Orange_Campaign {condition = "false";};
+	class Tacops_Campaign_01 {condition = "false";};
+};
+
 class RscTitles
 {
+	class RscDisplayMainMenuBackground: RscDisplayMainMenuBackground
+	{
+		class Controls: Controls
+		{
+			class Picture: RscPicture
+			{
+				text = "\WW2OG_AllInOne\Data\backgroundWW2OG.jpg";
+			};
+		};
+	};
 	class rr_restrictedArea
 	{
 		idd = -1;
