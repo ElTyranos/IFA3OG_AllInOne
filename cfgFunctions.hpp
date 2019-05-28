@@ -27,6 +27,10 @@ class CfgFunctions
 			{
 				file="\WW2OG_AllInOne\fnc\fn_onPlayerKilled.sqf";
 			};
+			class IntroScreen
+			{
+				file="\WW2OG_AllInOne\fnc\fn_IntroScreen.sqf";
+			};
 			// class Log
 			// {
 				// file="\WW2OG_AllInOne\fnc\fn_log.sqf";
@@ -51,6 +55,17 @@ class CfgFunctions
 			class OutofAera_Server
 			{
 				file = "\WW2OG_AllInOne\fnc\fn_OutofAera_server.sqf";
+			};
+		};
+		class ACE3
+		{
+			class StartOnSafe
+			{
+				file = "\WW2OG_AllInOne\fnc\fn_StartOnSafe.sqf";
+			};
+			class StartWithEarplugs
+			{
+				file = "\WW2OG_AllInOne\fnc\fn_StartWithEarplugs.sqf";
 			};
 		};
 	};
