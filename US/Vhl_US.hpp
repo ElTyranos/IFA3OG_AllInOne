@@ -3,7 +3,6 @@ class LIB_M3A3_Stuart;
 class LIB_M5A1_Stuart;
 class LIB_M4A3_76;
 class LIB_M4A3_76_HVSS;
-class LIB_M4A4_FIREFLY;
 class BG21_M4A3_75: LIB_M4A3_75 {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Tanks";
@@ -25,11 +24,6 @@ class BG21_M4A3_76: LIB_M4A3_76 {
 	ARMORED_VHL_TRANSPORT_ITEMS
 };
 class BG21_M4A3_76_HVSS: LIB_M4A3_76_HVSS {
-	faction = "BG21_US";
-	vehicleClass = "BG21_Tanks";
-	ARMORED_VHL_TRANSPORT_ITEMS
-};
-class BG21_M4A4_FIREFLY: LIB_M4A4_FIREFLY {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Tanks";
 	ARMORED_VHL_TRANSPORT_ITEMS
