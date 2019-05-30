@@ -214,7 +214,7 @@
 		}; \
 	}; \
 	class TransportBackpacks { \
-		class _xx_tf_rt1523g { \
+		class _xx_B_LIB_GER_SapperBackpack_empty { \
 			count = 1; \
 			backpack = "B_LIB_GER_SapperBackpack_empty"; \
 		}; \
@@ -252,7 +252,7 @@
 		class _xx_LIB_20Rnd_762x63 \
 		{ \
 			magazine = "LIB_20Rnd_762x63"; \
-			count = 10; \
+			count = 15; \
 		}; \
 		class _xx_LIB_rpg6 \
 		{ \
@@ -285,14 +285,19 @@
 			magazine = "LIB_30Rnd_770x56"; \
 			count = 10; \
 		}; \
-		class _xx_LIB_rpg6 \
+		class _xx_LIB_No77 \
 		{ \
-			magazine = "LIB_rpg6"; \
+			magazine = "LIB_No77"; \
+			count = 2; \
+		}; \
+		class _xx_LIB_No82 \
+		{ \
+			magazine = "LIB_No82"; \
 			count = 3; \
 		}; \
-		class _xx_LIB_US_Mk_2 \
+		class _xx_LIB_MillsBomb \
 		{ \
-			magazine = "LIB_US_Mk_2"; \
+			magazine = "LIB_MillsBomb"; \
 			count = 3; \
 		}; \
 		class _xx_LIB_US_M18 \
@@ -314,7 +319,7 @@
 		class _xx_LIB_50Rnd_792x57 \
 		{ \
 			magazine = "LIB_50Rnd_792x57"; \
-			count = 10; \
+			count = 6; \
 		}; \
 		class _xx_LIB_pwm \
 		{ \
@@ -329,7 +334,7 @@
 		class _xx_LIB_nb39 \
 		{ \
 			magazine = "LIB_nb39"; \
-			count = 3; \
+			count = 4; \
 		}; \
 	}; \
 	class TransportWeapons {}; \
