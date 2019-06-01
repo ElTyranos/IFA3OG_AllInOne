@@ -1,20 +1,18 @@
-//
-// Author: El Tyranos
-// WW2 Open Games - Spectator script handler
-//
+/*
 
-	/* Spectator Mode 1 : free cam, full UI	*/
-	// ["Initialize", [player, [], true, true, true, false, false, true, true, true]] call BIS_fnc_EGSpectator;
+WW2 Open Games - Spectator handler
+Author: El Tyranos
+Function : BG21_fnc_onPlayerKilled
 
-	/* Spectator Mode 2 : ennemy side is locked	*/
-	// switch (playerSide) do {
-		// case WEST: {		["Initialize", [player, [WEST], true, true, true, false, false, true, true, true]] call BIS_fnc_EGSpectator; };
-		// case EAST: {		["Initialize", [player, [EAST], true, true, true, false, false, true, true, true]] call BIS_fnc_EGSpectator; };
-		// case RESISTANCE: {	["Initialize", [player, [RESISTANCE], true, true, true, false, false, true, true, true]] call BIS_fnc_EGSpectator; };
-	// };
+Requirements :
+---------------
+ACE3 Spectator (Vanilla Display ID = 20492 ; ACE Display ID = 60000)
+WMT
+* 61 = F3 (Statistics)
+* 60 = F2 (Main menu)
+* 60 = F4 (ACRE Mute)
+*/
 
-	/* Spectator Mode 3 : ACE3 + ennemy side is locked	*/
-	
 _textDeath = format ["<t size='0.5' color='#ffffff'>%1
 You are dead.<br/>
 You are being transfered to spectator..."];
@@ -31,12 +29,6 @@ switch (playerSide) do {
 	case RESISTANCE: { [[resistance], [east,west,civilian]] call ace_spectator_fnc_updateSides; };
 };
 
-/* Set spectator for TFAR or ACRE */
-// ALREADY IN ACE SPECTATOR
-// if (["acre_sys_radio"] call bg21_fnc_ismodloaded) then {[true] call acre_api_fnc_setSpectator};
-// if (["task_force_radio"] call bg21_fnc_ismodloaded) then {[player, true] call TFAR_fnc_forceSpectator};
-
-/* Shows help */
 _textHint = format ["<t size='0.5' color='#ffffff'>%1
 Show spectator help by presing <t color='#FFA500'>F1</t>.<br/>
 Show you kills by pressing <t color='#FFA500'>F2</t>.<br/>
@@ -45,14 +37,6 @@ Open map by pressing <t color='#FFA500'>M</t> and click anywhere to move camera 
 Spectator controls can be customized in game <t color='#FFA500'>options>controls>Camera</t> tab.</t>"];
 
 [_textHint, 0.55, 0.8, 45, 1] spawn BIS_fnc_dynamicText;
-
-/* Add WMT keys back
- * 61 = F3 (Statistics)
- * 60 = F2 (Main menu)
- * 60 = F4 (ACRE Mute) */
-
- // Vanilla Display ID = 20492
- // ACE Display ID = 60000
 
 [] spawn
 {
