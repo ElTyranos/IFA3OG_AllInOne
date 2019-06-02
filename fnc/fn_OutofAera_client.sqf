@@ -1,6 +1,15 @@
+private["_SafeMissionArea"];
+
 waitUntil {!(isNull player)};
 
 if (isNil ("LIB_MissionArea")) exitWith {};
+if (isNil ("LIB_SafeMissionArea")) 
+	then {
+		_SafeMissionArea = LIB_MissionArea;
+	}
+	else {
+		_SafeMissionArea = LIB_SafeMissionArea;
+	};
 
 LIB_OutOfMissionArea = false;
 LIB_TimeOutsideMissionArea = 0;
@@ -9,8 +18,7 @@ LIB_TimeOutsideMissionArea = 0;
 
 while {true} do
 {
-
-	if ((!(player inArea LIB_MissionArea)) && ((side (group player)) != civilian) && (alive player)) then
+	if ((!(player inArea _SafeMissionArea)) && (!(player inArea LIB_MissionArea)) && (alive player) && (!(vehicle player isKindOf "Air"))) then
 	{
 		// hint format ["%1 OutOfMissionArea",(time - (LIB_TimeOutsideMissionArea) < LIB_MissionParameter_PunishTimeOutOfArea)];
 
