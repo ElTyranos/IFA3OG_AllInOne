@@ -31,8 +31,6 @@ class BG21_M4A3_76_HVSS: LIB_M4A3_76_HVSS {
 
 class LIB_P47;
 class LIB_US_P39;
-class LIB_CG4_WACO;
-class LIB_HORSA;
 class LIB_C47_Skytrain;
 class BG21_P47: LIB_P47 {
 	faction = "BG21_US";
@@ -50,6 +48,10 @@ class BG21_US_P39: LIB_US_P39 {
 	class TransportWeapons {};
 	class TransportBackpacks {};
 };
+class LIB_US_Plane_base;
+class LIB_CG4_WACO: LIB_US_Plane_base {
+	class UserActions;
+};
 class BG21_CG4_WACO: LIB_CG4_WACO {
 	faction = "BG21_US";
 	vehicleClass = "BG21_Air";
@@ -57,6 +59,20 @@ class BG21_CG4_WACO: LIB_CG4_WACO {
 	class TransportMagazines {};
 	class TransportWeapons {};
 	class TransportBackpacks {};
+	class UserActions: UserActions {
+		class Teleport {
+				displayName = "<t color='#ff0000'>Run insertion";
+				position = "zamerny";
+				onlyforplayer = 1;
+				radius = 7;
+				priority = 0;
+				condition = "(driver this == (call ww2_fnc_findPlayer)) and ((speed this) < 1) and (this animationPhase ""Canopy"" == 0)";
+				statement = "[this,(call ww2_fnc_findPlayer)] call BG21_fnc_TeleportGlider;";
+		};
+	};
+};
+class LIB_HORSA: LIB_US_Plane_base {
+	class UserActions;
 };
 class BG21_HORSA: LIB_HORSA {
 	faction = "BG21_US";
@@ -65,6 +81,17 @@ class BG21_HORSA: LIB_HORSA {
 	class TransportMagazines {};
 	class TransportWeapons {};
 	class TransportBackpacks {};
+	class UserActions: UserActions {
+		class Teleport {
+				displayName = "<t color='#ff0000'>Run insertion";
+				position = "zamerny";
+				onlyforplayer = 1;
+				radius = 7;
+				priority = 0;
+				condition = "(driver this == (call ww2_fnc_findPlayer)) and ((speed this) < 1) and (this animationPhase ""Canopy"" == 0) and (this animationPhase ""DoorL"" == 0) and (this animationPhase ""cargobay"" == 0)";
+				statement = "[this,(call ww2_fnc_findPlayer)] call BG21_fnc_TeleportGlider;";
+		};
+	};
 };
 class BG21_C47_Skytrain: LIB_C47_Skytrain {
 	faction = "BG21_US";

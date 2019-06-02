@@ -31,6 +31,10 @@ class CfgFunctions
 			{
 				file="\WW2OG_AllInOne\fnc\fn_IntroScreen.sqf";
 			};
+			class TeleportGlider
+			{
+				file="\WW2OG_AllInOne\fnc\fn_teleportGlider.sqf";
+			};
 			// class Log
 			// {
 				// file="\WW2OG_AllInOne\fnc\fn_log.sqf";
