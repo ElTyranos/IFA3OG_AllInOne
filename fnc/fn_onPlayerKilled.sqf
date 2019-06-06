@@ -23,11 +23,11 @@ sleep 10; // let's enjoy the death scream and give time to relax
 
 _this call ace_spectator_fnc_respawnTemplate;
 
-switch (playerSide) do {
-	case WEST: { [[west], [east,resistance,civilian]] call ace_spectator_fnc_updateSides; };
-	case EAST: { [[east], [west,resistance,civilian]] call ace_spectator_fnc_updateSides; };		
-	case RESISTANCE: { [[resistance], [east,west,civilian]] call ace_spectator_fnc_updateSides; };
-};
+// switch (playerSide) do {
+	// case WEST: { [[west], [east,resistance,civilian]] call ace_spectator_fnc_updateSides; };
+	// case EAST: { [[east], [west,resistance,civilian]] call ace_spectator_fnc_updateSides; };		
+	// case RESISTANCE: { [[resistance], [east,west,civilian]] call ace_spectator_fnc_updateSides; };
+// };
 
 _textHint = format ["<t size='0.5' color='#ffffff'>%1
 Show spectator help by presing <t color='#FFA500'>F1</t>.<br/>
