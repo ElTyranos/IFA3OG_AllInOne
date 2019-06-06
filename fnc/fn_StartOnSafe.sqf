@@ -2,7 +2,7 @@ private["_weapon","_muzzle","_safedWeapons"];
 _weapon = currentWeapon player;
 _muzzle = currentMuzzle player;
 
-if (!isNil "WMT_Global_LeftTime") exitWith {};
+if ((!isNil "WMT_Global_LeftTime") || (vehicle player != player)) exitWith {};
 
 if (_weapon != "") then {
 	[player, _weapon, _muzzle] call ace_safemode_fnc_lockSafety;
