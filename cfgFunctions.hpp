@@ -35,6 +35,10 @@ class CfgFunctions
 			{
 				file="\WW2OG_AllInOne\fnc\fn_teleportGlider.sqf";
 			};
+			class InsertPointMarker
+			{
+				file="\WW2OG_AllInOne\fnc\fn_InsertPointMarker.sqf";
+			};
 			// class Log
 			// {
 				// file="\WW2OG_AllInOne\fnc\fn_log.sqf";
