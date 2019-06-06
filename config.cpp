@@ -5,11 +5,14 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.00;
-		requiredAddons[] = {"WW2_Core_c_WW2_Core_c","CBA_Extended_EventHandlers"};
+		requiredAddons[] = {"WW2_Core_c_WW2_Core_c","CBA_Extended_EventHandlers","WW2_Assets_c_Weapons_InfantryWeapons_c"};
 		authors[] = {"El Tyranos"};
 	};
 	#include "Compatibility\cfgPatches.hpp"
 };
+
+class Mode_FullAuto;
+class BaseSoundModetype;
 
 #include "Extended_killed_Eventhandlers.hpp"
 #include "Extended_PostInit_EventHandlers.hpp"
@@ -27,6 +30,10 @@ class CfgPatches
 #include "CfgDeathScreams.hpp"
 #include "CfgMacros.hpp"
 
+class cfgAmmo
+{
+	#include "Compatibility\cfgAmmo.hpp"
+};
 class cfgMagazines
 {
 	#include "Compatibility\cfgMagazines.hpp"
