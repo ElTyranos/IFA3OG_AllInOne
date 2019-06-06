@@ -1,6 +1,9 @@
 // linkedItems[]
 #define LINKED_ITEMS_BASE "ItemMapFake_WMT","ItemCompass","ItemWatch"
 #define LINKED_ITEMS_COMMANDER "ItemMap","ItemCompass","ItemWatch"
+
+#define GER_LINKED_ITEMS_BASE "ItemMapFake_WMT","LIB_GER_ItemCompass_deg","LIB_GER_ItemWatch"
+#define GER_LINKED_ITEMS_COMMANDER "ItemMap","LIB_GER_ItemCompass_deg","LIB_GER_ItemWatch"
 // "ItemRadio",
 
 // Items[]

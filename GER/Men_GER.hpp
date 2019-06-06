@@ -8,8 +8,8 @@ class BG21_GER_WH_PL: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MP40","LIB_P08","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_LIB_8Rnd_9x19_P08,GER_GRENADES};
 	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_LIB_8Rnd_9x19_P08,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_CO";
 };
 class BG21_GER_WH_PL2: BG21_GER_WH_PL {
@@ -24,8 +24,8 @@ class BG21_GER_WH_SL: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MP40","LIB_P38","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES};
 	respawnmagazines[] = {GER_7x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_VestMP40",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestMP40",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_SL";
 };
 class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base {
@@ -35,8 +35,8 @@ class BG21_GER_WH_TL_G43: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_G43","Throw","Put"};
 	magazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestG43",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestG43",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
@@ -46,8 +46,8 @@ class BG21_GER_WH_TL_K98: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98_Late","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
@@ -59,8 +59,8 @@ class BG21_GER_WH_Rifleman_K98: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
@@ -77,8 +77,8 @@ class BG21_GER_WH_Recon_TL: BG21_GER_WH_Rifleman_K98 {
 	respawnWeapons[] = {"LIB_K98_Late","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES,GER_GRENADES_SMOKE};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};	
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};	
 };
 class BG21_GER_WH_Recon: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Recon";
@@ -93,14 +93,14 @@ class BG21_GER_WH_Mortar: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Mortar Operator";
 	weapons[] = {"LIB_K98","LIB_GrWr34_Barrel","Throw","Put"};
 	respawnWeapons[] = {"LIB_K98","LIB_GrWr34_Barrel","Throw","Put"};	
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_MORTAR";
 };
 class BG21_GER_WH_Mortar_TL: BG21_GER_WH_Rifleman_K98 {
 	displayname = "Mortar Team Leader";
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_GER_B_MORTAR";
 };
 class BG21_GER_WH_Mortar_AS: BG21_GER_WH_Rifleman_K98 {
@@ -116,8 +116,8 @@ class BG21_GER_WH_Rifleman_G43: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_G43","Throw","Put"};
 	magazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_10x_lib_10Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestG43",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestG43",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestG43",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base {
@@ -127,8 +127,8 @@ class BG21_GER_WH_Rifleman_STG44: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MP44","Throw","Put"};
 	magazines[] = {GER_7x_LIB_30Rnd_792x33,GER_GRENADES};
 	respawnmagazines[] = {GER_7x_LIB_30Rnd_792x33,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestSTG",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestSTG",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestSTG",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestSTG",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
 class BG21_GER_WH_Sniper: BG21_GER_WH_Soldier_base {
@@ -140,8 +140,8 @@ class BG21_GER_WH_Sniper: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98ZF39","Throw","Put"};
 	magazines[] = {GER_10x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_10x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_HelmetCamo",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_HelmetCamo",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_HelmetCamo",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_HelmetCamo",GER_LINKED_ITEMS_BASE};
 	backpack = "";
 };
 class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base {
@@ -151,8 +151,8 @@ class BG21_GER_WH_AT: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","LIB_RPzB","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_AT";
@@ -164,8 +164,8 @@ class BG21_GER_WH_AT_AS: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_AT_AS";
@@ -177,8 +177,8 @@ class BG21_GER_WH_AT_pzft: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98_Late","LIB_PzFaust_30m","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "B_LIB_GER_A_frame";
@@ -190,8 +190,8 @@ class BG21_GER_WH_MG_34: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MG34","Throw","Put"};
 	magazines[] = {GER_3x_LIB_50Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_3x_LIB_50Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestMG",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestMG",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestMG",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestMG",GER_LINKED_ITEMS_BASE};
 	backpack = "BG21_GER_B_MG";
 };
 class BG21_GER_WH_MG_42: BG21_GER_WH_MG_34 {
@@ -206,8 +206,8 @@ class BG21_GER_WH_MG_AS: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MG_AS";
@@ -229,8 +229,8 @@ class BG21_GER_WH_Pioneer_Mines: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57};
-	linkedItems[] = {"V_LIB_GER_PioneerVest",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_PioneerVest",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_PioneerVest",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_PioneerVest",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MINES";
@@ -249,8 +249,8 @@ class BG21_GER_WH_Medic: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
 	items[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	respawnItems[] = {ITEMS_BASE,"LIB_ACC_K98_Bayo"};
 	backpack = "BG21_GER_B_MEDIC";
@@ -267,8 +267,8 @@ class BG21_GER_WH_Tank_Commander: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MP38","LIB_P38","LIB_Binocular_GER","Throw","Put"};
 	magazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
 	respawnmagazines[] = {GER_3x_lib_32Rnd_9x19,GER_2x_lib_8Rnd_9x19,GER_GRENADES,GER_GRENADES_SMOKE};
-	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_VestUnterofficer","H_LIB_GER_TankOfficerCap",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "";
 };
 class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base {
@@ -281,8 +281,8 @@ class BG21_GER_WH_Tank_Crew: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_MP38","Throw","Put"};
 	magazines[] = {GER_3x_lib_32Rnd_9x19,GER_GRENADES};
 	respawnmagazines[] = {GER_3x_lib_32Rnd_9x19,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_TankPrivateBelt","H_LIB_GER_TankPrivateCap",GER_LINKED_ITEMS_BASE};
 	backpack = "";
 };
 
@@ -297,8 +297,8 @@ class BG21_GER_WH_Pilot: BG21_GER_WH_Soldier_base {
 	respawnWeapons[] = {"LIB_P38","Throw","Put"};
 	magazines[] = {GER_2x_LIB_8Rnd_9x19};
 	respawnmagazines[] = {GER_2x_LIB_8Rnd_9x19};
-	linkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_GER_OfficerBelt","H_LIB_GER_LW_PilotHelmet",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "B_LIB_GER_LW_Paradrop";
 };
 
@@ -675,27 +675,27 @@ class BG21_GER_FJS_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 class BG21_GER_FJS_Medic: BG21_GER_WH_Medic {
 	faction = "BG21_GER_FJS";
 	uniformClass = "U_LIB_FSJ_Soldier";
-	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98","H_LIB_GER_FSJ_M44_Helmet_Medic",GER_LINKED_ITEMS_BASE};
 };
 
 // DAK
 class BG21_GER_DAK_PL: BG21_GER_WH_PL {
 	faction = "BG21_GER_DAK";
 	uniformClass = "U_LIB_DAK_lieutenant";
-	linkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
 };
 class BG21_GER_DAK_PL2: BG21_GER_WH_PL2 {
 	faction = "BG21_GER_DAK";
 	uniformClass = "U_LIB_DAK_lieutenant";
-	linkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestUnterofficer","H_LIB_GER_OfficerCap",GER_LINKED_ITEMS_COMMANDER};
 };
 class BG21_GER_DAK_SL: BG21_GER_WH_SL {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestMP40",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestMP40",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_DAK_VestMP40",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestMP40",GER_LINKED_ITEMS_COMMANDER};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -703,8 +703,8 @@ class BG21_GER_DAK_SL: BG21_GER_WH_SL {
 };
 class BG21_GER_DAK_TL_G43: BG21_GER_WH_TL_G43 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestG43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestG43",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestG43",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestG43",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -713,8 +713,8 @@ class BG21_GER_DAK_TL_G43: BG21_GER_WH_TL_G43 {
 };
 class BG21_GER_DAK_TL_K98: BG21_GER_WH_TL_K98 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -723,8 +723,8 @@ class BG21_GER_DAK_TL_K98: BG21_GER_WH_TL_K98 {
 };
 class BG21_GER_DAK_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -740,8 +740,8 @@ class BG21_GER_DAK_Grenadier: BG21_GER_WH_Grenadier {
 };
 class BG21_GER_DAK_Recon_TL: BG21_GER_WH_Recon_TL {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -750,8 +750,8 @@ class BG21_GER_DAK_Recon_TL: BG21_GER_WH_Recon_TL {
 };
 class BG21_GER_DAK_Recon: BG21_GER_WH_Recon {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -760,8 +760,8 @@ class BG21_GER_DAK_Recon: BG21_GER_WH_Recon {
 };
 class BG21_GER_DAK_Radio: BG21_GER_WH_Radio {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -769,8 +769,8 @@ class BG21_GER_DAK_Radio: BG21_GER_WH_Radio {
 };
 class BG21_GER_DAK_Mortar: BG21_GER_WH_Mortar {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -778,8 +778,8 @@ class BG21_GER_DAK_Mortar: BG21_GER_WH_Mortar {
 };
 class BG21_GER_DAK_Mortar_TL: BG21_GER_WH_Mortar_TL {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_COMMANDER};	
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_COMMANDER};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -787,8 +787,8 @@ class BG21_GER_DAK_Mortar_TL: BG21_GER_WH_Mortar_TL {
 };
 class BG21_GER_DAK_Mortar_AS: BG21_GER_WH_Mortar_AS {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};	
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};	
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -796,8 +796,8 @@ class BG21_GER_DAK_Mortar_AS: BG21_GER_WH_Mortar_AS {
 };
 class BG21_GER_DAK_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestG43",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestG43",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestG43",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestG43",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -806,8 +806,8 @@ class BG21_GER_DAK_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
 };
 class BG21_GER_DAK_Rifleman_STG44: BG21_GER_WH_Rifleman_STG44 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestSTG",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestSTG",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestSTG",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestSTG",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_DAK_A_frame";
 	class EventHandlers: Eventhandlers
 	{
@@ -816,8 +816,8 @@ class BG21_GER_DAK_Rifleman_STG44: BG21_GER_WH_Rifleman_STG44 {
 };
 class BG21_GER_DAK_Sniper: BG21_GER_WH_Sniper {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_HelmetCamo",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_HelmetCamo",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_HelmetCamo",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_HelmetCamo",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -825,8 +825,8 @@ class BG21_GER_DAK_Sniper: BG21_GER_WH_Sniper {
 };
 class BG21_GER_DAK_AT: BG21_GER_WH_AT {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -834,8 +834,8 @@ class BG21_GER_DAK_AT: BG21_GER_WH_AT {
 };
 class BG21_GER_DAK_AT_AS: BG21_GER_WH_AT_AS {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -843,8 +843,8 @@ class BG21_GER_DAK_AT_AS: BG21_GER_WH_AT_AS {
 };
 class BG21_GER_DAK_AT_pzft: BG21_GER_WH_AT_pzft {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -852,8 +852,8 @@ class BG21_GER_DAK_AT_pzft: BG21_GER_WH_AT_pzft {
 };
 class BG21_GER_DAK_MG_34: BG21_GER_WH_MG_34 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestMG",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestMG",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -861,8 +861,8 @@ class BG21_GER_DAK_MG_34: BG21_GER_WH_MG_34 {
 };
 class BG21_GER_DAK_MG_42: BG21_GER_WH_MG_42 {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestMG",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestMG",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestMG",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -870,8 +870,8 @@ class BG21_GER_DAK_MG_42: BG21_GER_WH_MG_42 {
 };
 class BG21_GER_DAK_MG_AS: BG21_GER_WH_MG_AS {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -879,8 +879,8 @@ class BG21_GER_DAK_MG_AS: BG21_GER_WH_MG_AS {
 };
 class BG21_GER_DAK_MG_TL: BG21_GER_WH_MG_TL {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -888,8 +888,8 @@ class BG21_GER_DAK_MG_TL: BG21_GER_WH_MG_TL {
 };
 class BG21_GER_DAK_MG_AS_TRIPOD: BG21_GER_WH_MG_TL {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -897,8 +897,8 @@ class BG21_GER_DAK_MG_AS_TRIPOD: BG21_GER_WH_MG_TL {
 };
 class BG21_GER_DAK_Pioneer_Mines: BG21_GER_WH_Pioneer_Mines {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_PioneerVest",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_PioneerVest",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_PioneerVest",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_PioneerVest",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -906,8 +906,8 @@ class BG21_GER_DAK_Pioneer_Mines: BG21_GER_WH_Pioneer_Mines {
 };
 class BG21_GER_DAK_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 	faction = "BG21_GER_DAK";
-	linkedItems[] = {"V_LIB_DAK_PioneerVest",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_PioneerVest",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_PioneerVest",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_PioneerVest",GER_LINKED_ITEMS_BASE};
 	class EventHandlers: Eventhandlers
 	{
 		init = "if (local (_this select 0)) then {[(_this select 0), 'DAK'] call BG21_IFA3_fnc_random_gear;};";
@@ -916,6 +916,6 @@ class BG21_GER_DAK_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
 class BG21_GER_DAK_Medic: BG21_GER_WH_Medic {
 	faction = "BG21_GER_DAK";
 	uniformClass = "U_LIB_DAK_Medic";
-	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
 };

@@ -261,8 +261,8 @@ class BG21_GER_WH_Soldier_base: BG21_GER_Soldier_base
 	respawnWeapons[] = {"LIB_K98","Throw","Put"};
 	magazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
 	respawnmagazines[] = {GER_20x_lib_5Rnd_792x57,GER_GRENADES};
-	linkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
-	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",LINKED_ITEMS_BASE};
+	linkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
+	respawnLinkedItems[] = {"V_LIB_GER_VestKar98",GER_LINKED_ITEMS_BASE};
 	backpack = "B_LIB_GER_A_frame";
 };
 	
