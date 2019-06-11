@@ -142,7 +142,7 @@ class cfgFactionClasses
 	};
 	class BG21_GER_SS
 	{
-		displayName = "[BG21] SS";
+		displayName = "[BG21] Waffen SS";
 		icon = "";
 		priority = 1;
 		side = 1;

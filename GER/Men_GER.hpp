@@ -919,3 +919,191 @@ class BG21_GER_DAK_Medic: BG21_GER_WH_Medic {
 	linkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
 	respawnLinkedItems[] = {"V_LIB_DAK_VestKar98","H_LIB_GER_Helmet_Medic",GER_LINKED_ITEMS_BASE};
 };
+
+// WAFFEN SS
+class BG21_GER_SS_PL: BG21_GER_WH_PL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_PL2: BG21_GER_WH_PL2 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_SL: BG21_GER_WH_SL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_TL_G43: BG21_GER_WH_TL_G43 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_TL_K98: BG21_GER_WH_TL_K98 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Rifleman_k98: BG21_GER_WH_Rifleman_K98 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Grenadier: BG21_GER_WH_Grenadier {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Recon_TL: BG21_GER_WH_Recon_TL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Recon: BG21_GER_WH_Recon {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Radio: BG21_GER_WH_Radio {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Mortar: BG21_GER_WH_Mortar {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Mortar_TL: BG21_GER_WH_Mortar_TL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Mortar_AS: BG21_GER_WH_Mortar_AS {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Rifleman_g43: BG21_GER_WH_Rifleman_G43 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Rifleman_STG44: BG21_GER_WH_Rifleman_STG44 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Sniper: BG21_GER_WH_Sniper {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_AT: BG21_GER_WH_AT {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_AT_AS: BG21_GER_WH_AT_AS {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_AT_pzft: BG21_GER_WH_AT_pzft {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_MG_34: BG21_GER_WH_MG_34 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_MG_42: BG21_GER_WH_MG_42 {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_MG_AS: BG21_GER_WH_MG_AS {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_MG_TL: BG21_GER_WH_MG_TL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_MG_AS_TRIPOD: BG21_GER_WH_MG_TL {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Pioneer_Mines: BG21_GER_WH_Pioneer_Mines {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Pioneer_Explos: BG21_GER_WH_Pioneer_Explos {
+	faction = "BG21_GER_SS";
+	class EventHandlers: Eventhandlers
+	{
+		init = "if (local (_this select 0)) then {[(_this select 0), 'SS'] call BG21_IFA3_fnc_random_gear;};";
+	};
+};
+class BG21_GER_SS_Medic: BG21_GER_WH_Medic {
+	faction = "BG21_GER_SS";
+	uniformClass = "U_LIB_ST_Medic_E44";
+};

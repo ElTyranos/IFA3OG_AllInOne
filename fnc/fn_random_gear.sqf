@@ -125,6 +125,33 @@ switch (_this select 1) do {
 		
 		{_unit addItemToUniform _x} foreach _items;
 	};
+	case "SS" : {
+		
+		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
+	
+		_headgears = [
+			"H_LIB_GER_Helmet","H_LIB_GER_Helmet_net","H_LIB_GER_Helmet_ns","H_LIB_GER_Helmet_os","H_LIB_GER_Helmet_painted","H_LIB_GER_Helmet_net_painted","H_LIB_GER_Helmet_ns_painted","H_LIB_GER_Helmet_os_painted","H_LIB_GER_Helmet_Glasses","H_LIB_GER_HelmetUtility","H_LIB_GER_HelmetUtility_Grass","H_LIB_GER_HelmetUtility_Oak","H_LIB_GER_HelmetCamo3","H_LIB_GER_Fieldcap2","H_LIB_ST_Helmet2"
+		];
+		_uniforms = [
+			"U_LIB_ST_Soldier_Camo2","U_LIB_ST_Soldier_E44","U_LIB_ST_Soldier_E44_Camo2","U_LIB_ST_MGunner_E44","U_LIB_ST_Unterofficier_E44","U_LIB_ST_Sniper2"
+		];
+		
+		_uniform = selectRandom _uniforms;
+		
+		_headgear = selectRandom _headgears;
+		
+		_blacklist_uniform = [""];
+		
+		if (_uniform in _blacklist_uniform) then {_headgear = ""};
+		_items = uniformItems _unit;
+		
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		
+		_unit addHeadGear _headgear;
+		
+		{_unit addItemToUniform _x} foreach _items;
+	};
 	
 	case "IJA" : {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
