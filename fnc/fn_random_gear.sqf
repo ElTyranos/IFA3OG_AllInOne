@@ -14,9 +14,9 @@ switch (_this select 1) do {
 			"U_LIB_GER_Schutze","U_LIB_GER_Soldier3","U_LIB_GER_Soldier2","U_LIB_GER_Soldier_camo2","U_LIB_GER_Scharfschutze","U_LIB_GER_Soldier_camo","U_LIB_GER_Soldier_camo4","U_LIB_GER_Soldier_camo3","U_LIB_GER_Soldier_camo5","U_LIB_GER_Schutze_HBT","U_LIB_GER_MG_schutze_HBT","U_LIB_GER_MG_schutze","U_LIB_GER_Gefreiter","U_LIB_GER_Oberschutze"
 		];
 		
-		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
 		
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_headgear = selectRandom _headgears;
 		
 		_blacklist_uniform = [""];
 		
@@ -34,8 +34,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items","_blacklist_uniform"];
 		_headgears = ["H_LIB_GER_Helmet","H_LIB_GER_Helmet_net","H_LIB_GER_Helmet_ns","H_LIB_GER_Helmet_os","H_LIB_GER_HelmetUtility","H_LIB_GER_HelmetUtility_Grass","H_LIB_GER_Helmet_w","H_LIB_GER_Helmet_net_w","H_LIB_GER_Helmet_ns_w","H_LIB_GER_HelmetCamo_w","H_LIB_GER_HelmetCamob_w","H_LIB_GER_HelmetCamo2_w","H_LIB_GER_HelmetCamo2b_w","H_LIB_GER_HelmetCamo4_w","H_LIB_GER_Helmet_Glasses_w","H_LIB_GER_Ushanka","H_LIB_GER_Fieldcap"];
 		_uniforms = ["U_LIB_GER_Soldier3_w","U_LIB_GER_Soldier_camo_w","U_LIB_GER_Scharfschutze_w"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_blacklist_uniform = [""];
 		if (_uniform in _blacklist_uniform) then {_headgear = ""};
 		_items = uniformItems _unit;
@@ -55,9 +55,9 @@ switch (_this select 1) do {
 			"U_LIB_FSJ_Soldier","U_LIB_FSJ_Soldier_camo"
 		];
 		
-		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
 		
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_headgear = selectRandom _headgears;
 		
 		_blacklist_uniform = [""];
 		
@@ -82,9 +82,9 @@ switch (_this select 1) do {
 			"U_LIB_FSJ_Soldier_dak","U_LIB_FSJ_Soldier_dak_camo"
 		];
 		
-		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
 		
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_headgear = selectRandom _headgears;
 		
 		_blacklist_uniform = [""];
 		
@@ -157,8 +157,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_ija_fieldcap","fow_h_ija_fieldcap_neck","fow_h_ija_hakimachi","fow_h_ija_type90","fow_h_ija_type90_net","fow_h_ija_type90_net_neck"];
 		_uniforms = ["fow_u_ija_type98","fow_u_ija_type98_short","fow_u_ija_type98_khakibrown"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -169,8 +169,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_ija_fieldcap_marine_neck","fow_h_ija_type90_snlf","fow_h_ija_fieldcap_marine","fow_h_ija_type90"];
 		_uniforms = ["fow_u_ija_type98_snlf"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -189,9 +189,9 @@ switch (_this select 1) do {
 			"U_LIB_SOV_Strelok"
 		];
 		
-		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
 		
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_headgear = selectRandom _headgears;
 		
 		_blacklist_uniform = [""];
 		
@@ -216,9 +216,9 @@ switch (_this select 1) do {
 			"U_LIB_SOV_Strelok_w"
 		];
 		
-		_uniform = _uniforms call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
 		
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_headgear = selectRandom _headgears;
 		
 		_blacklist_uniform = [""];
 		
@@ -237,8 +237,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Helmet","H_LIB_US_Helmet_ns","H_LIB_US_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
 		_uniforms = ["U_LIB_US_Private"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -249,8 +249,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Helmet_w","H_LIB_US_Helmet_Net_w","H_LIB_US_Helmet_Cover_w"];
 		_uniforms = ["U_LIB_US_Private_w"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -261,8 +261,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Rangers_Helmet","H_LIB_US_Rangers_Helmet_ns","H_LIB_US_Rangers_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
 		_uniforms = ["U_LIB_US_Rangers_Uniform"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -273,8 +273,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Helmet","H_LIB_US_Helmet_ns","H_LIB_US_Helmet_os","H_LIB_US_Helmet_Net","H_LIB_US_Helmet_Net_ns","H_LIB_US_Helmet_Net_os"];
 		_uniforms = ["U_LIB_US_NAC_Uniform"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -285,8 +285,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["fow_h_usmc_m1","fow_h_usmc_m1_camo_01","fow_h_usmc_m1_camo_02"];
 		_uniforms = ["fow_u_us_hbt_01_private","fow_u_us_hbt_02_private","fow_u_usmc_p41_01_private","fow_u_usmc_p42_01_camo01_1_private","fow_u_usmc_p42_01_camo01_2_private","fow_u_usmc_p42_01_camo01_3_private","fow_u_usmc_p42_01_camo02_1_private","fow_u_usmc_p42_01_camo02_2_private","fow_u_usmc_p42_01_camo02_3_private"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -297,8 +297,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_AB_Helmet","H_LIB_US_AB_Helmet_2","H_LIB_US_AB_Helmet_3","H_LIB_US_AB_Helmet_4","H_LIB_US_AB_Helmet_5","H_LIB_US_AB_Helmet_Plain_1","H_LIB_US_AB_Helmet_Plain_2","H_LIB_US_AB_Helmet_Plain_3"];
 		_uniforms = ["U_LIB_US_AB_Uniform_M42","U_LIB_US_AB_Uniform_M42_506"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -309,8 +309,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_AB_Helmet_Clear_1","H_LIB_US_AB_Helmet_Clear_2","H_LIB_US_AB_Helmet_Clear_3"];
 		_uniforms = ["U_LIB_US_AB_Uniform_M43","U_LIB_US_AB_Uniform_M43_Flag"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -321,8 +321,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_US_Helmet_Pilot_Respirator","H_LIB_US_Helmet_Pilot_Respirator_Glasses_Up","H_LIB_US_Helmet_Pilot_Respirator_Glasses_Down","H_LIB_US_Helmet_Pilot_Glasses_Up","H_LIB_US_Helmet_Pilot_Glasses_Down","H_LIB_US_Helmet_Pilot"];
 		_uniforms = ["U_LIB_US_Bomber_Crew","U_LIB_US_Bomber_Pilot","U_LIB_US_Pilot_2","U_LIB_US_Pilot"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -334,8 +334,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_UK_Helmet_Mk2","H_LIB_UK_Helmet_Mk2_Net","H_LIB_UK_Helmet_Mk2_Camo","H_LIB_UK_Helmet_Mk2_FAK","H_LIB_UK_Helmet_Mk2_FAK_Camo","H_LIB_UK_Helmet_Mk2_Bowed","H_LIB_UK_Helmet_Mk3","H_LIB_UK_Helmet_Mk3_Net","H_LIB_UK_Helmet_Mk3_Camo"];
 		_uniforms = ["U_LIB_UK_P37"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -346,8 +346,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_UK_Para_Helmet_Mk2","H_LIB_UK_Para_Helmet_Mk2_Net","H_LIB_UK_Para_Helmet_Mk2_Camo"];
 		_uniforms = ["U_LIB_UK_DenisonSmock"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -358,8 +358,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_UK_Helmet_Mk2","H_LIB_UK_Helmet_Mk2_Net","H_LIB_UK_Helmet_Mk2_Camo","H_LIB_UK_Helmet_Mk2_FAK","H_LIB_UK_Helmet_Mk2_FAK_Camo","H_LIB_UK_Helmet_Mk2_Bowed","H_LIB_UK_Helmet_Mk3","H_LIB_UK_Helmet_Mk3_Net","H_LIB_UK_Helmet_Mk3_Camo"];
 		_uniforms = ["U_LIB_UK_P37"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
@@ -370,8 +370,8 @@ switch (_this select 1) do {
 		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
 		_headgears = ["H_LIB_UK_Helmet_Mk2_Desert","H_LIB_UK_Helmet_Mk2_Desert_Bowed","H_LIB_UK_Helmet_Mk2_Cover"];
 		_uniforms = ["U_LIB_UK_KhakiDrills"];
-		_uniform = _uniforms call BIS_fnc_selectRandom;
-		_headgear = _headgears call BIS_fnc_selectRandom;
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
 		_items = uniformItems _unit;
 		removeUniform _unit;
 		_unit addUniform _uniform;
