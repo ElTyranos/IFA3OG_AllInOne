@@ -379,5 +379,18 @@ switch (_this select 1) do {
 		{_unit addItemToUniform _x} foreach _items;
 	};
 
+	case "FFI" : {
+		private ["_headgears","_uniforms","_headgear","_uniform","_items"];
+		_headgears = ["H_LIB_WP_Cap","H_LIB_CIV_Worker_Cap_1","H_LIB_CIV_Worker_Cap_2","H_LIB_CIV_Worker_Cap_3","H_LIB_CIV_Worker_Cap_4","H_LIB_CIV_Villager_Cap_1","H_LIB_CIV_Villager_Cap_2","H_LIB_CIV_Villager_Cap_3","H_LIB_CIV_Villager_Cap_4"];
+		_uniforms = ["U_LIB_CIV_Villager_1","U_LIB_CIV_Villager_2","U_LIB_CIV_Villager_3","U_LIB_CIV_Villager_4","U_LIB_CIV_Woodlander_1","U_LIB_CIV_Woodlander_2","U_LIB_CIV_Woodlander_3","U_LIB_CIV_Woodlander_4","U_LIB_CIV_Worker_1","U_LIB_CIV_Worker_2","U_LIB_CIV_Worker_3","U_LIB_CIV_Worker_4","U_LIB_CIV_Citizen_1","U_LIB_CIV_Citizen_2","U_LIB_CIV_Citizen_3","U_LIB_CIV_Citizen_4","U_LIB_CIV_Citizen_5","U_LIB_CIV_Citizen_6","U_LIB_CIV_Citizen_7","U_LIB_CIV_Citizen_8"];
+		_uniform = selectRandom _uniforms;
+		_headgear = selectRandom _headgears;
+		_items = uniformItems _unit;
+		removeUniform _unit;
+		_unit addUniform _uniform;
+		_unit addHeadGear _headgear;
+		{_unit addItemToUniform _x} foreach _items;
+	};
+	
 	case default {};
 };

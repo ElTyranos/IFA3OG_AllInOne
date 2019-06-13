@@ -46,6 +46,7 @@ class cfgWeapons
 	#include "US\cfgWeapons.hpp"
 	#include "UK\cfgWeapons.hpp"
 	// #include "IJA\cfgWeapons.hpp"
+	#include "FFI\cfgWeapons.hpp"
 };
 class CfgVehicles
 {
@@ -54,6 +55,7 @@ class CfgVehicles
 	#include "US\cfgVehicles.hpp"
 	#include "UK\cfgVehicles.hpp"
 	// #include "IJA\cfgVehicles.hpp"
+	#include "FFI\cfgVehicles.hpp"
 };
 class CfgGroups
 {
@@ -65,6 +67,7 @@ class CfgGroups
 	class East
 	{
 		#include "SOV\CfgGroups.hpp"
+		#include "FFI\CfgGroups.hpp"
 	};
 	class Indep
 	{

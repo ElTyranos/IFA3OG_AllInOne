@@ -154,4 +154,11 @@ class cfgFactionClasses
 		priority = 1;
 		side = 1;
 	};
+	class BG21_FFI
+	{
+		displayName = "[BG21] French Resistance";
+		icon = "";
+		priority = 1;
+		side = 0;
+	};
 };
