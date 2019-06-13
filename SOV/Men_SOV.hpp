@@ -30,8 +30,8 @@ class BG21_SOV_RA_SL: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Yefreitor (SVT-40)";
-	weapons[] = {"LIB_SVT_40",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_SVT_40",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_SVT_40","Throw","Put"};
+	respawnWeapons[] = {"LIB_SVT_40","Throw","Put"};
 	magazines[] = {SOV_10x_LIB_10Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_10x_LIB_10Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_SVTBelt",LINKED_ITEMS_BASE};
@@ -41,8 +41,8 @@ class BG21_SOV_RA_TL_SVT40: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Yefreitor (Mosin Nagant)";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -54,8 +54,8 @@ class BG21_SOV_RA_TL_MOSIN: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_Rifleman_Mosin: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -74,13 +74,13 @@ class BG21_SOV_RA_Radio: BG21_SOV_RA_Rifleman_Mosin {
 };
 class BG21_SOV_RA_Recon: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Recon";
-	weapons[] = {"LIB_M9130","LIB_Binocular_SU",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130","LIB_Binocular_SU",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_Binocular_SU","Throw","Put"};
 };
 class BG21_SOV_RA_Mortar: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Operator";
-	weapons[] = {"LIB_M9130","LIB_BM37_Barrel",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Barrel",SOV_KNIFE,"Throw","Put"};	
+	weapons[] = {"LIB_M9130","LIB_BM37_Barrel","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Barrel","Throw","Put"};	
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
 	respawnLinkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_COMMANDER};
 	backpack = "BG21_SOV_B_MORTAR";
@@ -93,15 +93,15 @@ class BG21_SOV_RA_Mortar_TL: BG21_SOV_RA_Rifleman_Mosin {
 };
 class BG21_SOV_RA_Mortar_AS: BG21_SOV_RA_Rifleman_Mosin {
 	displayname = "Mortar Assistant";
-	weapons[] = {"LIB_M9130","LIB_BM37_Tripod",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Tripod",SOV_KNIFE,"Throw","Put"};	
+	weapons[] = {"LIB_M9130","LIB_BM37_Tripod","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","LIB_BM37_Tripod","Throw","Put"};	
 	backpack = "BG21_SOV_B_MORTAR";
 };
 class BG21_SOV_RA_Rifleman_SVT40: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok (SVT-40)";
-	weapons[] = {"LIB_SVT_40",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_SVT_40",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_SVT_40","Throw","Put"};
+	respawnWeapons[] = {"LIB_SVT_40","Throw","Put"};
 	magazines[] = {SOV_10x_LIB_10Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_10x_LIB_10Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_SVTBelt",LINKED_ITEMS_BASE};
@@ -113,8 +113,8 @@ class BG21_SOV_RA_Sniper: BG21_SOV_RA_Soldier_base {
 	displayname = "Sniper";
 	uniformClass = "U_LIB_SOV_Sniper";
 	class EventHandlers {};
-	weapons[] = {"LIB_M9130PU",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130PU",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130PU","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130PU","Throw","Put"};
 	magazines[] = {SOV_10x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_10x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -124,8 +124,8 @@ class BG21_SOV_RA_Sniper: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Strelok (PTRD-41)";
-	weapons[] = {"LIB_PTRD","LIB_M1895",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_PTRD","LIB_M1895",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_PTRD","LIB_M1895","Throw","Put"};
+	respawnWeapons[] = {"LIB_PTRD","LIB_M1895","Throw","Put"};
 	magazines[] = {SOV_LIB_5x_1Rnd_145x114,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
 	respawnmagazines[] = {SOV_LIB_5x_1Rnd_145x114,SOV_2x_LIB_7Rnd_762x38,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -135,8 +135,8 @@ class BG21_SOV_RA_AT: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "PTRD-41 Assistant";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -148,8 +148,8 @@ class BG21_SOV_RA_AT_AS: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Kanonir";
-	weapons[] = {"LIB_DP28",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_DP28",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_DP28","Throw","Put"};
+	respawnWeapons[] = {"LIB_DP28","Throw","Put"};
 	magazines[] = {SOV_2x_LIB_47Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_2x_LIB_47Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MGBelt",LINKED_ITEMS_BASE};
@@ -159,8 +159,8 @@ class BG21_SOV_RA_MG: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Kanonir Assistant";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -172,8 +172,8 @@ class BG21_SOV_RA_MG_AS: BG21_SOV_RA_Soldier_base {
 class BG21_SOV_RA_Pioneer_Mines: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Pioneer (Mines)";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -190,8 +190,8 @@ class BG21_SOV_RA_Pioneer_Explos: BG21_SOV_RA_Pioneer_Mines {
 class BG21_SOV_RA_Medic: BG21_SOV_RA_Soldier_base {
 	scope = 2;
 	displayname = "Doctor";
-	weapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M9130",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M9130","Throw","Put"};
+	respawnWeapons[] = {"LIB_M9130","Throw","Put"};
 	magazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	respawnmagazines[] = {SOV_20x_LIB_5Rnd_762x54,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_MosinBelt",LINKED_ITEMS_BASE};
@@ -205,8 +205,8 @@ class BG21_SOV_RA_Tank_Commander: BG21_SOV_RA_Soldier_base {
 	displayname = "Komandir tanka";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
 	class EventHandlers {};
-	weapons[] = {"LEN_PPS43","LIB_Binocular_SU",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LEN_PPS43","LIB_Binocular_SU",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LEN_PPS43","LIB_Binocular_SU","Throw","Put"};
+	respawnWeapons[] = {"LEN_PPS43","LIB_Binocular_SU","Throw","Put"};
 	magazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	respawnmagazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES,SOV_GRENADES_SMOKE};
 	linkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_RA_OfficerCap",LINKED_ITEMS_COMMANDER};
@@ -218,8 +218,8 @@ class BG21_SOV_RA_Tank_Crew: BG21_SOV_RA_Soldier_base {
 	displayname = "Tanker";
 	uniformClass = "U_LIB_SOV_Tank_ryadovoi";
 	class EventHandlers {};
-	weapons[] = {"LEN_PPS43",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LEN_PPS43",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LEN_PPS43","Throw","Put"};
+	respawnWeapons[] = {"LEN_PPS43","Throw","Put"};
 	magazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES};
 	respawnmagazines[] = {SOV_3x_LIB_35Rnd_762x25,SOV_GRENADES};
 	linkedItems[] = {"V_LIB_SOV_RA_PPShBelt","H_LIB_SOV_TankHelmet",LINKED_ITEMS_BASE};
@@ -231,8 +231,8 @@ class BG21_SOV_RA_Pilot: BG21_SOV_RA_Soldier_base {
 	displayname = "Pilot";
 	uniformClass = "U_LIB_SOV_Pilot";
 	class EventHandlers {};
-	weapons[] = {"LIB_M1895",SOV_KNIFE,"Throw","Put"};
-	respawnWeapons[] = {"LIB_M1895",SOV_KNIFE,"Throw","Put"};
+	weapons[] = {"LIB_M1895","Throw","Put"};
+	respawnWeapons[] = {"LIB_M1895","Throw","Put"};
 	magazines[] = {SOV_2x_LIB_7Rnd_762x38};
 	respawnmagazines[] = {SOV_2x_LIB_7Rnd_762x38};
 	linkedItems[] = {"V_LIB_SOV_RA_OfficerVest","H_LIB_SOV_PilotHelmet",LINKED_ITEMS_COMMANDER};
