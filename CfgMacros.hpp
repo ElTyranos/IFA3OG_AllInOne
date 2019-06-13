@@ -9,37 +9,20 @@
 // Items[]
 #define ITEMS_BASE "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_morphine","ACE_MapTools","ACE_Flashlight_MX991","ACE_earplugs"
 
-
-// Knives
-#define GER_KNIFE "KA_knife"
-#define GER_KNIFE_MAG "KA_knife_blade"
-
-#define IJA_KNIFE "KA_knife"
-#define IJA_KNIFE_MAG "KA_knife_blade"
-
-#define SOV_KNIFE "KA_knife"
-#define SOV_KNIFE_MAG "KA_knife_blade"
-
-#define US_KNIFE "KA_knife"
-#define US_KNIFE_MAG "KA_knife_blade"
-
-#define UK_KNIFE "KA_knife"
-#define UK_KNIFE_MAG "KA_knife_blade"
-
 // Grenades
-#define GER_GRENADES "LIB_shg24","LIB_shg24"
+#define GER_GRENADES "LIB_shg24" //,"LIB_shg24"
 #define GER_GRENADES_SMOKE "LIB_nb39","LIB_nb39"
 
 // #define IJA_GRENADES "fow_e_type97","fow_e_type97"
 // #define IJA_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
-#define SOV_GRENADES "LIB_f1","LIB_f1"
+#define SOV_GRENADES "LIB_f1" //,"LIB_f1"
 #define SOV_GRENADES_SMOKE "LIB_RDG","LIB_RDG"
 
-#define US_GRENADES "LIB_US_Mk_2","LIB_US_Mk_2"
+#define US_GRENADES "LIB_US_Mk_2" //,"LIB_US_Mk_2"
 #define US_GRENADES_SMOKE "LIB_US_M18","LIB_US_M18_Red"
 
-#define UK_GRENADES "LIB_MillsBomb","LIB_MillsBomb"
+#define UK_GRENADES "LIB_MillsBomb" //,"LIB_MillsBomb"
 #define UK_GRENADES_SMOKE "LIB_No77","LIB_No77"
 
 // GER
